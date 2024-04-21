@@ -17,7 +17,9 @@ class AQ:
     class Complex:
         def __init__(self, attributes) -> None:
             self.attributes = attributes
-            self.score = 0
+            self.score1 = 0
+            self.score2 = 0
+
 
 
 
@@ -26,7 +28,7 @@ class AQ:
         self.not_covered_training_examples = training_examples
         self.complex_cut = complex_cut
 
-        # TODO: replace with manual input of range of valid values
+        # TODO: replace with manual input of range of valid values??
         attributes = [[] for _ in range(len(training_examples[0].attributes))]
         for example in training_examples:
             for i in range(len(example.attributes)):
@@ -37,6 +39,7 @@ class AQ:
 
     def train(self):
         while(len(self.not_covered_training_examples) > 0):
+            print(len(self.not_covered_training_examples), "examples left to cover")
             rule = self.learn_rule()
             self.rules.append(rule)
             for example in self.not_covered_training_examples: 
@@ -119,13 +122,21 @@ class AQ:
             for complex in star:
                 for example in covered_negative_examples:
                     if not self.complex_covers(complex, example):
-                        complex.score += 1
-        star.sort(key=lambda complex: complex.score, reverse=True)
+                        complex.score1 += 1
+                complex.score2 = self.second_score(complex)
+        star.sort(key=lambda complex: (complex.score1, complex.score2), reverse=True)
         star = star[:complex_cut]
         for complex in star:
-            complex.score = 0
+            complex.score1 = 0
+            complex.score2 = 0
+
            
         return star
+    
+    def second_score(self, complex):
+        for i in range(len(complex.attributes)):
+            complex.score2 += len(complex.attributes[i])
+
     
 
     def predict_target(self, example):
@@ -137,13 +148,13 @@ class AQ:
 if __name__ == "__main__":
     training_examples = []
     telen = 0
-    with open('datasets/beauty_mod.csv', 'r') as file:
+    with open('datasets/flights_train.csv', 'r') as file:
         reader = csv.reader(file, delimiter=';')
         next(reader) #header
-        training_examples = [AQ.Example(list(map(int, row)), int(row[-1])) for row in reader]
+        training_examples = [AQ.Example(list(map(str, row)), str(row[-1])) for row in reader]
         telen = len(training_examples)
 
-    aq = AQ(training_examples, 1)
+    aq = AQ(training_examples, 2)
     aq.train()
 
     # for rule in aq.rules:
@@ -156,14 +167,14 @@ if __name__ == "__main__":
 
     testing_examples = []
 
-    with open('datasets/beauty_mod_test.csv', 'r') as file2:
+    with open('datasets/flights_test.csv', 'r') as file2:
         reader2 = csv.reader(file2, delimiter=';')
         next(reader2) #header
-        testing_examples = [AQ.Example(list(map(int, row)), int(row[-1])) for row in reader2]
+        testing_examples = [AQ.Example(list(map(str, row)), str(row[-1])) for row in reader2]
 
     correct = 0
     all = len(testing_examples)
     for test_example in testing_examples:
         if aq.predict_target(test_example) == test_example.target:
             correct += 1
-    print(correct, "out of", all, "correct", correct/all*100, "%")
+    print(correct, "out of", all, "correct", round(correct/all*100, 2), "%")
