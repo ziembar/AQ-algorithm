@@ -23,10 +23,21 @@ class AQ:
 
 
 
-    def __init__(self, training_examples, complex_cut) -> None:
+    def __init__(self, training_examples, complex_cut, binary=False, target=None) -> None:
         self.rules = []
         self.not_covered_training_examples = training_examples
         self.complex_cut = complex_cut
+        self.binary = binary
+
+        if binary:
+            if target != None:
+                self.seed_target = target
+            else:
+                self.seed_target = training_examples[0].target
+            for example in training_examples:
+                if example.target != target:
+                    self.seed_anti_target = example.target
+                    break
 
         # TODO: replace with manual input of range of valid values??
         attributes = [[] for _ in range(len(training_examples[0].attributes))]
@@ -39,12 +50,12 @@ class AQ:
 
     def train(self):
         while(len(self.not_covered_training_examples) > 0):
-            print(len(self.not_covered_training_examples), "examples left to cover")
+            print("calculating", len(self.rules) + 1, "rule,", len(self.not_covered_training_examples), "examples left to cover")
             rule = self.learn_rule()
+            if rule == None:
+                return
             self.rules.append(rule)
             for example in self.not_covered_training_examples: 
-                # if(rule.target == example.target):
-                #     continue TODO should this be here?
                 if self.complex_covers(rule.complex, example):
                     self.not_covered_training_examples.remove(example)
             
@@ -69,7 +80,18 @@ class AQ:
 
     def learn_rule(self):
         star = [self.general_complex]
-        xs = self.not_covered_training_examples[0]
+
+        xs = None
+        if self.binary:
+            for example in self.not_covered_training_examples:
+                if example.target == self.seed_target:
+                    xs = example
+                    break
+            if xs == None:
+                return None
+        else:
+            xs = self.not_covered_training_examples[0]
+
         covered_negative_examples = []
         for x in self.not_covered_training_examples:
             if x.target != xs.target:
@@ -77,7 +99,12 @@ class AQ:
 
         while(len(covered_negative_examples) > 0):
             xn = covered_negative_examples[0]
+            if xn.attributes == xs.attributes:
+                covered_negative_examples.pop(0)
+                continue
             star = self.partial_star(star, xn, xs)
+            if len(star) == 0:
+                raise Exception("inconsistent input data, aborting")
             star = self.generalize_star(star)
             covered_negative_examples_cpy = covered_negative_examples.copy()
 
@@ -143,22 +170,24 @@ class AQ:
         for rule in self.rules:
             if self.complex_covers(rule.complex, example):
                 return rule.target
+        if self.binary:
+            return self.seed_anti_target
         
 
 if __name__ == "__main__":
     training_examples = []
     telen = 0
-    with open('datasets/flights_train.csv', 'r') as file:
+    with open('datasets/beautyyyy.csv', 'r') as file:
         reader = csv.reader(file, delimiter=';')
         next(reader) #header
-        training_examples = [AQ.Example(list(map(str, row)), str(row[-1])) for row in reader]
+        training_examples = [AQ.Example(list(map(str, row[:-1])), str(row[-1])) for row in reader]
         telen = len(training_examples)
 
     aq = AQ(training_examples, 2)
     aq.train()
 
     # for rule in aq.rules:
-    #     print( rule.complex.attributes, "---" , rule.target)
+    #     print( rule.complex.attributes, "---" , rule.target, '\n')
 
     # print(len(aq.rules), "rules")
     # print(telen, "training examples")
@@ -167,10 +196,10 @@ if __name__ == "__main__":
 
     testing_examples = []
 
-    with open('datasets/flights_test.csv', 'r') as file2:
+    with open('datasets/beauty_mod_test.csv', 'r') as file2:
         reader2 = csv.reader(file2, delimiter=';')
         next(reader2) #header
-        testing_examples = [AQ.Example(list(map(str, row)), str(row[-1])) for row in reader2]
+        testing_examples = [AQ.Example(list(map(str, row[:-1])), str(row[-1])) for row in reader2]
 
     correct = 0
     all = len(testing_examples)
