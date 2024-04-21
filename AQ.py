@@ -113,14 +113,15 @@ class AQ:
 
 
     def select_best_complex(self, complex_cut, star, covered_negative_examples):
-        # if(covered_negative_examples != None):
-        #     for complex in star:
-        #         for example in covered_negative_examples:
-        #             if not self.complex_covers(complex, example):
-        #                 complex.score += 1
-        # star.sort(key=lambda complex: complex.score, reverse=True)
-        # TODO implement tie breaker
+        if(covered_negative_examples != None):
+            for complex in star:
+                for example in covered_negative_examples:
+                    if not self.complex_covers(complex, example):
+                        complex.score += 1
+        star.sort(key=lambda complex: complex.score, reverse=True)
         star = star[:complex_cut]
+        for complex in star:
+            complex.score = 0
            
         return star
         
