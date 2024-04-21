@@ -40,7 +40,8 @@ class AQ:
             rule = self.learn_rule()
             self.rules.append(rule)
             for example in self.not_covered_training_examples: 
-                # TODO: if its working, omit examples with target != rule.target
+                # if(rule.target == example.target):
+                #     continue TODO should this be here?
                 if self.complex_covers(rule.complex, example):
                     self.not_covered_training_examples.remove(example)
             
@@ -82,11 +83,12 @@ class AQ:
 
             for complex in star:
                 for example in covered_negative_examples:
-                    if not self.complex_covers(complex, example):
+                    if not self.complex_covers(complex, example) and example in covered_negative_examples_cpy:
                         covered_negative_examples_cpy.remove(example)
             covered_negative_examples = covered_negative_examples_cpy
             
-        self.select_best_complex(1, star, None)
+        star = self.select_best_complex(1, star, None)
+        
         rule = self.Rule(*star, xs.target)
         return rule
             
@@ -124,6 +126,12 @@ class AQ:
             complex.score = 0
            
         return star
+    
+
+    def predict_target(self, example):
+        for rule in self.rules:
+            if self.complex_covers(rule.complex, example):
+                return rule.target
         
 
 if __name__ == "__main__":
@@ -135,12 +143,27 @@ if __name__ == "__main__":
         training_examples = [AQ.Example(list(map(int, row)), int(row[-1])) for row in reader]
         telen = len(training_examples)
 
-
     aq = AQ(training_examples, 1)
     aq.train()
-    for rule in aq.rules:
-        print( rule.complex.attributes, "---" , rule.target)
 
-    print(len(aq.rules), "rules")
-    print(telen, "training examples")
+    # for rule in aq.rules:
+    #     print( rule.complex.attributes, "---" , rule.target)
 
+    # print(len(aq.rules), "rules")
+    # print(telen, "training examples")
+
+
+
+    testing_examples = []
+
+    with open('datasets/beauty_mod_test.csv', 'r') as file2:
+        reader2 = csv.reader(file2, delimiter=';')
+        next(reader2) #header
+        testing_examples = [AQ.Example(list(map(int, row)), int(row[-1])) for row in reader2]
+
+    correct = 0
+    all = len(testing_examples)
+    for test_example in testing_examples:
+        if aq.predict_target(test_example) == test_example.target:
+            correct += 1
+    print(correct, "out of", all, "correct", correct/all*100, "%")
