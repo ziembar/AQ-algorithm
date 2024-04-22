@@ -53,7 +53,7 @@ class AQ:
             print("calculating", len(self.rules) + 1, "rule,", len(self.not_covered_training_examples), "examples left to cover")
             rule = self.learn_rule()
             if rule == None:
-                return
+                break
             self.rules.append(rule)
             for example in self.not_covered_training_examples: 
                 if self.complex_covers(rule.complex, example):
@@ -61,20 +61,6 @@ class AQ:
             
 
 
-    def partial_star(self, star, xn, xs):
-        star_cpy = []
-        for complex in star:
-            if self.complex_covers(complex, xn):
-                for i in range(len(complex.attributes)):
-                    if xn.attributes[i] in complex.attributes[i] and xn.attributes[i] != xs.attributes[i]:
-                        complex_cpy = copy.deepcopy(complex)
-                        complex_cpy.attributes[i].remove(xn.attributes[i])
-                        star_cpy.append(complex_cpy)
-                    else:
-                        continue
-            else:
-                star_cpy.append(complex)
-        return star_cpy
 
 
 
@@ -101,10 +87,8 @@ class AQ:
             xn = covered_negative_examples[0]
             if xn.attributes == xs.attributes:
                 covered_negative_examples.pop(0)
-                continue
+                continue #skip wrong example
             star = self.partial_star(star, xn, xs)
-            if len(star) == 0:
-                raise Exception("inconsistent input data, aborting")
             star = self.generalize_star(star)
             covered_negative_examples_cpy = covered_negative_examples.copy()
 
@@ -121,6 +105,22 @@ class AQ:
         
         rule = self.Rule(*star, xs.target)
         return rule
+    
+    def partial_star(self, star, xn, xs):
+        star_cpy = []
+        for complex in star:
+            if self.complex_covers(complex, xn):
+                for i in range(len(complex.attributes)):
+                    if xn.attributes[i] in complex.attributes[i] and xn.attributes[i] != xs.attributes[i]:
+                        complex_cpy = copy.deepcopy(complex)
+                        complex_cpy.attributes[i].remove(xn.attributes[i])
+                        star_cpy.append(complex_cpy)
+                    else:
+                        continue
+            else:
+                star_cpy.append(complex)
+        return star_cpy
+
             
 
     def complex_covers(self, complex, example):
@@ -137,9 +137,10 @@ class AQ:
         
         for complex1 in star:
             for complex2 in star:
-                for i in range(len(complex1.attributes)):
-                    if complex1.attributes[i] in complex2.attributes[i] and complex1.attributes[i] != complex2.attributes[i]:
-                        star_cpy.remove(mapping[complex2])
+                if complex1 == complex2:
+                    continue
+                if all(all(x in attr1 for x in attr2) for attr1, attr2 in zip(complex1.attributes, complex2.attributes)):
+                    star_cpy.remove(mapping[complex2])
         
         return star_cpy
 
@@ -183,7 +184,7 @@ if __name__ == "__main__":
         training_examples = [AQ.Example(list(map(str, row[:-1])), str(row[-1])) for row in reader]
         telen = len(training_examples)
 
-    aq = AQ(training_examples, 2)
+    aq = AQ(training_examples, 3)
     aq.train()
 
     # for rule in aq.rules:
@@ -207,3 +208,14 @@ if __name__ == "__main__":
         if aq.predict_target(test_example) == test_example.target:
             correct += 1
     print(correct, "out of", all, "correct", round(correct/all*100, 2), "%")
+
+
+
+# PYTANIA
+
+# 1. Czy w przypadku tworzenia regul uporzadkowanych i klas binarnych, nauka jednej klasy ma sens?
+
+# 2. Czy wybieranie m najlepszych atrbutow dziala tak, ze wyklucza przyklady ze zbioru przykladow niewlasciwej
+# klasy pokrywanej przez gwiazde - zwieksza blad trenujacy - czy moze zmniejszac nadmierne dopasowanie?
+
+# 3. Czy to powszechne, że praktycznie nie wstepuje generalizacja w przypadku zbiorow trenujacych?
