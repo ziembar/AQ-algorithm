@@ -78,28 +78,56 @@ class AQ:
         else:
             xs = self.not_covered_training_examples[0]
 
-        covered_negative_examples = []
+        all_negative_examples = []
         for x in self.not_covered_training_examples:
             if x.target != xs.target:
-                covered_negative_examples.append(x)
+                all_negative_examples.append(x)
 
-        while(len(covered_negative_examples) > 0):
-            xn = covered_negative_examples[0]
+        
+        flag = False
+        while(not flag):
+            xn_iter = iter(all_negative_examples)
+            xn_correct = False
+            no_more_n_seed = False
+            while(not xn_correct):
+                xn = next(xn_iter, None)
+                if xn is None: 
+                    no_more_n_seed = True
+                    break
+                if all(not self.complex_covers(complex, xn) for complex in star):
+                    continue  # skip this xn because it's not covered by any complex in star
+                elif xn_correct is not None:
+                    xn_correct = True
+            if no_more_n_seed:
+                break
+
+    # rest of the code...
+
             if xn.attributes == xs.attributes:
-                covered_negative_examples.pop(0)
+                all_negative_examples.pop(0)
                 continue #skip wrong example
+
             star = self.partial_star(star, xn, xs)
             star = self.generalize_star(star)
-            covered_negative_examples_cpy = covered_negative_examples.copy()
 
+            # covered_negative_examples_cpy = covered_negative_examples.copy()
 
-            star = self.select_best_complex(self.complex_cut, star, covered_negative_examples)
+            star = self.select_best_complex(self.complex_cut, star, all_negative_examples)
 
+            # for complex in star:
+            #     for example in covered_negative_examples:
+            #         if not self.complex_covers(complex, example) and example in covered_negative_examples_cpy:
+            #             covered_negative_examples_cpy.remove(example)
+            # covered_negative_examples = covered_negative_examples_cpy
+
+            flag = True
             for complex in star:
-                for example in covered_negative_examples:
-                    if not self.complex_covers(complex, example) and example in covered_negative_examples_cpy:
-                        covered_negative_examples_cpy.remove(example)
-            covered_negative_examples = covered_negative_examples_cpy
+                for example in all_negative_examples:
+                    if self.complex_covers(complex, example):
+                        flag = False
+                        break
+                if not flag:
+                    break
             
         star = self.select_best_complex(1, star, None)
         
@@ -140,7 +168,8 @@ class AQ:
                 if complex1 == complex2:
                     continue
                 if all(all(x in attr1 for x in attr2) for attr1, attr2 in zip(complex1.attributes, complex2.attributes)):
-                    star_cpy.remove(mapping[complex2])
+                    if mapping[complex2] in star_cpy:
+                        star_cpy.remove(mapping[complex2])
         
         return star_cpy
 
@@ -184,7 +213,7 @@ if __name__ == "__main__":
         training_examples = [AQ.Example(list(map(str, row[:-1])), str(row[-1])) for row in reader]
         telen = len(training_examples)
 
-    aq = AQ(training_examples, 3)
+    aq = AQ(training_examples, 2)
     aq.train()
 
     # for rule in aq.rules:
@@ -211,11 +240,3 @@ if __name__ == "__main__":
 
 
 
-# PYTANIA
-
-# 1. Czy w przypadku tworzenia regul uporzadkowanych i klas binarnych, nauka jednej klasy ma sens?
-
-# 2. Czy wybieranie m najlepszych atrbutow dziala tak, ze wyklucza przyklady ze zbioru przykladow niewlasciwej
-# klasy pokrywanej przez gwiazde - zwieksza blad trenujacy - czy moze zmniejszac nadmierne dopasowanie?
-
-# 3. Czy to powszechne, że praktycznie nie wstepuje generalizacja w przypadku zbiorow trenujacych?
