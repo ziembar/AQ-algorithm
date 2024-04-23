@@ -365,7 +365,7 @@ if __name__ == '__main__':
 	"""
 	main method to test algorithm on 4 data sets.
 	"""
-	lenseFit = CN2algorithm('datasets/beautyyyy.csv','datasets/beauty_mod_test.csv')
+	lenseFit = CN2algorithm('datasets/flights_test2.csv','datasets/beauty_mod_test.csv')
 	lenseRules = lenseFit.fit_CN2()
 	lenseTest = lenseFit.test_fitted_model(lenseRules,lenseFit.test_set)[0]
 	lenseTest.to_csv('lense_test_results.csv')

@@ -60,10 +60,6 @@ class AQ:
                     self.not_covered_training_examples.remove(example)
             
 
-
-
-
-
     def learn_rule(self):
         star = [self.general_complex]
 
@@ -89,6 +85,7 @@ class AQ:
             xn_iter = iter(all_negative_examples)
             xn_correct = False
             no_more_n_seed = False
+
             while(not xn_correct):
                 xn = next(xn_iter, None)
                 if xn is None: 
@@ -101,8 +98,6 @@ class AQ:
             if no_more_n_seed:
                 break
 
-    # rest of the code...
-
             if xn.attributes == xs.attributes:
                 all_negative_examples.pop(0)
                 continue #skip wrong example
@@ -110,15 +105,7 @@ class AQ:
             star = self.partial_star(star, xn, xs)
             star = self.generalize_star(star)
 
-            # covered_negative_examples_cpy = covered_negative_examples.copy()
-
             star = self.select_best_complex(self.complex_cut, star, all_negative_examples)
-
-            # for complex in star:
-            #     for example in covered_negative_examples:
-            #         if not self.complex_covers(complex, example) and example in covered_negative_examples_cpy:
-            #             covered_negative_examples_cpy.remove(example)
-            # covered_negative_examples = covered_negative_examples_cpy
 
             flag = True
             for complex in star:
@@ -186,8 +173,6 @@ class AQ:
         for complex in star:
             complex.score1 = 0
             complex.score2 = 0
-
-           
         return star
     
     def second_score(self, complex):
@@ -207,7 +192,7 @@ class AQ:
 if __name__ == "__main__":
     training_examples = []
     telen = 0
-    with open('datasets/beautyyyy.csv', 'r') as file:
+    with open('datasets/flights_test.csv', 'r') as file:
         reader = csv.reader(file, delimiter=';')
         next(reader) #header
         training_examples = [AQ.Example(list(map(str, row[:-1])), str(row[-1])) for row in reader]
@@ -226,7 +211,7 @@ if __name__ == "__main__":
 
     testing_examples = []
 
-    with open('datasets/beauty_mod_test.csv', 'r') as file2:
+    with open('datasets/flights_test2.csv', 'r') as file2:
         reader2 = csv.reader(file2, delimiter=';')
         next(reader2) #header
         testing_examples = [AQ.Example(list(map(str, row[:-1])), str(row[-1])) for row in reader2]
