@@ -116,7 +116,7 @@ class AQ:
                 if not flag:
                     break
             
-        star = self.select_best_complex(1, star, None)
+        star = self.select_best_complex(1, star, all_negative_examples)
         
         rule = self.Rule(*star, xs.target)
         return rule
