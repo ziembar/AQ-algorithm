@@ -1,5 +1,6 @@
 import copy
 import csv
+import pickle
 
 class AQ:
 
@@ -199,6 +200,10 @@ class AQ:
         
 
 if __name__ == "__main__":
+
+    with open('aq.pkl', 'rb') as f:
+        aq = pickle.load(f)
+
     training_examples = []
     telen = 0
     with open('datasets/beautyyyy.csv', 'r') as file:
@@ -209,12 +214,10 @@ if __name__ == "__main__":
 
     aq = AQ(training_examples, 2)
     aq.train()
-
-    # for rule in aq.rules:
-    #     print( rule.complex.attributes, "---" , rule.target, '\n')
-
-    # print(len(aq.rules), "rules")
-    # print(telen, "training examples")
+    
+    
+    with open('aq.pkl', 'wb') as f:
+        pickle.dump(aq, f)
 
 
 
