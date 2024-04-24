@@ -19,6 +19,8 @@ class AQ:
             self.attributes = attributes
             self.score1 = 0
             self.score2 = 0
+            self.score3 = 0
+
 
 
 
@@ -75,9 +77,12 @@ class AQ:
             xs = self.not_covered_training_examples[0]
 
         all_negative_examples = []
+        all_positive_examples = []
         for x in self.not_covered_training_examples:
             if x.target != xs.target:
                 all_negative_examples.append(x)
+            else:
+                all_positive_examples.append(x)
 
         
         flag = False
@@ -105,7 +110,7 @@ class AQ:
             star = self.partial_star(star, xn, xs)
             star = self.generalize_star(star)
 
-            star = self.select_best_complex(self.complex_cut, star, all_negative_examples)
+            star = self.select_best_complex(self.complex_cut, star, all_negative_examples, all_positive_examples)
 
             flag = True
             for complex in star:
@@ -116,7 +121,7 @@ class AQ:
                 if not flag:
                     break
             
-        star = self.select_best_complex(1, star, all_negative_examples)
+        star = self.select_best_complex(1, star, all_negative_examples, all_positive_examples)
         
         rule = self.Rule(*star, xs.target)
         return rule
@@ -161,23 +166,27 @@ class AQ:
         return star_cpy
 
 
-    def select_best_complex(self, complex_cut, star, covered_negative_examples):
-        if(covered_negative_examples != None):
-            for complex in star:
-                for example in covered_negative_examples:
-                    if not self.complex_covers(complex, example):
-                        complex.score1 += 1
-                complex.score2 = self.second_score(complex)
-        star.sort(key=lambda complex: (complex.score1, complex.score2), reverse=True)
+    def select_best_complex(self, complex_cut, star, all_negative_examples, all_positive_examples):
+        for complex in star:
+            for example in all_negative_examples:         #score1 make process of creating rule shorter (fewer iterations)
+                if not self.complex_covers(complex, example):
+                    complex.score1 += 1
+            for i in range(len(complex.attributes)):      #score2 makes the rule more general
+                complex.score2 += len(complex.attributes[i])
+            for example in all_positive_examples:          #score3 makes the model smaller (fewer rules)
+                if self.complex_covers(complex, example):
+                    complex.score3 += 1
+            
+        star.sort(key=lambda complex: (complex.score1, complex.score2, complex.score3), reverse=True) 
         star = star[:complex_cut]
         for complex in star:
             complex.score1 = 0
             complex.score2 = 0
+            complex.score3 = 0
+
         return star
     
-    def second_score(self, complex):
-        for i in range(len(complex.attributes)):
-            complex.score2 += len(complex.attributes[i])
+        
 
     
 
@@ -192,7 +201,7 @@ class AQ:
 if __name__ == "__main__":
     training_examples = []
     telen = 0
-    with open('datasets/flights_test.csv', 'r') as file:
+    with open('datasets/beautyyyy.csv', 'r') as file:
         reader = csv.reader(file, delimiter=';')
         next(reader) #header
         training_examples = [AQ.Example(list(map(str, row[:-1])), str(row[-1])) for row in reader]
@@ -211,7 +220,7 @@ if __name__ == "__main__":
 
     testing_examples = []
 
-    with open('datasets/flights_test2.csv', 'r') as file2:
+    with open('datasets/beauty_mod_test.csv', 'r') as file2:
         reader2 = csv.reader(file2, delimiter=';')
         next(reader2) #header
         testing_examples = [AQ.Example(list(map(str, row[:-1])), str(row[-1])) for row in reader2]
