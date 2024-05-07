@@ -26,7 +26,16 @@ class AQ:
 
 
 
-    def __init__(self, training_examples, complex_cut, binary=False, target=None) -> None:
+    def __init__(self, training_data, complex_cut, binary=False, target=None) -> None:
+        training_examples = []
+        with open(training_data, 'r') as file:
+            reader = csv.reader(file, delimiter=',')
+            next(reader) #header
+            next(reader) #fields type
+            next(reader) #metadata
+
+            training_examples = [AQ.Example(list(map(str, row[:-1])), str(row[-1])) for row in reader]
+    
         self.rules = []
         self.not_covered_training_examples = training_examples
         self.complex_cut = complex_cut
@@ -42,7 +51,6 @@ class AQ:
                     self.seed_anti_target = example.target
                     break
 
-        # TODO: replace with manual input of range of valid values??
         attributes = [[] for _ in range(len(training_examples[0].attributes))]
         for example in training_examples:
             for i in range(len(example.attributes)):
@@ -187,9 +195,6 @@ class AQ:
 
         return star
     
-        
-
-    
 
     def predict_target(self, example):
         for rule in self.rules:
@@ -198,42 +203,4 @@ class AQ:
         if self.binary:
             return self.seed_anti_target
         
-
-if __name__ == "__main__":
-
-    with open('aq.pkl', 'rb') as f:
-        aq = pickle.load(f)
-
-    training_examples = []
-    telen = 0
-    with open('datasets/beautyyyy.csv', 'r') as file:
-        reader = csv.reader(file, delimiter=';')
-        next(reader) #header
-        training_examples = [AQ.Example(list(map(str, row[:-1])), str(row[-1])) for row in reader]
-        telen = len(training_examples)
-
-    aq = AQ(training_examples, 2)
-    aq.train()
-    
-    
-    with open('aq.pkl', 'wb') as f:
-        pickle.dump(aq, f)
-
-
-
-    testing_examples = []
-
-    with open('datasets/beauty_mod_test.csv', 'r') as file2:
-        reader2 = csv.reader(file2, delimiter=';')
-        next(reader2) #header
-        testing_examples = [AQ.Example(list(map(str, row[:-1])), str(row[-1])) for row in reader2]
-
-    correct = 0
-    all = len(testing_examples)
-    for test_example in testing_examples:
-        if aq.predict_target(test_example) == test_example.target:
-            correct += 1
-    print(correct, "out of", all, "correct", round(correct/all*100, 2), "%")
-
-
 
