@@ -187,6 +187,7 @@ class AQ:
                     complex.score3 += 1
             
         star.sort(key=lambda complex: (complex.score1, complex.score2, complex.score3), reverse=True) 
+        #TODO: add preferred scoring function
         star = star[:complex_cut]
         for complex in star:
             complex.score1 = 0
