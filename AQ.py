@@ -18,15 +18,15 @@ class AQ:
     class Complex:
         def __init__(self, attributes) -> None:
             self.attributes = attributes
-            self.score1 = 0
-            self.score2 = 0
-            self.score3 = 0
+            self.fast = 0
+            self.general = 0
+            self.small = 0
 
 
 
 
 
-    def __init__(self, training_data, complex_cut, binary=False, target=None) -> None:
+    def __init__(self, training_data, complex_cut, binary=False, target=None, scoring1 = 'fast', scoring2 = 'general', scoring3 = 'small') -> None:
         training_examples = []
         with open(training_data, 'r') as file:
             reader = csv.reader(file, delimiter=',')
@@ -40,6 +40,18 @@ class AQ:
         self.not_covered_training_examples = training_examples
         self.complex_cut = complex_cut
         self.binary = binary
+
+        scores = ['fast', 'general', 'small']
+        scoring1 = scoring1.lower()
+        scoring2 = scoring2.lower()
+        scoring3 = scoring3.lower()
+
+        if scoring1 in scores and scoring2 in scores and scoring3 in scores:
+            self.scoring1 = scoring1
+            self.scoring2 = scoring2
+            self.scoring3 = scoring3
+        else:
+            raise Exception("scoring1 and scoring2 must be one of ['fast', 'general', 'small']")
 
         if binary:
             if target != None:
@@ -177,17 +189,18 @@ class AQ:
 
     def select_best_complex(self, complex_cut, star, all_negative_examples, all_positive_examples):
         for complex in star:
-            for example in all_negative_examples:         #score1 make process of creating rule shorter (fewer iterations)
-                if not self.complex_covers(complex, example):
-                    complex.score1 += 1
-            for i in range(len(complex.attributes)):      #score2 makes the rule more general
-                complex.score2 += len(complex.attributes[i])
-            for example in all_positive_examples:          #score3 makes the model smaller (fewer rules)
-                if self.complex_covers(complex, example):
-                    complex.score3 += 1
-            
-        star.sort(key=lambda complex: (complex.score1, complex.score2, complex.score3), reverse=True) 
-        #TODO: add preferred scoring function
+                for example in all_negative_examples:         
+                    if not self.complex_covers(complex, example):
+                        setattr(complex, self.scoring1, getattr(complex, self.scoring1) + 1)
+                for i in range(len(complex.attributes)):      
+                    setattr(complex, self.scoring2, getattr(complex, self.scoring2) + len(complex.attributes[i]))
+                for example in all_positive_examples:          
+                    if self.complex_covers(complex, example):
+                        setattr(complex, self.scoring3, getattr(complex, self.scoring3) + 1)
+
+        
+        star.sort(key=lambda complex: (getattr(complex, self.scoring3), getattr(complex, self.scoring1), getattr(complex, self.scoring2)), reverse=True)
+        
         star = star[:complex_cut]
         for complex in star:
             complex.score1 = 0
