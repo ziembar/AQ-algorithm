@@ -1,7 +1,6 @@
 from collections import Counter
 import copy
 import csv
-import pickle
 import time
 
 class AQ:
@@ -55,7 +54,7 @@ class AQ:
             self.scoring2 = scoring2
             self.scoring3 = scoring3
         else:
-            raise Exception("scoring1 and scoring2 must be one of ['fast', 'general', 'small']")
+            raise Exception("scoring1, scoring2 or scoring3 must be one of ['fast', 'general', 'small']")
 
         if binary:
             if target != None:
@@ -87,7 +86,7 @@ class AQ:
                 if self.complex_covers(rule.complex, example):
                     self.not_covered_training_examples.remove(example)
         end_time = time.time()
-        print(f"Trained AQ model in: {round((end_time - start_time)/60, 0)} minute(s) {round(end_time - start_time - round((end_time - start_time)/60)*60)} second(s)")
+        print(f"Trained AQ model in: {round((end_time - start_time)//60)} minute(s) {round(end_time - start_time - ((end_time - start_time)//60)*60)} second(s)")
 
 
             

@@ -72,34 +72,24 @@ def test_and_eval(test_data, AQ = None, CN2 = None):
     if AQ:
         print("------------------------ AQ ------------------------")
         print("rules: ", len(AQ.rules))
-        print('\n')
         print_confusion_matrix(confusion_matrix_aq, all_classes)
-        print('\n')
         print("accuracy: ",round(accuracy(confusion_matrix_aq)*100, 2), "%")
-        print('\n')
         precision_aq = precision(confusion_matrix_aq, all_classes)
         print("precision overall: ", round(precision_aq*100, 2), "%")
-        print('\n')
         recall_aq = recall(confusion_matrix_aq, all_classes)
         print("recall overall: ", round(recall_aq*100, 2), "%")
-        print('\n')
         print("F1 score: ", round((2*precision_aq*recall_aq/(recall_aq+precision_aq))*100, 2), "%")
 
     
     if CN2:
-        print('\n')
         print("------------------------ CN2 ------------------------")
         print("rules: ", len(CN2.classifier.rule_list))
-        print('\n')
         print_confusion_matrix(confusion_matrix_cn2, all_classes)
-        print('\n')
         print("accuracy: ", round(accuracy(confusion_matrix_cn2)*100, 2), "%")
         precision_cn2 = precision(confusion_matrix_aq, all_classes)
         print("precision overall: ", round(precision_cn2*100, 2), "%")
-        print('\n')
         recall_cn2 = recall(confusion_matrix_aq, all_classes)
         print("recall overall: ", round(recall_cn2*100, 2), "%")
-        print('\n')
         print("F1 score: ", round((2*precision_cn2*recall_cn2/(recall_cn2+precision_cn2))*100, 2), "%")
 
 
