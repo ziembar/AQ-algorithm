@@ -1,3 +1,4 @@
+import time
 import Orange
 
 class CN2():
@@ -11,7 +12,11 @@ class CN2():
     
 
     def train(self):
+        start_time = time.time()
         self.classifier = self.learner(self.training_data)
+        end_time = time.time()
+        print(f"Trained CN2 model in: {round((end_time - start_time)/60, 0)} minute(s) {round(end_time - start_time - round((end_time - start_time)/60)*60)} second(s)")
+
         return self.classifier
 
     def predict_target(self, test_record):

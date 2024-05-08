@@ -1,6 +1,8 @@
+from collections import Counter
 import copy
 import csv
 import pickle
+import time
 
 class AQ:
 
@@ -41,6 +43,8 @@ class AQ:
         self.complex_cut = complex_cut
         self.binary = binary
 
+        self.most_frequent_target = Counter(example.target for example in training_examples).most_common(1)[0][0]
+
         scores = ['fast', 'general', 'small']
         scoring1 = scoring1.lower()
         scoring2 = scoring2.lower()
@@ -72,8 +76,9 @@ class AQ:
 
 
     def train(self):
+        start_time = time.time()
         while(len(self.not_covered_training_examples) > 0):
-            print("calculating", len(self.rules) + 1, "rule,", len(self.not_covered_training_examples), "examples left to cover")
+            # print("calculating", len(self.rules) + 1, "rule,", len(self.not_covered_training_examples), "examples left to cover")
             rule = self.learn_rule()
             if rule == None:
                 break
@@ -81,6 +86,10 @@ class AQ:
             for example in self.not_covered_training_examples: 
                 if self.complex_covers(rule.complex, example):
                     self.not_covered_training_examples.remove(example)
+        end_time = time.time()
+        print(f"Trained AQ model in: {round((end_time - start_time)/60, 0)} minute(s) {round(end_time - start_time - round((end_time - start_time)/60)*60)} second(s)")
+
+
             
 
     def learn_rule(self):
@@ -199,7 +208,7 @@ class AQ:
                         setattr(complex, self.scoring3, getattr(complex, self.scoring3) + 1)
 
         
-        star.sort(key=lambda complex: (getattr(complex, self.scoring3), getattr(complex, self.scoring1), getattr(complex, self.scoring2)), reverse=True)
+        star.sort(key=lambda complex: (getattr(complex, self.scoring1), getattr(complex, self.scoring2), getattr(complex, self.scoring3)), reverse=True)
         
         star = star[:complex_cut]
         for complex in star:
@@ -216,5 +225,4 @@ class AQ:
                 return rule.target
         if self.binary:
             return self.seed_anti_target
-        
-
+        return self.most_frequent_target
