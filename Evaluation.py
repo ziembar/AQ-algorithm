@@ -13,7 +13,7 @@ from CN2 import CN2
 def print_confusion_matrix(confusion_matrix, all_classes):
     headers = ["confusion matrix"] + list(all_classes)
     table = [[all_classes[i]] + row for i, row in enumerate(confusion_matrix)]
-    print(tabulate(table, headers, tablefmt="latex"))
+    print(tabulate(table, headers, tablefmt="grid"))
 
 
 def accuracy(confusion_matrix):
@@ -84,7 +84,7 @@ def print_summary(all_classes, confusion_matrix_aq=None, aq = None, confusion_ma
         headers = ["Class", "Accuracy", "Precision", "Recall", "False Positive Rate", "F1 score"]
 
         table = [[all_classes[i], accuracy_arr[i], precision_arr[i], recall_arr[i], fpr_arr[i], f1_arr[i]] for i in range(len(all_classes))]
-        print(tabulate(table, headers, tablefmt="latex"))
+        print(tabulate(table, headers, tablefmt="grid"))
         print("Macro average:")
         print("Accuracy: {:.2f}%".format(accuracy_val*100))
         print("Precision: {:.2f}%".format(precision_val*100))

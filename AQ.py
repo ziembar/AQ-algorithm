@@ -27,7 +27,7 @@ class AQ:
 
 
 
-    def __init__(self, training_data, complex_cut, binary=False, target=None, scoring1 = 'fast', scoring2 = 'general', scoring3 = 'small') -> None:
+    def __init__(self, training_data, complex_cut=1, binary=False, target=None, scoring1 = 'fast', scoring2 = 'general', scoring3 = 'small') -> None:
         training_examples = []
         with open(training_data, 'r') as file:
             reader = csv.reader(file, delimiter=',')
