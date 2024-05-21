@@ -13,7 +13,7 @@ from CN2 import CN2
 def print_confusion_matrix(confusion_matrix, all_classes):
     headers = ["confusion matrix"] + list(all_classes)
     table = [[all_classes[i]] + row for i, row in enumerate(confusion_matrix)]
-    print(tabulate(table, headers, tablefmt="grid"))
+    print(tabulate(table, headers, tablefmt="latex"))
 
 
 def accuracy(confusion_matrix):
@@ -84,7 +84,7 @@ def print_summary(all_classes, confusion_matrix_aq=None, aq = None, confusion_ma
         headers = ["Class", "Accuracy", "Precision", "Recall", "False Positive Rate", "F1 score"]
 
         table = [[all_classes[i], accuracy_arr[i], precision_arr[i], recall_arr[i], fpr_arr[i], f1_arr[i]] for i in range(len(all_classes))]
-        print(tabulate(table, headers, tablefmt="grid"))
+        print(tabulate(table, headers, tablefmt="latex"))
         print("Macro average:")
         print("Accuracy: {:.2f}%".format(accuracy_val*100))
         print("Precision: {:.2f}%".format(precision_val*100))
@@ -107,14 +107,13 @@ def print_summary(all_classes, confusion_matrix_aq=None, aq = None, confusion_ma
         print('\n')
         headers = ["Class", "Accuracy", "Precision", "Recall", "False Positive Rate", "F1 score"]
         table = [[all_classes[i], accuracy_arr[i], precision_arr[i], recall_arr[i], fpr_arr[i], f1_arr[i]] for i in range(len(all_classes))]
-        print(tabulate(table, headers, tablefmt="grid"))
+        print(tabulate(table, headers, tablefmt="latex"))
         print("Macro average:")
         print("Accuracy: {:.2f}%".format(accuracy_val*100))
         print("Precision: {:.2f}%".format(precision_val*100))
         print("Recall / True Positive Rate: {:.2f}%".format(recall_val*100))
         print("False Positive Rate: {:.2f}%".format(fpr_val*100))
         print("F1 Score: {:.2f}%".format(f1_val*100))
-        print('\n')
 
 
 
@@ -137,18 +136,21 @@ def test_and_eval(test_data, aq = None, cn2 = None):
 
     for test_example_aq, test_example_cn2 in zip(testing_examples_aq, testing_examples_cn2):
         if aq:
-            confusion_matrix_aq[all_classes.index(test_example_aq.target)][all_classes.index(AQ.predict_target(test_example_aq))] += 1
+            confusion_matrix_aq[all_classes.index(test_example_aq.target)][all_classes.index(aq.predict_target(test_example_aq))] += 1
         if cn2:
-            confusion_matrix_cn2[all_classes.index(test_example_cn2.get_class())][all_classes.index(CN2.predict_target(test_example_cn2))] += 1
+            confusion_matrix_cn2[all_classes.index(test_example_cn2.get_class())][all_classes.index(cn2.predict_target(test_example_cn2))] += 1
 
     if aq and cn2:
         print_summary(all_classes, confusion_matrix_aq, aq, confusion_matrix_cn2, cn2)
+        return
 
     if aq:
         print_summary(all_classes, confusion_matrix_aq, aq)
+        return
 
     if cn2:
         print_summary(all_classes, confusion_matrix_cn2 = confusion_matrix_cn2, cn2 = cn2)
+        return
 
     #OX - predicted, OY - actual
 
