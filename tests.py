@@ -19,4 +19,9 @@ from Evaluation import nCV_AQ_CN2_summary, test_and_eval
 # test_and_eval('datasets/beauty_mod_test.csv', aq, cn2)
 
 #test 3
-nCV_AQ_CN2_summary(data='datasets/flights_test.csv', n=1, complex_cut=1)
+nCV_AQ_CN2_summary(data='datasets/beautyyyy.csv', n=1, complex_cut=1)
+
+
+# complex_cut -- ile kompleksow przechodzi dalej
+# scoring1, scoring2, scoring3 -- jakie scoringi
+# binary -- czy binarny czy nie
