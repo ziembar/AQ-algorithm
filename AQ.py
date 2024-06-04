@@ -55,6 +55,7 @@ class AQ:
             self.scoring3 = scoring3
         else:
             raise Exception("scoring1, scoring2 or scoring3 must be one of ['fast', 'general', 'small']")
+        print(f"Scoring1: {self.scoring1}, Scoring2: {self.scoring2}, Scoring3: {self.scoring3}")
 
         if binary:
             if target != None:
@@ -199,21 +200,20 @@ class AQ:
         for complex in star:
                 for example in all_negative_examples:         
                     if not self.complex_covers(complex, example):
-                        setattr(complex, self.scoring1, getattr(complex, self.scoring1) + 1)
+                        complex.fast += 1
                 for i in range(len(complex.attributes)):      
-                    setattr(complex, self.scoring2, getattr(complex, self.scoring2) + len(complex.attributes[i]))
+                    complex.general += len(complex.attributes[i])
                 for example in all_positive_examples:          
                     if self.complex_covers(complex, example):
-                        setattr(complex, self.scoring3, getattr(complex, self.scoring3) + 1)
+                        complex.small += 1
 
-        
         star.sort(key=lambda complex: (getattr(complex, self.scoring1), getattr(complex, self.scoring2), getattr(complex, self.scoring3)), reverse=True)
         
         star = star[:complex_cut]
         for complex in star:
-            complex.score1 = 0
-            complex.score2 = 0
-            complex.score3 = 0
+            complex.fast = 0
+            complex.general = 0
+            complex.small = 0
 
         return star
     
