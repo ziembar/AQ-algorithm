@@ -58,7 +58,7 @@ class AQ:
             self.scoring3 = scoring3
         else:
             raise Exception("scoring1, scoring2 or scoring3 must be one of ['fast', 'general', 'small']")
-        print(f"Scoring1: {self.scoring1}, Scoring2: {self.scoring2}, Scoring3: {self.scoring3}")
+        print(f"Scorings: {self.scoring1} > {self.scoring2} > {self.scoring3}")
 
         if binary:
             if target != None:
