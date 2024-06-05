@@ -1,0 +1,2643 @@
+﻿finalWorth,category,age,country,countryOfCitizenship,selfMade,gender
+d,d,d,d,d,d,d
+c,,,,,,
+3,Fashion & Retail,2,France,France,FALSE,M
+3,Automotive,1,United States,United States,TRUE,M
+3,Technology,2,United States,United States,TRUE,M
+3,Technology,3,United States,United States,TRUE,M
+3,Finance & Investments,3,United States,United States,TRUE,M
+3,Technology,2,United States,United States,TRUE,M
+3,Media & Entertainment,3,United States,United States,TRUE,M
+3,Telecom,3,Mexico,Mexico,TRUE,M
+3,Diversified,2,India,India,FALSE,M
+3,Technology,2,United States,United States,TRUE,M
+3,Fashion & Retail,2,France,France,FALSE,F
+3,Technology,1,United States,United States,TRUE,M
+3,Fashion & Retail,3,Spain,Spain,TRUE,M
+3,Technology,1,United States,United States,TRUE,M
+3,Food & Beverage,2,China,China,TRUE,M
+3,Technology,1,United States,United States,TRUE,M
+3,Diversified,3,United States,United States,FALSE,M
+3,Diversified,2,United States,United States,FALSE,F
+3,Fashion & Retail,2,United States,United States,FALSE,M
+3,Fashion & Retail,3,United States,United States,FALSE,M
+3,Fashion & Retail,2,United States,United States,FALSE,F
+3,Media & Entertainment,2,Canada,Canada,FALSE,M
+3,Technology,2,United States,United States,TRUE,M
+3,Diversified,2,India,India,TRUE,M
+3,Fashion & Retail,3,United States,United States,TRUE,M
+3,Technology,1,China,China,TRUE,M
+3,Fashion & Retail,3,Germany,Germany,FALSE,M
+3,Fashion & Retail,3,France,France,TRUE,M
+3,Logistics,3,Switzerland,Germany,FALSE,M
+3,Food & Beverage,2,Belgium,Italy,FALSE,M
+3,Food & Beverage,3,United States,United States,FALSE,F
+3,Food & Beverage,3,United States,United States,FALSE,M
+3,Diversified,3,Hong Kong,Hong Kong,TRUE,M
+3,Technology,1,China,China,TRUE,M
+3,Gambling & Casinos,3,United States,United States,FALSE,F
+3,Finance & Investments,1,United States,United States,TRUE,M
+3,Food & Beverage,1,Austria,Austria,FALSE,M
+3,Automotive,1,China,Hong Kong,TRUE,M
+3,Fashion & Retail,2,Japan,Japan,TRUE,M
+3,Diversified,2,United Kingdom,United States,TRUE,M
+3,Fashion & Retail,2,United States,France,FALSE,M
+3,Fashion & Retail,2,United States,France,FALSE,M
+3,Logistics,3,Switzerland,Switzerland,TRUE,M
+3,Logistics,3,Switzerland,Switzerland,TRUE,F
+3,Technology,1,China,China,TRUE,M
+3,Manufacturing,3,Germany,Germany,TRUE,M
+3,Real Estate,3,Hong Kong,Hong Kong,TRUE,M
+3,Finance & Investments,2,United States,United States,TRUE,M
+3,Finance & Investments,3,United States,United States,TRUE,M
+3,Finance & Investments,3,United States,United States,TRUE,M
+3,Automotive,2,Germany,Germany,FALSE,F
+3,Metals & Mining,2,Australia,Australia,FALSE,F
+3,Technology,1,China,China,TRUE,M
+3,Metals & Mining,2,Mexico,Mexico,FALSE,M
+3,Technology,3,India,India,TRUE,M
+3,Energy,2,Indonesia,Indonesia,TRUE,M
+3,Finance & Investments,3,United States,United States,TRUE,M
+3,Metals & Mining,1,United Arab Emirates,Russia,TRUE,M
+3,Automotive,2,Germany,Germany,FALSE,M
+3,Technology,1,United States,United States,FALSE,F
+3,Finance & Investments,3,Indonesia,Indonesia,FALSE,M
+3,Metals & Mining,2,Russia,Russia,TRUE,M
+3,Technology,2,China,China,TRUE,M
+3,Manufacturing,3,China,China,TRUE,M
+3,Metals & Mining,3,Chile,Chile,FALSE,F
+3,Manufacturing,3,Indonesia,Indonesia,FALSE,M
+3,Manufacturing,2,United Kingdom,United Kingdom,TRUE,M
+3,Healthcare,3,India,India,FALSE,M
+3,Telecom,2,Japan,Japan,TRUE,M
+3,Metals & Mining,2,Russia,Russia,TRUE,M
+3,Food & Beverage,1,France,France,FALSE,M
+3,Finance & Investments,2,United States,United States,FALSE,F
+3,Energy,2,Russia,Russia,TRUE,M
+3,Fashion & Retail,1,United States,United States,FALSE,M
+3,Service,1,China,China,TRUE,M
+3,Technology,2,United States,United States,TRUE,M
+3,Fashion & Retail,3,United States,United States,FALSE,M
+3,Manufacturing,3,Japan,Japan,TRUE,M
+3,Metals & Mining,2,Russia,Russia,TRUE,M
+3,Energy,2,Russia,Russia,TRUE,M
+3,Healthcare,3,United States,United States,TRUE,M
+3,Metals & Mining,2,Australia,Australia,TRUE,M
+3,Finance & Investments,2,United States,United States,TRUE,M
+3,Automotive,2,China,China,TRUE,M
+3,Metals & Mining,1,China,China,TRUE,M
+3,Diversified,2,Monaco,Israel,FALSE,M
+3,Food & Beverage,2,China,China,TRUE,M
+3,Automotive,2,China,China,TRUE,M
+3,Energy,3,United States,United States,TRUE,M
+3,Finance & Investments,2,United States,United States,TRUE,M
+3,Energy,2,Russia,Russia,TRUE,M
+3,Finance & Investments,2,United States,United States,TRUE,M
+3,Metals & Mining,2,United Kingdom,India,FALSE,M
+3,Finance & Investments,2,United States,United States,TRUE,M
+3,Finance & Investments,3,United States,United States,TRUE,M
+3,Metals & Mining,2,India,India,FALSE,F
+3,Real Estate,3,United States,United States,TRUE,M
+3,Fashion & Retail,3,United States,United States,TRUE,M
+3,Media & Entertainment,3,United States,United States,FALSE,M
+3,Finance & Investments,2,Switzerland,Brazil,FALSE,F
+3,Fashion & Retail,2,Germany,Germany,FALSE,M
+3,Finance & Investments,1,Czech Republic,Czech Republic,FALSE,F
+3,Healthcare,2,China,Singapore,TRUE,M
+3,Fashion & Retail,3,Sweden,Sweden,FALSE,M
+3,Technology,2,United States,United States,TRUE,M
+3,Finance & Investments,1,Switzerland,United Kingdom,TRUE,M
+3,Food & Beverage,2,China,China,TRUE,M
+3,Fashion & Retail,1,Germany,Germany,FALSE,M
+3,Fashion & Retail,1,,Germany,FALSE,F
+3,Food & Beverage,3,Switzerland,Brazil,TRUE,M
+3,Real Estate,3,Hong Kong,Hong Kong,FALSE,M
+3,Healthcare,2,India,India,TRUE,M
+3,Technology,1,United States,United States,TRUE,M
+3,Fashion & Retail,2,India,India,TRUE,M
+3,Automotive,2,China,China,TRUE,M
+3,Diversified,3,Thailand,Thailand,FALSE,M
+3,Fashion & Retail,3,United States,United States,TRUE,M
+3,Food & Beverage,3,Thailand,Thailand,TRUE,M
+3,Food & Beverage,2,United Kingdom,Netherlands,FALSE,F
+3,Healthcare,2,China,Hong Kong,TRUE,M
+3,Automotive,2,China,China,TRUE,M
+3,Metals & Mining,2,Uzbekistan,Russia,TRUE,M
+3,Manufacturing,3,Singapore,Singapore,TRUE,M
+3,Diversified,1,India,India,FALSE,M
+3,Manufacturing,2,Nigeria,Nigeria,TRUE,M
+3,Real Estate,3,Hong Kong,Hong Kong,FALSE,F
+3,Diversified,2,United Kingdom,Israel,FALSE,M
+3,Healthcare,2,China,China,TRUE,M
+3,Gambling & Casinos,3,Hong Kong,Hong Kong,TRUE,M
+3,Logistics,3,United Kingdom,Cyprus,TRUE,M
+3,Construction & Engineering,3,United States,United States,TRUE,F
+3,Technology,1,United States,United States,TRUE,M
+3,Sports,3,United States,United States,TRUE,M
+3,Energy,3,United States,United States,FALSE,M
+3,Real Estate,2,Hong Kong,Hong Kong,TRUE,M
+3,Automotive,2,China,China,TRUE,M
+3,Real Estate,3,Australia,Australia,TRUE,M
+3,Finance & Investments,2,India,India,TRUE,M
+3,Sports,3,United States,United States,TRUE,M
+3,Energy,2,United Kingdom,Russia,TRUE,M
+3,Energy,2,Thailand,Thailand,TRUE,M
+3,Metals & Mining,1,China,China,TRUE,M
+3,Healthcare,2,China,China,TRUE,M
+3,Automotive,2,United States,United States,TRUE,M
+3,Technology,2,United States,United States,FALSE,F
+3,Diversified,3,Hong Kong,Malaysia,TRUE,M
+3,Real Estate,3,United States,United States,TRUE,M
+3,Technology,1,United Arab Emirates,United Arab Emirates,TRUE,M
+3,Healthcare,2,Germany,Germany,TRUE,M
+3,Healthcare,2,Germany,Germany,TRUE,M
+3,Food & Beverage,2,China,China,TRUE,M
+3,Fashion & Retail,1,United States,United States,TRUE,M
+3,Finance & Investments,2,United States,United States,TRUE,M
+3,Manufacturing,2,Israel,Russia,TRUE,M
+3,Manufacturing,2,Australia,Australia,FALSE,M
+3,Finance & Investments,2,Switzerland,Russia,TRUE,M
+3,Fashion & Retail,3,Italy,Italy,TRUE,M
+3,Fashion & Retail,2,South Africa,South Africa,FALSE,M
+3,Finance & Investments,2,Hong Kong,Hong Kong,TRUE,M
+3,Technology,1,China,China,TRUE,M
+3,Finance & Investments,3,United States,United States,FALSE,M
+3,Fashion & Retail,3,United States,United States,TRUE,F
+3,Fashion & Retail,2,Mexico,Mexico,FALSE,M
+3,Media & Entertainment,3,United States,United States,FALSE,M
+3,Sports,3,United States,United States,TRUE,M
+3,Food & Beverage,2,Brazil,Brazil,TRUE,M
+3,Finance & Investments,2,Russia,Russia,TRUE,M
+3,Fashion & Retail,1,China,China,TRUE,M
+3,Finance & Investments,1,United Arab Emirates,Canada,TRUE,M
+3,Finance & Investments,2,United States,United States,TRUE,M
+3,Technology,1,Australia,Australia,TRUE,M
+3,Healthcare,2,United States,United States,FALSE,M
+3,Technology,3,United States,United States,TRUE,M
+3,Energy,2,United States,United States,TRUE,M
+3,Manufacturing,2,Russia,Russia,TRUE,M
+3,Technology,1,Singapore,Brazil,TRUE,M
+3,Automotive,2,Germany,Germany,FALSE,M
+3,Fashion & Retail,2,United States,United States,FALSE,F
+3,Technology,1,Australia,Australia,TRUE,M
+3,Diversified,3,Malaysia,Malaysia,FALSE,M
+3,Real Estate,2,China,China,TRUE,F
+3,Energy,3,United States,United States,TRUE,M
+3,Service,2,China,China,TRUE,M
+3,Diversified,2,United Arab Emirates,Cyprus,TRUE,M
+3,Fashion & Retail,3,Switzerland,France,FALSE,M
+3,Logistics,1,France,France,FALSE,M
+3,Logistics,1,France,France,FALSE,M
+3,Logistics,1,France,France,FALSE,F
+3,Finance & Investments,3,Sweden,Sweden,TRUE,M
+3,Manufacturing,2,Russia,Russia,TRUE,M
+3,Finance & Investments,2,South Korea,United States,TRUE,M
+3,Technology,1,China,China,TRUE,M
+3,Manufacturing,3,Germany,Germany,FALSE,M
+3,Healthcare,2,China,China,TRUE,M
+3,Technology,2,United States,United States,FALSE,M
+3,Energy,2,China,China,TRUE,M
+3,Manufacturing,2,China,China,TRUE,M
+3,Food & Beverage,2,United States,United States,FALSE,F
+3,Food & Beverage,2,United States,United States,FALSE,F
+3,Food & Beverage,2,United States,United States,FALSE,F
+3,Food & Beverage,2,United States,United States,FALSE,F
+3,Finance & Investments,2,France,France,FALSE,M
+3,Diversified,3,Canada,Canada,TRUE,M
+3,Healthcare,2,Switzerland,Switzerland,FALSE,M
+3,Technology,1,China,China,TRUE,M
+3,Technology,1,United States,United States,TRUE,M
+3,Manufacturing,3,United Kingdom,United Kingdom,TRUE,M
+3,Diversified,2,Russia,Russia,TRUE,M
+3,Diversified,3,Sweden,Sweden,FALSE,F
+3,Energy,1,Czech Republic,Czech Republic,TRUE,M
+3,Media & Entertainment,3,United States,United States,TRUE,M
+3,Technology,3,India,India,FALSE,M
+3,Finance & Investments,3,United States,United States,TRUE,M
+3,Fashion & Retail,2,United States,United States,TRUE,M
+3,Technology,2,United States,Canada,TRUE,M
+3,Metals & Mining,2,Switzerland,Switzerland,TRUE,M
+3,Real Estate,1,Germany,Germany,FALSE,M
+3,Food & Beverage,2,Canada,Canada,TRUE,M
+3,Manufacturing,2,China,China,TRUE,M
+3,Food & Beverage,2,United Kingdom,Sweden,FALSE,M
+3,Food & Beverage,2,United Kingdom,Sweden,FALSE,M
+3,Food & Beverage,2,United Kingdom,Sweden,FALSE,F
+3,Fashion & Retail,1,Russia,Russia,TRUE,F
+3,Technology,2,United States,United States,TRUE,M
+3,Technology,1,China,China,TRUE,M
+3,Technology,1,United States,United States,TRUE,M
+3,Technology,1,United States,United States,TRUE,M
+3,Energy,2,China,China,TRUE,M
+3,Energy,2,United Kingdom,France,FALSE,F
+3,Manufacturing,1,China,China,TRUE,M
+3,Fashion & Retail,3,Germany,Germany,FALSE,M
+3,Finance & Investments,2,United States,United States,TRUE,M
+3,Finance & Investments,2,New Zealand,New Zealand,TRUE,M
+3,Food & Beverage,2,India,India,FALSE,M
+3,Technology,3,Germany,Germany,TRUE,M
+3,Food & Beverage,3,Switzerland,Brazil,TRUE,M
+3,Real Estate,2,Philippines,Philippines,TRUE,M
+3,Technology,2,United States,Germany,TRUE,M
+3,Finance & Investments,1,United States,United States,TRUE,M
+3,Fashion & Retail,2,United States,United States,FALSE,F
+3,Manufacturing,1,China,China,TRUE,M
+3,Media & Entertainment,3,United States,United States,FALSE,M
+3,Metals & Mining,3,South Africa,South Africa,FALSE,M
+3,Media & Entertainment,2,Australia,United States,FALSE,F
+3,Metals & Mining,3,China,China,FALSE,F
+3,Fashion & Retail,3,United States,United States,TRUE,M
+3,Fashion & Retail,3,Monaco,Monaco,FALSE,M
+3,Finance & Investments,1,Switzerland,Germany,FALSE,F
+3,Real Estate,3,Hong Kong,Hong Kong,TRUE,M
+3,Energy,2,Russia,Russia,TRUE,M
+3,Diversified,2,Nigeria,Nigeria,FALSE,M
+3,Finance & Investments,3,United States,United States,TRUE,M
+3,Real Estate,3,India,India,FALSE,M
+3,Real Estate,2,China,China,TRUE,M
+3,Real Estate,1,China,China,FALSE,F
+3,Diversified,2,France,France,FALSE,M
+3,Diversified,2,France,France,FALSE,M
+3,Food & Beverage,2,United States,United States,TRUE,M
+3,Diversified,2,France,France,FALSE,F
+3,Gambling & Casinos,1,Switzerland,Czech Republic,TRUE,M
+2,Technology,1,United States,United States,TRUE,M
+2,Energy,2,Russia,Russia,TRUE,M
+2,Fashion & Retail,3,United States,United States,TRUE,M
+2,Finance & Investments,3,United States,United States,TRUE,M
+2,Finance & Investments,2,United States,United States,TRUE,M
+2,Metals & Mining,2,Czech Republic,Czech Republic,TRUE,M
+2,Finance & Investments,3,Monaco,Belgium,FALSE,M
+2,Finance & Investments,1,United States,United States,TRUE,M
+2,Fashion & Retail,1,China,China,TRUE,M
+2,Fashion & Retail,2,United States,United States,FALSE,F
+2,Technology,1,South Korea,South Korea,FALSE,M
+2,Finance & Investments,1,United States,United States,TRUE,M
+2,Finance & Investments,2,United States,United States,TRUE,M
+2,Metals & Mining,2,Russia,Russia,TRUE,M
+2,Diversified,1,Austria,Austria,TRUE,M
+2,Telecom,2,United States,United States,TRUE,M
+2,Manufacturing,2,China,China,TRUE,M
+2,Manufacturing,3,Taiwan,Taiwan,TRUE,M
+2,Technology,1,China,China,TRUE,M
+2,Manufacturing,2,China,China,TRUE,M
+2,Fashion & Retail,3,Taiwan,Taiwan,TRUE,M
+2,Food & Beverage,1,France,France,FALSE,M
+2,Food & Beverage,1,France,France,FALSE,F
+2,Media & Entertainment,3,United States,United States,TRUE,M
+2,Technology,1,China,China,TRUE,M
+2,Service,2,China,China,TRUE,M
+2,Technology,2,United States,United States,TRUE,M
+2,Healthcare,2,United States,United States,TRUE,M
+2,Real Estate,2,Norway,Norway,TRUE,M
+2,Energy,1,China,China,TRUE,M
+2,Healthcare,3,India,India,TRUE,M
+2,Manufacturing,2,United Kingdom,United Kingdom,TRUE,M
+2,Technology,1,United States,United States,TRUE,M
+2,Real Estate,2,Singapore,Singapore,FALSE,M
+2,Manufacturing,2,United Kingdom,United Kingdom,TRUE,M
+2,Real Estate,3,United States,United States,FALSE,M
+2,Technology,2,Hong Kong,Canada,TRUE,M
+2,Healthcare,2,China,China,TRUE,F
+2,Sports,3,United States,United States,TRUE,M
+2,Fashion & Retail,3,United States,United States,FALSE,M
+2,Fashion & Retail,2,China,China,TRUE,M
+2,Finance & Investments,2,United States,United States,TRUE,M
+2,Finance & Investments,3,United States,United States,TRUE,M
+2,Food & Beverage,1,Singapore,Singapore,TRUE,M
+2,Technology,3,United States,United States,TRUE,M
+2,Manufacturing,2,United Kingdom,Indonesia,FALSE,M
+2,Fashion & Retail,2,China,China,TRUE,M
+2,Real Estate,2,Singapore,Singapore,FALSE,M
+2,Manufacturing,2,United States,United States,TRUE,M
+2,Construction & Engineering,2,Egypt,Egypt,FALSE,M
+2,Food & Beverage,3,United States,United States,TRUE,M
+2,Manufacturing,3,India,India,FALSE,M
+2,Metals & Mining,2,Russia,Russia,TRUE,M
+2,Fashion & Retail,1,Denmark,Denmark,FALSE,M
+2,Logistics,2,Philippines,Philippines,FALSE,M
+2,Technology,1,China,Hong Kong,TRUE,F
+2,Finance & Investments,2,United States,United States,TRUE,M
+2,Technology,2,Taiwan,Taiwan,TRUE,M
+2,Real Estate,2,United States,United States,TRUE,M
+2,Finance & Investments,3,United States,United States,TRUE,M
+2,Energy,3,United States,United States,TRUE,M
+2,Finance & Investments,1,United Arab Emirates,Switzerland,TRUE,M
+2,Fashion & Retail,2,Japan,Japan,FALSE,M
+2,Food & Beverage,3,China,China,TRUE,M
+2,Technology,3,United States,United States,TRUE,F
+2,Gambling & Casinos,3,Austria,Austria,TRUE,M
+2,Service,2,United States,United States,FALSE,F
+2,Manufacturing,2,China,China,TRUE,M
+2,Healthcare,2,Switzerland,Sweden,FALSE,M
+2,Finance & Investments,3,Singapore,Singapore,FALSE,M
+2,Manufacturing,2,China,China,TRUE,M
+2,Technology,2,United States,United States,TRUE,M
+2,Media & Entertainment,1,United Kingdom,Israel,TRUE,M
+2,Media & Entertainment,1,United Kingdom,Israel,TRUE,M
+2,Technology,3,United States,United States,TRUE,M
+2,Manufacturing,3,India,India,FALSE,M
+2,Fashion & Retail,3,United States,United States,TRUE,M
+2,Real Estate,2,Hong Kong,Hong Kong,FALSE,M
+2,Diversified,1,India,India,FALSE,F
+2,Diversified,2,India,Ireland,FALSE,M
+2,Food & Beverage,2,United States,United States,TRUE,M
+2,Food & Beverage,2,United States,United States,TRUE,M
+2,Food & Beverage,2,United States,United States,TRUE,M
+2,Diversified,2,Mexico,Mexico,FALSE,M
+2,Diversified,3,United States,United States,FALSE,F
+2,Food & Beverage,3,United States,United States,FALSE,F
+2,Finance & Investments,1,United States,United States,TRUE,M
+2,Technology,2,China,China,TRUE,M
+2,Real Estate,3,United States,United States,TRUE,M
+2,Fashion & Retail,1,Spain,Spain,FALSE,F
+2,Healthcare,2,United States,United States,FALSE,F
+2,Energy,2,United States,United States,FALSE,F
+2,Diversified,3,Italy,Italy,TRUE,M
+2,Gambling & Casinos,1,United Kingdom,United Kingdom,TRUE,F
+2,Energy,1,United States,United States,FALSE,M
+2,Energy,1,United States,United States,FALSE,F
+2,Finance & Investments,2,United States,United States,FALSE,M
+2,Finance & Investments,2,United States,Israel,TRUE,M
+2,Technology,3,United States,United States,TRUE,M
+2,Finance & Investments,1,United States,United States,TRUE,M
+2,Finance & Investments,2,United States,United States,TRUE,M
+2,Diversified,2,Russia,Russia,TRUE,M
+2,Technology,2,China,Hong Kong,TRUE,M
+2,Energy,2,United States,United States,FALSE,F
+2,Finance & Investments,2,United States,United States,TRUE,M
+2,Finance & Investments,2,United Kingdom,United Kingdom,TRUE,M
+2,Manufacturing,3,Denmark,Denmark,FALSE,M
+2,Manufacturing,1,Denmark,Denmark,FALSE,F
+2,Manufacturing,1,Denmark,Denmark,FALSE,M
+2,Healthcare,3,Italy,Italy,FALSE,F
+2,Automotive,1,China,Hong Kong,TRUE,M
+2,Manufacturing,2,China,China,TRUE,M
+2,Manufacturing,1,Switzerland,Switzerland,FALSE,F
+2,Telecom,1,France,France,TRUE,M
+2,Energy,2,United States,United States,TRUE,M
+2,Real Estate,3,United States,United States,FALSE,M
+2,Real Estate,3,United States,United States,TRUE,M
+2,Finance & Investments,3,United States,United States,TRUE,M
+2,Technology,2,United States,United States,TRUE,M
+2,Manufacturing,1,Denmark,Denmark,FALSE,F
+2,Technology,3,United States,United States,TRUE,M
+2,Food & Beverage,2,China,China,TRUE,M
+2,Manufacturing,1,Switzerland,Switzerland,FALSE,F
+2,Food & Beverage,2,United States,United States,FALSE,M
+2,Food & Beverage,2,United States,United States,FALSE,M
+2,Food & Beverage,2,United States,United States,FALSE,F
+2,Finance & Investments,3,United States,United States,TRUE,M
+2,Technology,2,United States,United States,TRUE,M
+2,Finance & Investments,1,Germany,Germany,FALSE,F
+2,Finance & Investments,3,United States,United States,TRUE,M
+2,Technology,2,United States,United States,FALSE,F
+2,Fashion & Retail,3,Eswatini (Swaziland),Eswatini (Swaziland),TRUE,M
+2,Real Estate,3,United States,United States,FALSE,F
+2,Real Estate,3,United Kingdom,United Kingdom,TRUE,M
+2,Diversified,3,Monaco,United Kingdom,TRUE,M
+2,Real Estate,1,Switzerland,Czech Republic,TRUE,M
+2,Finance & Investments,2,Sweden,Sweden,TRUE,M
+2,Sports,2,United States,United States,TRUE,M
+2,Finance & Investments,2,United States,United States,TRUE,M
+2,Healthcare,2,China,China,TRUE,F
+2,Energy,2,France,Russia,TRUE,M
+2,Manufacturing,2,Monaco,Russia,TRUE,M
+2,Finance & Investments,3,Colombia,Colombia,TRUE,M
+2,Logistics,3,United States,United States,TRUE,M
+2,Construction & Engineering,3,United Kingdom,United Kingdom,FALSE,M
+2,Energy,2,China,China,TRUE,M
+2,Finance & Investments,2,United Kingdom,Ireland,TRUE,M
+2,Healthcare,3,France,France,FALSE,M
+2,Energy,2,China,China,TRUE,M
+2,Manufacturing,3,Israel,Israel,TRUE,M
+2,Food & Beverage,2,Mexico,Mexico,FALSE,F
+2,Diversified,3,Sweden,Sweden,TRUE,M
+2,Service,3,Netherlands,Netherlands,TRUE,M
+2,Food & Beverage,2,China,China,TRUE,M
+2,Manufacturing,2,China,Hong Kong,TRUE,M
+2,Manufacturing,1,China,Hong Kong,TRUE,M
+2,Finance & Investments,2,Poland,Poland,TRUE,M
+2,Diversified,2,Nigeria,Nigeria,TRUE,M
+2,Finance & Investments,2,United States,United States,TRUE,M
+2,Fashion & Retail,3,Germany,Germany,FALSE,M
+2,Fashion & Retail,2,Germany,Germany,FALSE,M
+2,Energy,3,Hong Kong,Hong Kong,FALSE,M
+2,Telecom,2,,India,TRUE,M
+2,Technology,1,Hong Kong,Hong Kong,TRUE,F
+2,Metals & Mining,2,Russia,Russia,TRUE,M
+2,Real Estate,1,Austria,Austria,TRUE,M
+2,Real Estate,3,United States,United States,TRUE,M
+2,Fashion & Retail,2,Canada,Canada,TRUE,M
+2,Technology,2,United States,United States,TRUE,M
+2,Fashion & Retail,2,India,India,TRUE,M
+2,Diversified,3,Thailand,Thailand,FALSE,M
+2,Finance & Investments,3,Bahamas,United Kingdom,TRUE,M
+2,Finance & Investments,3,Israel,Australia,TRUE,M
+2,Finance & Investments,3,United States,United States,TRUE,M
+2,Technology,2,United States,United States,TRUE,M
+2,Fashion & Retail,3,United States,United States,TRUE,M
+2,Real Estate,2,China,China,TRUE,M
+2,Diversified,3,Thailand,Thailand,FALSE,M
+2,Finance & Investments,2,United States,Norway,TRUE,M
+2,Finance & Investments,2,United States,United States,TRUE,M
+2,Food & Beverage,2,China,Taiwan,FALSE,M
+2,Finance & Investments,2,United States,United States,TRUE,M
+2,Healthcare,3,Denmark,Denmark,FALSE,M
+2,Healthcare,2,United States,United States,TRUE,M
+2,Metals & Mining,2,Ukraine,Ukraine,TRUE,M
+2,Healthcare,3,United States,United States,TRUE,M
+2,Media & Entertainment,3,Cayman Islands,United Kingdom,TRUE,M
+2,Energy,3,Canada,Canada,FALSE,M
+2,Real Estate,2,Sweden,Sweden,FALSE,M
+2,Construction & Engineering,3,Switzerland,Switzerland,FALSE,M
+2,Logistics,3,Hong Kong,Austria,FALSE,M
+2,Finance & Investments,1,United States,United States,FALSE,M
+2,Finance & Investments,2,United States,United States,FALSE,M
+2,Finance & Investments,2,United States,United States,FALSE,M
+2,Logistics,1,Greece,Greece,FALSE,F
+2,Energy,3,United States,United States,FALSE,M
+2,Logistics,1,China,China,TRUE,M
+2,Automotive,3,India,India,FALSE,M
+2,Finance & Investments,3,United States,United States,TRUE,M
+2,Healthcare,2,China,United States,TRUE,M
+2,Finance & Investments,2,United States,United States,FALSE,F
+2,Service,2,United States,United States,FALSE,M
+2,Gambling & Casinos,1,Israel,Israel,TRUE,M
+2,Healthcare,2,South Korea,South Korea,TRUE,M
+2,Automotive,2,China,Hong Kong,TRUE,M
+2,Service,2,United States,United States,FALSE,M
+2,Media & Entertainment,2,United States,United States,FALSE,M
+2,Technology,2,Taiwan,Taiwan,TRUE,M
+2,Technology,1,United States,Ireland,TRUE,M
+2,Technology,1,United States,Ireland,TRUE,M
+2,Manufacturing,3,United States,United States,TRUE,M
+2,Automotive,3,Italy,Italy,FALSE,M
+2,Automotive,2,United States,United States,FALSE,M
+2,Diversified,3,Canada,Canada,FALSE,M
+2,Manufacturing,2,China,China,TRUE,M
+2,Healthcare,3,Germany,Germany,TRUE,M
+2,Finance & Investments,2,Germany,Germany,FALSE,M
+2,Manufacturing,2,United States,United States,TRUE,M
+2,Media & Entertainment,3,United States,United States,FALSE,F
+2,Finance & Investments,2,Hong Kong,Chile,TRUE,M
+2,Finance & Investments,3,United States,United States,TRUE,M
+2,Healthcare,3,Italy,Italy,TRUE,M
+2,Media & Entertainment,3,United States,United States,FALSE,F
+2,Technology,2,Australia,Australia,TRUE,M
+2,Diversified,2,China,China,TRUE,F
+2,Fashion & Retail,3,Italy,Italy,TRUE,M
+2,Manufacturing,3,India,India,FALSE,M
+2,Finance & Investments,1,United States,United States,FALSE,M
+2,Technology,2,Singapore,United States,TRUE,M
+2,Diversified,2,China,China,TRUE,M
+2,Manufacturing,3,Switzerland,Switzerland,TRUE,M
+2,Fashion & Retail,2,Italy,Italy,FALSE,F
+2,Fashion & Retail,2,Germany,Germany,FALSE,M
+2,Fashion & Retail,2,Germany,Germany,FALSE,M
+2,Fashion & Retail,2,Austria,Germany,FALSE,M
+2,Fashion & Retail,2,Austria,Germany,FALSE,F
+2,Finance & Investments,1,United States,United States,TRUE,M
+2,Real Estate,2,United States,United States,TRUE,M
+2,Manufacturing,2,Turkey,Turkey,TRUE,M
+2,Finance & Investments,2,United States,United States,FALSE,F
+2,Finance & Investments,2,United States,United States,TRUE,M
+2,Diversified,3,Indonesia,Indonesia,FALSE,M
+2,Finance & Investments,2,United States,United States,FALSE,M
+2,Food & Beverage,3,United States,United States,TRUE,F
+2,Food & Beverage,3,United States,United States,TRUE,M
+2,Service,3,United States,United States,FALSE,M
+2,Finance & Investments,2,United States,United States,TRUE,M
+2,Manufacturing,3,United States,United States,TRUE,M
+2,Food & Beverage,3,Germany,Germany,TRUE,M
+2,Fashion & Retail,2,United Arab Emirates,India,TRUE,M
+2,Finance & Investments,2,United States,Brazil,TRUE,M
+2,Food & Beverage,1,China,China,TRUE,F
+2,Real Estate,2,United States,United States,TRUE,M
+2,Fashion & Retail,2,China,China,TRUE,M
+2,Fashion & Retail,2,United Arab Emirates,India,FALSE,M
+2,Telecom,3,Malaysia,Malaysia,TRUE,M
+2,Technology,2,Taiwan,Taiwan,TRUE,M
+2,Food & Beverage,3,United States,United States,FALSE,M
+2,Gambling & Casinos,1,United Kingdom,Canada,TRUE,M
+2,Technology,2,United States,United States,TRUE,M
+2,Real Estate,3,United States,United States,TRUE,M
+2,Real Estate,3,United States,United States,TRUE,M
+2,Manufacturing,1,China,China,TRUE,M
+2,Finance & Investments,2,India,India,FALSE,F
+2,Finance & Investments,3,United States,United States,FALSE,M
+2,Media & Entertainment,1,South Korea,South Korea,TRUE,M
+2,Finance & Investments,2,United States,United States,TRUE,M
+2,Logistics,2,Norway,Norway,TRUE,M
+2,Finance & Investments,2,United States,United States,TRUE,M
+2,Healthcare,2,Hong Kong,China,TRUE,M
+2,Technology,3,United States,United States,TRUE,M
+2,Healthcare,3,United States,Switzerland,TRUE,M
+2,Sports,2,United States,United States,FALSE,F
+2,Finance & Investments,3,United States,United States,TRUE,M
+2,Energy,3,United States,United States,FALSE,M
+2,Healthcare,1,Switzerland,Switzerland,FALSE,F
+2,Finance & Investments,1,United Kingdom,United Kingdom,TRUE,M
+2,Technology,2,Switzerland,Switzerland,FALSE,M
+2,Telecom,2,United States,United States,TRUE,M
+2,Healthcare,1,Russia,Russia,TRUE,M
+2,Technology,2,South Korea,South Korea,TRUE,M
+2,Fashion & Retail,1,United States,United States,FALSE,F
+2,Fashion & Retail,3,France,France,FALSE,M
+2,Media & Entertainment,3,United States,United States,TRUE,M
+2,Sports,3,United States,United States,FALSE,F
+2,Healthcare,2,Germany,Germany,TRUE,M
+2,Real Estate,2,Germany,Germany,FALSE,F
+2,Healthcare,2,Switzerland,Switzerland,FALSE,M
+2,Food & Beverage,2,Turkey,Turkey,FALSE,M
+2,Fashion & Retail,2,Canada,Canada,TRUE,M
+2,Real Estate,1,China,China,FALSE,F
+2,Manufacturing,3,United States,United States,TRUE,M
+2,Healthcare,2,India,India,TRUE,M
+2,Technology,3,United States,United States,FALSE,F
+2,Technology,1,Argentina,Argentina,TRUE,M
+2,Service,3,United States,United States,TRUE,M
+2,Finance & Investments,1,United States,United States,TRUE,M
+2,Finance & Investments,2,Georgia,Georgia,TRUE,M
+2,Metals & Mining,3,Indonesia,Indonesia,TRUE,M
+2,Healthcare,3,Switzerland,Switzerland,TRUE,M
+2,Food & Beverage,3,Canada,Canada,FALSE,M
+2,Automotive,2,United States,United States,FALSE,M
+2,Sports,2,United States,United States,TRUE,M
+2,Diversified,2,Indonesia,Indonesia,TRUE,M
+2,Energy,2,United States,United States,TRUE,M
+2,Fashion & Retail,1,China,China,TRUE,M
+2,Fashion & Retail,2,United Kingdom,United Kingdom,TRUE,M
+2,Fashion & Retail,1,Poland,Poland,TRUE,M
+2,Healthcare,3,Germany,Germany,TRUE,M
+2,Fashion & Retail,2,United States,United States,FALSE,M
+2,Manufacturing,2,United States,United States,FALSE,M
+2,Manufacturing,2,United States,United States,FALSE,M
+2,Manufacturing,2,United States,United States,FALSE,F
+2,Technology,2,United States,United States,TRUE,M
+2,Technology,2,United States,United States,TRUE,F
+2,Manufacturing,2,United States,United States,FALSE,F
+2,Healthcare,2,India,India,FALSE,M
+2,Manufacturing,3,Hong Kong,Germany,TRUE,M
+2,Finance & Investments,2,China,China,TRUE,M
+2,Diversified,3,Portugal,Portugal,FALSE,F
+2,Sports,3,United States,United States,FALSE,F
+2,Technology,3,Taiwan,Singapore,TRUE,M
+2,Manufacturing,2,Turkey,Turkey,TRUE,M
+2,Finance & Investments,1,Brazil,Brazil,TRUE,M
+2,Real Estate,2,Canada,Canada,FALSE,M
+2,Technology,3,South Korea,South Korea,FALSE,F
+2,Manufacturing,1,China,China,TRUE,M
+2,Media & Entertainment,2,United States,United States,TRUE,M
+2,Diversified,3,China,China,TRUE,M
+2,Media & Entertainment,1,United States,United States,TRUE,M
+2,Food & Beverage,2,United States,United States,TRUE,M
+2,Media & Entertainment,2,United States,United States,TRUE,M
+2,Media & Entertainment,3,United States,United States,TRUE,M
+2,Technology,1,United States,United States,TRUE,M
+2,Energy,2,China,China,TRUE,F
+2,Metals & Mining,2,Kazakhstan,Kazakhstan,TRUE,M
+2,Finance & Investments,1,Taiwan,Taiwan,FALSE,M
+2,Fashion & Retail,3,United States,United States,FALSE,M
+2,Manufacturing,1,China,China,TRUE,M
+2,Media & Entertainment,1,Singapore,Singapore,TRUE,M
+2,Telecom,2,Hong Kong,Hong Kong,FALSE,M
+2,Fashion & Retail,2,United States,United States,FALSE,M
+2,Fashion & Retail,2,United States,United States,FALSE,M
+2,Fashion & Retail,2,United States,United States,FALSE,M
+2,Food & Beverage,3,Algeria,Algeria,TRUE,M
+2,Logistics,3,United States,United States,TRUE,M
+2,Finance & Investments,2,United States,United States,TRUE,M
+2,Manufacturing,1,Germany,Germany,FALSE,M
+2,Food & Beverage,1,United States,United States,TRUE,M
+2,Healthcare,2,China,China,TRUE,M
+2,Food & Beverage,1,Mexico,Mexico,FALSE,M
+2,Technology,3,Germany,Germany,TRUE,M
+2,Technology,2,China,China,TRUE,M
+2,Technology,1,United States,United States,TRUE,M
+2,Food & Beverage,3,Switzerland,Germany,FALSE,M
+2,Technology,3,India,India,TRUE,M
+2,Fashion & Retail,2,Norway,Norway,FALSE,M
+2,Finance & Investments,2,United States,United States,TRUE,M
+2,Real Estate,2,United Arab Emirates,United Arab Emirates,TRUE,M
+2,Finance & Investments,1,Brazil,Colombia,TRUE,M
+2,Manufacturing,2,China,China,TRUE,M
+2,Diversified,2,Taiwan,Taiwan,FALSE,M
+2,Manufacturing,2,China,China,TRUE,M
+2,Healthcare,1,United States,France,TRUE,M
+2,Technology,3,United States,United States,FALSE,F
+2,Manufacturing,3,United States,United States,TRUE,M
+2,Service,2,United States,United States,TRUE,M
+2,Construction & Engineering,2,Spain,Spain,FALSE,M
+2,Healthcare,3,Switzerland,Switzerland,TRUE,M
+2,Fashion & Retail,2,Germany,Germany,FALSE,M
+2,Real Estate,2,India,India,TRUE,M
+2,Sports,2,United States,United States,FALSE,M
+2,Finance & Investments,2,United States,United States,TRUE,M
+2,Manufacturing,2,China,China,TRUE,M
+2,Metals & Mining,1,Russia,Russia,TRUE,M
+2,Telecom,2,Switzerland,France,TRUE,M
+2,Finance & Investments,1,United States,United States,TRUE,M
+2,Finance & Investments,2,Spain,Venezuela,TRUE,M
+2,Finance & Investments,1,United States,United States,TRUE,M
+2,Healthcare,2,China,China,TRUE,M
+2,Logistics,3,United States,United States,TRUE,F
+2,Food & Beverage,3,United States,United States,TRUE,F
+2,Diversified,2,Canada,Canada,TRUE,M
+2,Metals & Mining,2,Russia,Russia,TRUE,M
+2,Finance & Investments,2,Kazakhstan,Kazakhstan,TRUE,M
+2,Finance & Investments,1,Kazakhstan,Kazakhstan,FALSE,F
+2,Real Estate,2,,United Kingdom,TRUE,M
+2,Real Estate,2,,United Kingdom,TRUE,M
+2,Food & Beverage,2,United States,United States,FALSE,F
+2,Real Estate,3,United States,United States,TRUE,M
+2,Diversified,1,Vietnam,Vietnam,TRUE,M
+2,Healthcare,2,United States,United States,FALSE,M
+2,Finance & Investments,2,Taiwan,Taiwan,FALSE,M
+2,Finance & Investments,2,Taiwan,Taiwan,FALSE,M
+2,Technology,1,China,China,TRUE,M
+2,Manufacturing,2,China,China,TRUE,M
+2,Technology,2,China,China,TRUE,M
+2,Finance & Investments,3,United States,United States,TRUE,M
+2,Service,2,Israel,Israel,FALSE,F
+2,Finance & Investments,2,Latvia,Russia,TRUE,M
+2,Real Estate,3,China,China,TRUE,F
+2,Real Estate,2,China,China,TRUE,M
+2,Finance & Investments,3,United States,United States,FALSE,M
+2,Finance & Investments,3,United States,United States,FALSE,M
+2,Energy,2,Indonesia,Indonesia,TRUE,F
+2,Technology,2,United States,United States,TRUE,M
+2,Finance & Investments,3,France,France,TRUE,M
+2,Technology,1,United States,United States,TRUE,M
+2,Technology,1,China,United States,TRUE,M
+2,Finance & Investments,2,China,China,TRUE,M
+2,Technology,2,United States,United States,TRUE,M
+2,Service,2,United States,United States,FALSE,F
+2,Automotive,2,United States,United States,FALSE,M
+2,Technology,2,United States,United States,TRUE,M
+2,Food & Beverage,1,United States,United States,FALSE,F
+2,Fashion & Retail,2,Indonesia,Indonesia,TRUE,M
+2,Diversified,2,Indonesia,Indonesia,TRUE,M
+2,Finance & Investments,1,United States,United States,TRUE,M
+2,Food & Beverage,2,Czech Republic,Czech Republic,TRUE,M
+2,Service,3,France,France,FALSE,F
+2,Media & Entertainment,3,Germany,Germany,FALSE,M
+2,Food & Beverage,3,United States,United States,TRUE,M
+2,Energy,2,United States,United States,TRUE,M
+2,Technology,2,United States,United States,TRUE,M
+2,Food & Beverage,1,Italy,Italy,FALSE,M
+2,Manufacturing,2,Finland,Finland,FALSE,M
+2,Manufacturing,1,China,China,TRUE,M
+2,Service,3,United States,United States,FALSE,M
+2,Fashion & Retail,2,Russia,Russia,TRUE,M
+2,Food & Beverage,2,United States,United States,FALSE,F
+2,Diversified,2,Brazil,Brazil,FALSE,M
+2,Finance & Investments,2,Brazil,Brazil,FALSE,M
+2,Sports,3,United States,United States,TRUE,M
+2,Manufacturing,2,Switzerland,Switzerland,TRUE,M
+2,Real Estate,3,United States,United States,TRUE,M
+2,Diversified,3,Australia,Australia,TRUE,M
+2,Technology,2,United States,United States,TRUE,M
+2,Healthcare,2,China,China,TRUE,M
+2,Energy,3,United States,United States,FALSE,M
+2,Technology,1,United States,United States,TRUE,M
+2,Food & Beverage,3,United States,United States,FALSE,F
+2,Diversified,2,China,China,TRUE,M
+2,Manufacturing,3,India,India,FALSE,F
+2,Sports,2,United States,United States,TRUE,M
+2,Technology,1,United States,United States,TRUE,M
+2,Manufacturing,2,Malaysia,Malaysia,TRUE,M
+2,Technology,1,United States,United States,TRUE,M
+2,Manufacturing,2,China,United States,TRUE,M
+2,Technology,1,Canada,Canada,TRUE,M
+2,Automotive,3,United States,United States,TRUE,F
+2,Telecom,2,India,India,FALSE,M
+2,Telecom,2,India,India,FALSE,M
+2,Media & Entertainment,3,United States,United States,TRUE,M
+2,Finance & Investments,3,United States,United States,FALSE,M
+2,Telecom,2,Italy,Israel,TRUE,M
+2,Media & Entertainment,3,United States,United States,TRUE,M
+2,Healthcare,3,Poland,Poland,TRUE,M
+2,Energy,2,Switzerland,Sweden,TRUE,M
+2,Metals & Mining,2,Mexico,Mexico,TRUE,M
+2,Diversified,2,China,China,TRUE,M
+2,Manufacturing,3,Germany,Germany,FALSE,M
+2,Food & Beverage,2,United States,United States,FALSE,M
+2,Food & Beverage,2,United States,United States,FALSE,M
+2,Finance & Investments,3,Thailand,Thailand,TRUE,M
+2,Finance & Investments,2,China,China,TRUE,M
+2,Automotive,3,South Korea,South Korea,FALSE,M
+2,Finance & Investments,2,Cayman Islands,Belize,FALSE,M
+2,Fashion & Retail,3,Italy,Italy,FALSE,M
+2,Healthcare,3,Germany,Germany,TRUE,M
+2,Energy,3,United States,United States,FALSE,M
+2,Sports,2,United States,United States,FALSE,M
+2,Diversified,1,Thailand,Thailand,FALSE,F
+2,Food & Beverage,2,United States,United States,FALSE,F
+2,Healthcare,3,Brazil,Brazil,TRUE,M
+2,Diversified,3,Brazil,Brazil,FALSE,M
+2,Diversified,2,Brazil,Brazil,FALSE,M
+2,Gambling & Casinos,2,United States,United States,TRUE,M
+2,Fashion & Retail,2,Germany,Germany,FALSE,M
+2,Fashion & Retail,1,Germany,Germany,FALSE,M
+2,Fashion & Retail,1,Germany,Germany,FALSE,F
+2,Manufacturing,2,China,China,TRUE,M
+2,Finance & Investments,2,United States,United States,TRUE,M
+2,Finance & Investments,2,Taiwan,Taiwan,FALSE,M
+2,Food & Beverage,3,India,India,FALSE,M
+2,Healthcare,2,China,China,TRUE,M
+2,Manufacturing,2,China,China,TRUE,M
+2,Healthcare,2,China,China,TRUE,M
+2,Service,2,India,India,FALSE,M
+2,Construction & Engineering,3,Italy,Italy,TRUE,M
+2,Media & Entertainment,3,United States,United States,TRUE,M
+2,Finance & Investments,2,United States,United States,TRUE,M
+2,Finance & Investments,2,United States,United States,TRUE,M
+2,Service,2,United States,United States,TRUE,M
+2,Food & Beverage,2,United States,United States,TRUE,M
+2,Media & Entertainment,3,United States,United States,FALSE,F
+2,Automotive,1,China,China,TRUE,M
+2,Real Estate,2,United States,United States,FALSE,M
+2,Real Estate,3,India,India,FALSE,M
+2,Energy,2,United States,United States,TRUE,M
+2,Telecom,2,Japan,Japan,TRUE,M
+2,Healthcare,1,China,China,TRUE,M
+2,Finance & Investments,2,Taiwan,Taiwan,FALSE,M
+2,Service,3,United States,United States,TRUE,M
+2,Manufacturing,3,United States,United States,TRUE,F
+2,Manufacturing,3,United States,United States,TRUE,M
+2,Finance & Investments,1,United States,United States,TRUE,M
+2,Finance & Investments,3,United States,United States,TRUE,M
+2,Real Estate,2,United States,United States,FALSE,M
+2,Real Estate,2,United Kingdom,Cyprus,TRUE,M
+2,Technology,2,China,China,TRUE,M
+2,Logistics,2,United States,United States,TRUE,M
+2,Real Estate,2,China,China,TRUE,M
+2,Media & Entertainment,1,China,Singapore,TRUE,M
+2,Technology,2,United States,United States,TRUE,M
+2,Real Estate,3,United States,United States,FALSE,M
+2,Finance & Investments,1,Kazakhstan,Georgia,TRUE,M
+2,Fashion & Retail,2,United Kingdom,United Kingdom,TRUE,M
+2,Manufacturing,3,Japan,Japan,TRUE,M
+2,Finance & Investments,2,United States,United States,TRUE,M
+2,Fashion & Retail,3,Chile,Chile,TRUE,M
+2,Service,2,United States,United States,FALSE,M
+2,Technology,3,United States,United States,TRUE,M
+2,Food & Beverage,2,United States,United States,TRUE,M
+2,Fashion & Retail,3,United States,United States,TRUE,M
+2,Real Estate,2,Israel,Israel,TRUE,M
+2,Manufacturing,2,China,China,TRUE,M
+2,Diversified,2,India,India,FALSE,M
+2,Diversified,1,India,India,FALSE,M
+2,Finance & Investments,2,Italy,Canada,TRUE,M
+2,Finance & Investments,2,United States,United States,TRUE,M
+2,Automotive,1,Switzerland,Belgium,FALSE,M
+2,Food & Beverage,3,Bermuda,Colombia,FALSE,F
+2,Real Estate,3,Canada,Canada,TRUE,M
+2,Finance & Investments,2,United Kingdom,Colombia,FALSE,M
+2,Gambling & Casinos,2,Hong Kong,Hong Kong,FALSE,F
+2,Finance & Investments,2,Switzerland,United Kingdom,TRUE,M
+2,Automotive,2,China,Hong Kong,TRUE,M
+2,Finance & Investments,3,United States,United States,FALSE,M
+2,Finance & Investments,1,Kazakhstan,Kazakhstan,TRUE,M
+2,Finance & Investments,1,United States,United States,TRUE,M
+2,Real Estate,3,Hong Kong,Hong Kong,FALSE,M
+2,Real Estate,2,Hong Kong,Hong Kong,TRUE,M
+2,Finance & Investments,2,United States,United States,TRUE,M
+2,Diversified,3,United Kingdom,Egypt,TRUE,M
+2,Fashion & Retail,2,Japan,Japan,TRUE,M
+2,Technology,3,Japan,Japan,TRUE,M
+2,Technology,1,Australia,Australia,TRUE,M
+2,Technology,1,Australia,Australia,TRUE,F
+2,Finance & Investments,2,United States,United States,FALSE,M
+2,Fashion & Retail,2,Spain,Spain,FALSE,M
+2,Real Estate,3,United States,United States,TRUE,M
+2,Fashion & Retail,2,Switzerland,Canada,TRUE,M
+2,Logistics,3,Hong Kong,Hong Kong,FALSE,M
+2,Food & Beverage,2,China,China,TRUE,M
+2,Automotive,2,China,China,TRUE,M
+2,Technology,2,China,China,TRUE,F
+2,Manufacturing,1,China,China,TRUE,M
+1,Fashion & Retail,1,United States,Italy,FALSE,M
+1,Healthcare,2,Brazil,Brazil,FALSE,M
+1,Finance & Investments,2,China,China,TRUE,M
+1,Manufacturing,3,Italy,Italy,TRUE,M
+1,Finance & Investments,3,United States,United States,TRUE,M
+1,Fashion & Retail,2,United States,Italy,FALSE,M
+1,Fashion & Retail,1,Italy,Italy,FALSE,M
+1,Fashion & Retail,1,Italy,Italy,FALSE,M
+1,Fashion & Retail,1,Italy,Italy,FALSE,M
+1,Fashion & Retail,2,Italy,Italy,FALSE,F
+1,Fashion & Retail,2,Luxembourg,Italy,FALSE,F
+1,Finance & Investments,2,Germany,Germany,TRUE,M
+1,Fashion & Retail,2,China,China,TRUE,F
+1,Technology,2,United States,United States,TRUE,M
+1,Energy,2,Russia,Russia,TRUE,M
+1,Manufacturing,3,Hong Kong,Hong Kong,TRUE,M
+1,Food & Beverage,1,China,China,TRUE,M
+1,Finance & Investments,2,United States,United States,TRUE,M
+1,Food & Beverage,2,Switzerland,Switzerland,FALSE,F
+1,Healthcare,3,Thailand,Thailand,TRUE,M
+1,Finance & Investments,3,United States,United States,TRUE,M
+1,Fashion & Retail,3,Germany,Germany,TRUE,M
+1,Construction & Engineering,2,Russia,Russia,TRUE,M
+1,Fashion & Retail,2,Italy,Italy,TRUE,M
+1,Healthcare,1,Germany,Germany,FALSE,F
+1,Automotive,2,India,Australia,TRUE,M
+1,Finance & Investments,1,United States,United States,TRUE,M
+1,Technology,2,United States,United States,TRUE,M
+1,Manufacturing,3,Netherlands,Netherlands,FALSE,M
+1,Diversified,2,China,China,TRUE,M
+1,Technology,1,United States,United States,TRUE,M
+1,Logistics,2,China,China,TRUE,M
+1,Fashion & Retail,2,Monaco,Italy,FALSE,F
+1,Manufacturing,2,Canada,Canada,FALSE,M
+1,Finance & Investments,2,United States,United States,TRUE,M
+1,Energy,1,Thailand,Thailand,TRUE,M
+1,Metals & Mining,1,Russia,Russia,TRUE,M
+1,Food & Beverage,2,Philippines,Philippines,TRUE,M
+1,Food & Beverage,1,India,India,TRUE,M
+1,Manufacturing,1,Switzerland,Switzerland,FALSE,M
+1,Diversified,2,British Virgin Islands,United Kingdom,TRUE,M
+1,Finance & Investments,2,South Korea,South Korea,FALSE,M
+1,Food & Beverage,2,Italy,Italy,FALSE,F
+1,Fashion & Retail,3,Switzerland,United Kingdom,TRUE,M
+1,Media & Entertainment,3,United States,United States,TRUE,M
+1,Sports,3,United States,United States,FALSE,M
+1,Finance & Investments,2,United States,United States,TRUE,M
+1,Fashion & Retail,2,United States,United States,FALSE,M
+1,Food & Beverage,2,United States,United States,FALSE,M
+1,Fashion & Retail,2,Japan,Japan,TRUE,M
+1,Technology,2,United States,United States,TRUE,M
+1,Finance & Investments,3,United States,United States,TRUE,M
+1,Real Estate,3,United States,United States,TRUE,M
+1,Healthcare,2,India,India,FALSE,F
+1,Media & Entertainment,2,Germany,Germany,FALSE,M
+1,Food & Beverage,3,Switzerland,Switzerland,FALSE,M
+1,Healthcare,1,China,China,TRUE,M
+1,Technology,1,China,China,TRUE,M
+1,Technology,1,United States,United States,TRUE,M
+1,Media & Entertainment,3,United States,United States,TRUE,M
+1,Construction & Engineering,3,France,France,TRUE,M
+1,Finance & Investments,1,United States,United States,TRUE,M
+1,Manufacturing,3,United States,United States,TRUE,M
+1,Manufacturing,2,China,China,TRUE,M
+1,Food & Beverage,3,United States,United States,FALSE,M
+1,Food & Beverage,2,Brazil,Brazil,TRUE,M
+1,Automotive,3,Switzerland,Switzerland,FALSE,M
+1,Technology,1,China,China,TRUE,M
+1,Real Estate,3,Australia,Australia,FALSE,M
+1,Construction & Engineering,2,Canada,Canada,TRUE,M
+1,Diversified,3,Singapore,Singapore,FALSE,M
+1,Finance & Investments,2,United States,United States,TRUE,M
+1,Media & Entertainment,3,Israel,Israel,TRUE,M
+1,Fashion & Retail,3,Japan,Japan,TRUE,M
+1,Metals & Mining,3,Chile,Chile,TRUE,M
+1,Finance & Investments,3,United States,United States,TRUE,M
+1,Diversified,3,United States,United States,TRUE,M
+1,Telecom,2,Egypt,Egypt,FALSE,M
+1,Finance & Investments,1,China,Hong Kong,TRUE,M
+1,Technology,1,Israel,Israel,TRUE,M
+1,Finance & Investments,2,Canada,Canada,TRUE,M
+1,Finance & Investments,1,United Kingdom,United Kingdom,TRUE,M
+1,Finance & Investments,1,United States,United States,TRUE,M
+1,Finance & Investments,2,United States,United States,TRUE,M
+1,Manufacturing,2,United States,United States,FALSE,M
+1,Manufacturing,1,China,China,TRUE,M
+1,Fashion & Retail,2,Singapore,Japan,TRUE,M
+1,Food & Beverage,1,,Mexico,FALSE,F
+1,Fashion & Retail,3,Italy,Italy,TRUE,F
+1,Fashion & Retail,3,Italy,Italy,TRUE,M
+1,Manufacturing,3,India,India,FALSE,M
+1,Finance & Investments,2,United Kingdom,United States,TRUE,M
+1,Manufacturing,2,China,China,TRUE,M
+1,Fashion & Retail,2,Italy,Italy,TRUE,M
+1,Manufacturing,3,Mexico,Mexico,TRUE,M
+1,Healthcare,3,Italy,Italy,TRUE,M
+1,Automotive,1,China,China,TRUE,M
+1,Media & Entertainment,2,United States,United States,TRUE,M
+1,Technology,2,United States,United States,TRUE,M
+1,Logistics,3,Australia,Australia,TRUE,M
+1,Fashion & Retail,1,Russia,Russia,TRUE,M
+1,Technology,2,India,India,TRUE,M
+1,Fashion & Retail,2,Brazil,Brazil,TRUE,M
+1,Finance & Investments,2,United Kingdom,Australia,TRUE,M
+1,Healthcare,2,China,China,TRUE,M
+1,Finance & Investments,2,United States,United States,TRUE,M
+1,Technology,1,South Korea,South Korea,FALSE,F
+1,Manufacturing,1,China,China,TRUE,M
+1,Manufacturing,1,China,China,TRUE,M
+1,Healthcare,2,India,India,FALSE,M
+1,Healthcare,2,India,India,FALSE,M
+1,Metals & Mining,2,Switzerland,Greece,TRUE,M
+1,Real Estate,2,United States,United States,FALSE,M
+1,Automotive,3,United States,United States,TRUE,M
+1,Construction & Engineering,2,United Arab Emirates,India,TRUE,M
+1,Finance & Investments,2,United States,United States,TRUE,M
+1,Food & Beverage,2,United States,United Kingdom,TRUE,M
+1,Service,2,Germany,Germany,TRUE,M
+1,Energy,3,United States,United States,FALSE,F
+1,Manufacturing,3,Italy,Italy,FALSE,F
+1,Fashion & Retail,2,China,China,TRUE,M
+1,Finance & Investments,2,United States,United States,FALSE,M
+1,Healthcare,2,United States,United States,FALSE,F
+1,Logistics,1,Russia,Russia,TRUE,M
+1,Technology,1,Germany,Germany,FALSE,M
+1,Technology,1,Germany,Germany,FALSE,M
+1,Finance & Investments,2,United States,United States,TRUE,M
+1,Food & Beverage,2,China,China,TRUE,M
+1,Gambling & Casinos,3,United States,United States,TRUE,M
+1,Gambling & Casinos,2,United States,United States,TRUE,M
+1,Manufacturing,3,China,China,TRUE,M
+1,Manufacturing,3,China,Hong Kong,TRUE,M
+1,Gambling & Casinos,1,United Kingdom,United Kingdom,TRUE,M
+1,Finance & Investments,1,United States,Canada,TRUE,M
+1,Food & Beverage,1,China,China,TRUE,M
+1,Manufacturing,2,India,India,TRUE,M
+1,Manufacturing,3,India,India,TRUE,M
+1,Finance & Investments,3,Switzerland,Switzerland,TRUE,M
+1,Manufacturing,3,France,France,TRUE,M
+1,Real Estate,1,Russia,Russia,TRUE,M
+1,Media & Entertainment,1,United States,United States,TRUE,M
+1,Technology,2,United States,United States,TRUE,M
+1,Service,3,Switzerland,Sweden,TRUE,M
+1,Fashion & Retail,2,Brazil,Brazil,TRUE,M
+1,Manufacturing,2,Singapore,Singapore,FALSE,M
+1,Fashion & Retail,1,United States,United States,FALSE,F
+1,Food & Beverage,3,United States,United States,TRUE,M
+1,Manufacturing,2,Hong Kong,China,TRUE,M
+1,Manufacturing,2,Russia,Russia,TRUE,M
+1,Metals & Mining,2,Switzerland,Spain,TRUE,M
+1,Fashion & Retail,1,India,India,TRUE,M
+1,Diversified,2,Monaco,United Kingdom,TRUE,M
+1,Finance & Investments,2,United States,United States,TRUE,M
+1,Real Estate,2,Hong Kong,Hong Kong,TRUE,M
+1,Real Estate,2,United States,Germany,FALSE,F
+1,Finance & Investments,1,Switzerland,Russia,TRUE,M
+1,Finance & Investments,2,United States,United States,FALSE,F
+1,Diversified,3,Indonesia,Indonesia,FALSE,M
+1,Fashion & Retail,2,Italy,Italy,TRUE,M
+1,Media & Entertainment,3,Germany,Germany,FALSE,F
+1,Real Estate,2,Hong Kong,Hong Kong,TRUE,F
+1,Finance & Investments,1,Kazakhstan,Kazakhstan,TRUE,M
+1,Fashion & Retail,2,United States,United States,TRUE,M
+1,Media & Entertainment,1,South Korea,South Korea,TRUE,F
+1,Diversified,1,United Arab Emirates,United Arab Emirates,FALSE,M
+1,Diversified,3,Turkey,Turkey,FALSE,F
+1,Real Estate,2,United States,United States,FALSE,M
+1,Energy,3,United States,United States,TRUE,M
+1,Automotive,3,United States,United States,TRUE,M
+1,Technology,2,Switzerland,Switzerland,FALSE,F
+1,Healthcare,2,China,China,TRUE,M
+1,Food & Beverage,3,France,France,FALSE,M
+1,Real Estate,1,Hong Kong,Hong Kong,FALSE,F
+1,Fashion & Retail,2,United States,United States,TRUE,M
+1,Real Estate,2,China,China,TRUE,M
+1,Finance & Investments,2,United States,United States,TRUE,M
+1,Fashion & Retail,3,Canada,Canada,TRUE,M
+1,Automotive,3,,Belgium,FALSE,F
+1,Real Estate,3,United States,United States,FALSE,M
+1,Finance & Investments,2,United States,United States,TRUE,M
+1,Metals & Mining,2,China,China,TRUE,M
+1,Automotive,2,United States,United States,TRUE,M
+1,Food & Beverage,3,Singapore,Singapore,TRUE,M
+1,Diversified,3,Mexico,Mexico,FALSE,M
+1,Manufacturing,2,Italy,Italy,FALSE,F
+1,Real Estate,2,China,China,TRUE,M
+1,Manufacturing,2,India,India,FALSE,M
+1,Fashion & Retail,2,Germany,Germany,TRUE,M
+1,Healthcare,1,Switzerland,Russia,TRUE,M
+1,Fashion & Retail,2,Taiwan,Taiwan,TRUE,M
+1,Technology,2,China,China,TRUE,M
+1,Food & Beverage,2,India,India,FALSE,M
+1,Healthcare,2,France,France,TRUE,M
+1,Healthcare,2,Switzerland,Switzerland,FALSE,F
+1,Finance & Investments,2,United States,United States,TRUE,M
+1,Healthcare,2,India,India,FALSE,M
+1,Fashion & Retail,2,China,China,TRUE,M
+1,Fashion & Retail,3,United Kingdom,United Kingdom,FALSE,M
+1,Food & Beverage,2,United States,United States,FALSE,M
+1,Real Estate,1,Sweden,Sweden,TRUE,M
+1,Food & Beverage,1,China,China,TRUE,M
+1,Manufacturing,2,Singapore,Indonesia,TRUE,M
+1,Diversified,2,China,China,TRUE,M
+1,Diversified,2,Singapore,Indonesia,TRUE,M
+1,Service,2,United Arab Emirates,India,FALSE,M
+1,Media & Entertainment,1,Singapore,Singapore,TRUE,M
+1,Healthcare,2,China,China,TRUE,M
+1,Finance & Investments,1,Hong Kong,China,TRUE,M
+1,Manufacturing,2,China,China,TRUE,M
+1,Fashion & Retail,2,Spain,Spain,TRUE,M
+1,Automotive,3,Italy,Italy,FALSE,M
+1,Healthcare,2,China,China,TRUE,M
+1,Real Estate,2,United States,United States,TRUE,M
+1,Telecom,2,United Kingdom,United Kingdom,TRUE,M
+1,Technology,3,United States,United States,TRUE,M
+1,Fashion & Retail,2,Canada,Canada,TRUE,M
+1,Fashion & Retail,3,United States,United States,TRUE,M
+1,Sports,3,United Kingdom,United Kingdom,TRUE,M
+1,Technology,3,Israel,Israel,TRUE,M
+1,Media & Entertainment,2,United States,United States,FALSE,M
+1,Manufacturing,2,China,China,TRUE,M
+1,Construction & Engineering,3,Switzerland,Germany,FALSE,M
+1,Healthcare,2,Germany,Germany,FALSE,F
+1,Real Estate,2,United States,United States,TRUE,M
+1,Real Estate,2,Russia,Russia,TRUE,M
+1,Diversified,1,Turkey,Turkey,FALSE,F
+1,Technology,1,South Korea,South Korea,FALSE,F
+1,Healthcare,2,China,Hong Kong,TRUE,M
+1,Healthcare,2,China,China,TRUE,M
+1,Manufacturing,2,China,China,TRUE,M
+1,Manufacturing,1,China,China,TRUE,M
+1,Technology,1,Sweden,Sweden,TRUE,M
+1,Energy,3,Hong Kong,Hong Kong,FALSE,M
+1,Fashion & Retail,3,Germany,Germany,TRUE,M
+1,Technology,3,Germany,Germany,TRUE,M
+1,Real Estate,1,Russia,Russia,TRUE,M
+1,Real Estate,1,India,India,FALSE,M
+1,Energy,3,Argentina,Argentina,TRUE,M
+1,Finance & Investments,2,Chile,Chile,TRUE,M
+1,Automotive,2,India,India,FALSE,M
+1,Healthcare,1,Russia,Russia,TRUE,M
+1,Media & Entertainment,3,United States,United States,TRUE,M
+1,Food & Beverage,2,United States,United States,TRUE,M
+1,Finance & Investments,1,United States,India,TRUE,M
+1,Healthcare,3,Germany,Germany,FALSE,F
+1,Finance & Investments,1,United States,United States,TRUE,M
+1,Food & Beverage,2,United States,United States,FALSE,M
+1,Fashion & Retail,2,China,China,TRUE,M
+1,Fashion & Retail,2,China,China,TRUE,M
+1,Fashion & Retail,2,India,India,FALSE,M
+1,Healthcare,2,China,China,TRUE,M
+1,Technology,1,United States,Canada,TRUE,M
+1,Gambling & Casinos,3,Cambodia,Malaysia,TRUE,M
+1,Real Estate,2,Singapore,Singapore,TRUE,M
+1,Automotive,1,South Korea,South Korea,FALSE,M
+1,Diversified,2,India,India,FALSE,F
+1,Fashion & Retail,3,United States,United States,FALSE,F
+1,Manufacturing,1,China,China,TRUE,M
+1,Sports,1,United States,United States,FALSE,M
+1,Technology,1,Germany,Germany,FALSE,M
+1,Diversified,3,India,India,FALSE,M
+1,Diversified,2,India,India,FALSE,M
+1,Real Estate,2,Malaysia,Malaysia,FALSE,M
+1,Manufacturing,2,China,China,TRUE,M
+1,Manufacturing,1,Russia,Russia,TRUE,M
+1,Fashion & Retail,3,United States,United States,FALSE,M
+1,Telecom,2,Lebanon,Lebanon,TRUE,M
+1,Telecom,3,Lebanon,Lebanon,TRUE,M
+1,Real Estate,3,Japan,Japan,FALSE,M
+1,Diversified,2,India,India,FALSE,M
+1,Diversified,2,France,Greece,FALSE,M
+1,Technology,2,India,India,TRUE,M
+1,Fashion & Retail,1,Germany,Germany,FALSE,M
+1,Diversified,1,Germany,Germany,FALSE,F
+1,Service,1,India,India,FALSE,M
+1,Manufacturing,3,India,India,FALSE,M
+1,Technology,1,United States,United States,TRUE,M
+1,Healthcare,3,United States,United States,FALSE,M
+1,Media & Entertainment,1,China,China,TRUE,M
+1,Manufacturing,2,China,China,TRUE,M
+1,Manufacturing,2,Taiwan,Taiwan,FALSE,M
+1,Logistics,3,Hong Kong,Hong Kong,FALSE,M
+1,Technology,2,United States,United States,TRUE,F
+1,Manufacturing,2,Hong Kong,China,TRUE,M
+1,Healthcare,3,Hong Kong,Hong Kong,TRUE,M
+1,Manufacturing,2,China,China,TRUE,M
+1,Finance & Investments,3,Brazil,Brazil,FALSE,M
+1,Finance & Investments,3,Spain,Spain,FALSE,M
+1,Diversified,3,Oman,Oman,TRUE,M
+1,Diversified,2,India,India,FALSE,M
+1,Diversified,2,India,India,FALSE,M
+1,Diversified,2,India,India,FALSE,M
+1,Finance & Investments,2,Hong Kong,India,TRUE,M
+1,Healthcare,1,Germany,Germany,FALSE,F
+1,Healthcare,2,United Kingdom,France,FALSE,F
+1,Healthcare,2,United Kingdom,France,FALSE,M
+1,Manufacturing,2,Russia,Russia,TRUE,M
+1,Food & Beverage,3,Australia,Australia,TRUE,M
+1,Finance & Investments,2,United States,United States,TRUE,M
+1,Energy,2,United Kingdom,Canada,TRUE,M
+1,Sports,2,United States,United States,FALSE,M
+1,Automotive,3,India,India,FALSE,M
+1,Finance & Investments,2,United Kingdom,Canada,TRUE,M
+1,Service,3,Spain,Spain,FALSE,M
+1,Metals & Mining,2,Singapore,United States,TRUE,M
+1,Metals & Mining,2,Russia,Russia,TRUE,M
+1,Diversified,2,India,India,FALSE,M
+1,Service,2,United States,United States,FALSE,F
+1,Finance & Investments,1,India,India,TRUE,M
+1,Construction & Engineering,2,Russia,Russia,TRUE,M
+1,Real Estate,2,Hong Kong,China,TRUE,M
+1,Diversified,3,Turkey,Turkey,FALSE,M
+1,Finance & Investments,2,Russia,Russia,TRUE,M
+1,Real Estate,1,Hong Kong,Hong Kong,FALSE,M
+1,Real Estate,1,Hong Kong,Hong Kong,FALSE,M
+1,Manufacturing,2,Germany,Germany,TRUE,M
+1,Manufacturing,2,United States,United States,FALSE,M
+1,Real Estate,3,United Kingdom,United Kingdom,TRUE,F
+1,Real Estate,2,Hong Kong,Hong Kong,FALSE,F
+1,Technology,2,China,China,TRUE,M
+1,Food & Beverage,1,China,China,TRUE,M
+1,Sports,3,United States,United States,TRUE,M
+1,Metals & Mining,2,South Africa,South Africa,TRUE,M
+1,Telecom,2,Ireland,Ireland,TRUE,M
+1,Food & Beverage,1,,Germany,FALSE,M
+1,Diversified,3,Sweden,Sweden,FALSE,M
+1,Technology,2,Japan,Japan,FALSE,M
+1,Fashion & Retail,2,Hong Kong,Canada,TRUE,F
+1,Diversified,3,India,India,TRUE,M
+1,Real Estate,3,United States,United States,TRUE,M
+1,Metals & Mining,3,,Italy,FALSE,M
+1,Metals & Mining,2,,Italy,FALSE,M
+1,Healthcare,1,United States,United States,TRUE,M
+1,Technology,2,United States,United States,TRUE,M
+1,Technology,2,United States,United States,TRUE,M
+1,Media & Entertainment,1,,Germany,FALSE,F
+1,Manufacturing,3,India,India,FALSE,M
+1,Logistics,1,Russia,Russia,TRUE,M
+1,Technology,1,United States,United States,TRUE,M
+1,Service,3,United States,United States,TRUE,M
+1,Media & Entertainment,1,United States,United States,TRUE,M
+1,Metals & Mining,2,Kazakhstan,Kazakhstan,TRUE,M
+1,Food & Beverage,1,Norway,Norway,FALSE,M
+1,Manufacturing,2,Hong Kong,Hong Kong,TRUE,M
+1,Healthcare,2,China,China,TRUE,M
+1,Healthcare,2,China,China,TRUE,M
+1,Real Estate,1,United States,United States,TRUE,M
+1,Finance & Investments,1,United States,United States,TRUE,M
+1,Finance & Investments,2,United States,United States,TRUE,M
+1,Media & Entertainment,2,United States,United States,TRUE,M
+1,Food & Beverage,1,Brazil,Brazil,FALSE,M
+1,Food & Beverage,1,Brazil,Brazil,FALSE,M
+1,Media & Entertainment,1,Germany,Germany,FALSE,F
+1,Manufacturing,1,Switzerland,Switzerland,FALSE,F
+1,Healthcare,2,China,China,TRUE,M
+1,Finance & Investments,2,Singapore,New Zealand,FALSE,M
+1,Manufacturing,1,China,China,TRUE,M
+1,Service,2,Mexico,Mexico,TRUE,M
+1,Energy,3,United States,United States,TRUE,M
+1,Construction & Engineering,2,Spain,Spain,FALSE,F
+1,Manufacturing,1,China,China,TRUE,M
+1,Food & Beverage,3,Ireland,Ireland,FALSE,M
+1,Diversified,2,Sweden,Sweden,FALSE,M
+1,Diversified,1,Sweden,Sweden,FALSE,M
+1,Manufacturing,2,Australia,Australia,FALSE,F
+1,Finance & Investments,3,United States,United States,TRUE,M
+1,Healthcare,2,China,China,TRUE,M
+1,Construction & Engineering,3,China,China,TRUE,M
+1,Service,1,Russia,Russia,TRUE,M
+1,Finance & Investments,2,Spain,Spain,FALSE,F
+1,Real Estate,1,Hong Kong,Hong Kong,FALSE,M
+1,Finance & Investments,3,United States,United States,TRUE,M
+1,Food & Beverage,3,France,France,TRUE,M
+1,Technology,2,Canada,Canada,TRUE,M
+1,Automotive,2,China,China,TRUE,M
+1,Service,1,China,China,TRUE,M
+1,Finance & Investments,2,Singapore,Singapore,TRUE,M
+1,Diversified,1,China,China,FALSE,M
+1,Service,3,Switzerland,Switzerland,TRUE,M
+1,Finance & Investments,3,Netherlands,Netherlands,TRUE,M
+1,Food & Beverage,3,United States,United States,TRUE,M
+1,Manufacturing,2,Germany,Germany,FALSE,M
+1,Fashion & Retail,2,India,India,TRUE,F
+1,Finance & Investments,1,United States,Australia,FALSE,M
+1,Logistics,2,Russia,Russia,TRUE,M
+1,Finance & Investments,3,United States,United States,FALSE,M
+1,Food & Beverage,1,United States,United States,FALSE,M
+1,Technology,2,United States,United States,TRUE,M
+1,Automotive,3,Germany,Germany,FALSE,F
+1,Healthcare,2,United States,United States,TRUE,M
+1,Manufacturing,3,Germany,Germany,FALSE,M
+1,Energy,2,United States,United States,TRUE,M
+1,Manufacturing,1,Germany,Germany,FALSE,F
+1,Food & Beverage,2,United States,United States,FALSE,M
+1,Manufacturing,1,Germany,Germany,FALSE,F
+1,Construction & Engineering,2,,Germany,FALSE,M
+1,Construction & Engineering,1,,Germany,FALSE,M
+1,Technology,2,China,China,TRUE,M
+1,Technology,1,China,China,TRUE,M
+1,Food & Beverage,3,United States,United States,TRUE,M
+1,Fashion & Retail,2,United States,United States,FALSE,M
+1,Fashion & Retail,3,United States,United States,FALSE,F
+1,Fashion & Retail,3,United States,United States,FALSE,M
+1,Construction & Engineering,2,United States,United States,FALSE,M
+1,Diversified,2,United Kingdom,Iceland,TRUE,M
+1,Food & Beverage,3,United States,Canada,FALSE,M
+1,Food & Beverage,3,India,India,FALSE,M
+1,Automotive,3,United States,United States,TRUE,M
+1,Media & Entertainment,1,China,China,TRUE,M
+1,Food & Beverage,3,United States,United States,TRUE,M
+1,Food & Beverage,3,United States,United States,TRUE,F
+1,Finance & Investments,3,United States,United States,TRUE,M
+1,Manufacturing,3,India,India,FALSE,M
+1,Food & Beverage,2,United States,United States,FALSE,M
+1,Metals & Mining,1,Russia,Russia,TRUE,M
+1,Technology,2,Cyprus,Cyprus,TRUE,M
+1,Finance & Investments,2,United States,United States,TRUE,M
+1,Manufacturing,2,India,India,TRUE,M
+1,Energy,2,Brazil,Brazil,TRUE,M
+1,Technology,2,Canada,Canada,TRUE,M
+1,Finance & Investments,2,United States,United States,TRUE,M
+1,Fashion & Retail,2,United States,United States,FALSE,M
+1,Finance & Investments,2,United States,United States,TRUE,M
+1,Media & Entertainment,1,United States,United States,TRUE,M
+1,Automotive,2,India,India,FALSE,M
+1,Energy,2,Turkey,Turkey,FALSE,M
+1,Real Estate,2,United States,United States,TRUE,M
+1,Construction & Engineering,2,Austria,Austria,TRUE,M
+1,Manufacturing,2,China,China,TRUE,M
+1,Real Estate,3,Taiwan,Taiwan,TRUE,M
+1,Fashion & Retail,1,China,China,TRUE,F
+1,Food & Beverage,3,Thailand,Thailand,FALSE,M
+1,Healthcare,3,Switzerland,Switzerland,TRUE,M
+1,Automotive,3,India,India,FALSE,M
+1,Technology,1,United States,United States,TRUE,M
+1,Real Estate,1,Spain,Spain,TRUE,M
+1,Manufacturing,2,United States,United States,TRUE,F
+1,Finance & Investments,2,United States,United States,FALSE,M
+1,Technology,3,China,China,TRUE,F
+1,Diversified,2,Turkey,Turkey,FALSE,M
+1,Metals & Mining,3,China,China,TRUE,M
+1,Diversified,2,China,China,TRUE,M
+1,Real Estate,2,United States,United States,TRUE,M
+1,Diversified,2,Philippines,Philippines,FALSE,M
+1,Diversified,2,Philippines,Philippines,TRUE,M
+1,Energy,1,Singapore,India,TRUE,M
+1,Finance & Investments,2,United States,United States,TRUE,M
+1,Real Estate,3,United States,United States,FALSE,M
+1,Automotive,3,Germany,Germany,TRUE,M
+1,Fashion & Retail,2,China,United States,TRUE,M
+1,Media & Entertainment,2,United States,United States,TRUE,F
+1,Food & Beverage,3,China,China,TRUE,M
+1,Metals & Mining,2,Singapore,Taiwan,TRUE,M
+1,Fashion & Retail,1,China,China,TRUE,M
+1,Technology,1,United States,United States,TRUE,M
+1,Automotive,3,United Arab Emirates,United Arab Emirates,FALSE,M
+1,Energy,3,United States,United States,FALSE,M
+1,Media & Entertainment,2,South Africa,South Africa,TRUE,M
+1,Healthcare,1,Germany,Germany,FALSE,M
+1,Fashion & Retail,2,United States,Taiwan,TRUE,M
+1,Fashion & Retail,3,Brazil,Brazil,FALSE,M
+1,Finance & Investments,2,Switzerland,Switzerland,TRUE,M
+1,Fashion & Retail,3,United States,United States,TRUE,F
+1,Finance & Investments,3,United States,United States,TRUE,M
+1,Healthcare,2,France,France,TRUE,M
+1,Finance & Investments,1,Switzerland,Switzerland,TRUE,M
+1,Gambling & Casinos,3,Germany,Germany,TRUE,M
+1,Real Estate,2,Canada,Canada,TRUE,M
+1,Finance & Investments,3,United Kingdom,United Kingdom,TRUE,M
+1,Healthcare,3,China,China,TRUE,M
+1,Diversified,2,Singapore,Singapore,FALSE,M
+1,Manufacturing,3,United States,United States,FALSE,F
+1,Media & Entertainment,2,India,India,TRUE,M
+1,Finance & Investments,1,United States,United States,TRUE,M
+1,Manufacturing,2,United States,United States,TRUE,M
+1,Food & Beverage,1,China,China,TRUE,M
+1,Metals & Mining,2,Switzerland,United States,TRUE,M
+1,Finance & Investments,2,United States,United States,FALSE,M
+1,Real Estate,2,China,China,TRUE,M
+1,Manufacturing,2,China,China,TRUE,M
+1,Diversified,2,India,India,FALSE,M
+1,Finance & Investments,2,Switzerland,Switzerland,TRUE,M
+1,Technology,1,Netherlands,Netherlands,TRUE,M
+1,Diversified,2,Philippines,Philippines,FALSE,M
+1,Diversified,2,Philippines,Philippines,FALSE,M
+1,Diversified,3,Philippines,Philippines,TRUE,M
+1,Technology,2,Taiwan,Taiwan,TRUE,M
+1,Media & Entertainment,3,United States,United States,FALSE,M
+1,Real Estate,3,United States,United States,TRUE,M
+1,Finance & Investments,2,Switzerland,Switzerland,TRUE,M
+1,Technology,1,United States,United States,TRUE,M
+1,Manufacturing,1,China,China,TRUE,M
+1,Manufacturing,1,China,China,TRUE,M
+1,Real Estate,3,United States,United States,TRUE,M
+1,Finance & Investments,2,United Kingdom,Ireland,TRUE,M
+1,Energy,2,United States,United States,FALSE,M
+1,Technology,1,United States,United States,TRUE,M
+1,Technology,1,United States,United States,TRUE,M
+1,Fashion & Retail,2,United States,United States,TRUE,M
+1,Technology,3,Taiwan,Taiwan,TRUE,M
+1,Real Estate,3,Taiwan,Taiwan,TRUE,M
+1,Finance & Investments,2,,Taiwan,TRUE,M
+1,Manufacturing,1,Hong Kong,Hong Kong,TRUE,F
+1,Technology,2,India,India,TRUE,M
+1,Diversified,2,United States,United States,TRUE,M
+1,Diversified,2,United States,United States,TRUE,M
+1,Technology,1,Sweden,Sweden,TRUE,M
+1,Fashion & Retail,2,United States,United States,FALSE,M
+1,Fashion & Retail,2,Germany,Germany,FALSE,M
+1,Construction & Engineering,1,Turkey,Turkey,TRUE,M
+1,Finance & Investments,1,United States,United States,FALSE,M
+1,Technology,1,China,China,TRUE,M
+1,Finance & Investments,2,United States,United States,TRUE,M
+1,Technology,1,South Korea,United States,TRUE,M
+1,Food & Beverage,1,China,China,TRUE,M
+1,Healthcare,2,Hong Kong,China,TRUE,M
+1,Finance & Investments,2,Guernsey,Guernsey,TRUE,M
+1,Fashion & Retail,1,,Germany,FALSE,M
+1,Food & Beverage,1,China,China,TRUE,F
+1,Finance & Investments,1,China,China,TRUE,M
+1,Gambling & Casinos,2,Malaysia,Malaysia,FALSE,M
+1,Food & Beverage,3,India,India,FALSE,M
+1,Food & Beverage,3,United States,United States,TRUE,M
+1,Fashion & Retail,2,China,China,TRUE,M
+1,Food & Beverage,1,Russia,Russia,TRUE,M
+1,Food & Beverage,3,United States,United States,TRUE,M
+1,Fashion & Retail,3,United States,Monaco,TRUE,M
+1,Finance & Investments,2,Brazil,Brazil,TRUE,M
+1,Food & Beverage,1,Switzerland,Italy,FALSE,M
+1,Food & Beverage,1,Switzerland,Italy,FALSE,M
+1,Fashion & Retail,2,Italy,Italy,FALSE,M
+1,Fashion & Retail,3,Italy,Italy,FALSE,F
+1,Diversified,2,Turkey,Turkey,FALSE,F
+1,Food & Beverage,2,United States,United States,FALSE,M
+1,Finance & Investments,3,Switzerland,Switzerland,FALSE,M
+1,Healthcare,3,Switzerland,Switzerland,FALSE,M
+1,Real Estate,1,United States,United States,FALSE,M
+1,Fashion & Retail,3,Hong Kong,Hong Kong,TRUE,M
+1,Technology,2,China,China,TRUE,M
+1,Finance & Investments,2,Taiwan,Taiwan,FALSE,M
+1,Technology,2,United States,United States,TRUE,F
+1,Finance & Investments,2,United Kingdom,Switzerland,FALSE,M
+1,Real Estate,3,Australia,Australia,TRUE,M
+1,Manufacturing,2,China,China,TRUE,M
+1,Real Estate,2,China,China,TRUE,M
+1,Food & Beverage,3,Germany,Germany,TRUE,M
+1,Fashion & Retail,2,China,China,TRUE,M
+1,Manufacturing,2,China,China,TRUE,M
+1,Healthcare,2,Liechtenstein,Liechtenstein,FALSE,M
+1,Manufacturing,3,China,China,TRUE,M
+1,Real Estate,3,United States,United States,TRUE,M
+1,Finance & Investments,1,United States,United States,TRUE,M
+1,Energy,1,Russia,Russia,TRUE,M
+1,Diversified,2,Turkey,Turkey,TRUE,M
+1,Technology,2,United States,United States,TRUE,M
+1,Fashion & Retail,2,Bahamas,Australia,TRUE,M
+1,Finance & Investments,3,United States,United States,FALSE,M
+1,Finance & Investments,1,China,China,FALSE,F
+1,Healthcare,2,China,China,TRUE,M
+1,Finance & Investments,2,Ireland,Ireland,TRUE,M
+1,Healthcare,1,China,China,TRUE,M
+1,Fashion & Retail,2,United States,United States,TRUE,M
+1,Food & Beverage,2,China,China,TRUE,M
+1,Finance & Investments,2,United States,United States,TRUE,M
+1,Finance & Investments,2,United States,United States,TRUE,M
+1,Healthcare,2,China,United States,TRUE,M
+1,Automotive,3,Israel,Israel,FALSE,M
+1,Technology,3,Germany,Germany,TRUE,M
+1,Healthcare,3,Germany,Germany,TRUE,M
+1,Real Estate,2,China,Canada,TRUE,M
+1,Finance & Investments,3,United States,United States,FALSE,M
+1,Fashion & Retail,2,United States,United States,TRUE,M
+1,Automotive,3,United States,United States,TRUE,M
+1,Fashion & Retail,1,China,China,TRUE,M
+1,Finance & Investments,2,United States,United States,TRUE,M
+1,Fashion & Retail,3,Australia,Australia,TRUE,M
+1,Diversified,1,Singapore,Singapore,TRUE,M
+1,Diversified,2,Thailand,Thailand,FALSE,M
+1,Technology,1,United States,Canada,TRUE,M
+1,Energy,2,United States,Cyprus,TRUE,M
+1,Finance & Investments,3,United States,United States,TRUE,M
+1,Finance & Investments,3,United States,United States,TRUE,M
+1,Real Estate,1,United States,Israel,TRUE,M
+1,Diversified,1,Vietnam,Vietnam,TRUE,F
+1,Food & Beverage,2,China,China,TRUE,M
+1,Manufacturing,2,Australia,Australia,FALSE,F
+1,Technology,1,China,China,TRUE,M
+1,Technology,2,United States,United States,TRUE,M
+1,Healthcare,3,India,India,TRUE,M
+1,Sports,3,United States,United States,TRUE,M
+1,Technology,1,United States,United States,TRUE,M
+1,Fashion & Retail,3,Switzerland,Switzerland,TRUE,M
+1,Healthcare,3,United States,United States,TRUE,F
+1,Technology,1,Canada,Canada,TRUE,M
+1,Technology,2,United States,United States,TRUE,M
+1,Real Estate,1,United States,United States,FALSE,M
+1,Technology,2,United States,United States,TRUE,M
+1,Finance & Investments,2,United States,United States,TRUE,M
+1,Diversified,2,Philippines,Philippines,FALSE,M
+1,Diversified,2,Philippines,Philippines,FALSE,F
+1,Real Estate,3,Japan,Japan,TRUE,M
+1,Manufacturing,2,China,China,TRUE,M
+1,Technology,1,China,Hong Kong,TRUE,M
+1,Fashion & Retail,2,Sweden,Sweden,FALSE,F
+1,Healthcare,1,United Arab Emirates,India,FALSE,M
+1,Technology,1,India,India,FALSE,F
+1,Fashion & Retail,2,China,China,TRUE,M
+1,Service,3,China,China,TRUE,M
+1,Food & Beverage,2,Israel,Israel,FALSE,M
+1,Energy,1,China,China,TRUE,M
+1,Food & Beverage,1,China,China,TRUE,M
+1,Manufacturing,2,Hong Kong,Hong Kong,TRUE,M
+1,Logistics,2,China,China,TRUE,M
+1,Finance & Investments,2,United States,Israel,TRUE,M
+1,Manufacturing,1,Canada,Canada,FALSE,M
+1,Energy,2,China,China,TRUE,M
+1,Metals & Mining,1,United Kingdom,United Kingdom,TRUE,M
+1,Food & Beverage,1,United States,United States,TRUE,M
+1,Construction & Engineering,1,France,France,FALSE,M
+1,Construction & Engineering,2,,France,FALSE,M
+1,Gambling & Casinos,3,United States,United States,TRUE,M
+1,Food & Beverage,2,India,India,FALSE,M
+1,Manufacturing,2,China,China,TRUE,M
+1,Technology,3,Taiwan,Taiwan,TRUE,M
+1,Technology,1,China,China,FALSE,M
+1,Energy,2,Hong Kong,Hong Kong,TRUE,M
+1,Healthcare,3,Switzerland,Switzerland,TRUE,M
+1,Fashion & Retail,2,Italy,Italy,TRUE,M
+1,Technology,2,Germany,Germany,TRUE,M
+1,Diversified,1,United Kingdom,Bulgaria,TRUE,M
+1,Diversified,1,United Kingdom,Bulgaria,TRUE,M
+1,Real Estate,3,Australia,Australia,TRUE,M
+1,Energy,2,United States,United States,TRUE,M
+1,Fashion & Retail,2,Italy,Italy,TRUE,M
+1,Manufacturing,2,China,China,TRUE,M
+1,Energy,3,United States,United States,FALSE,M
+1,Energy,2,United States,United States,TRUE,M
+1,Healthcare,3,United States,United Kingdom,TRUE,M
+1,Diversified,2,India,India,FALSE,M
+1,Diversified,2,India,India,FALSE,M
+1,Real Estate,2,United States,United States,FALSE,F
+1,Fashion & Retail,2,Norway,Norway,TRUE,M
+1,Real Estate,2,Switzerland,Lebanon,FALSE,M
+1,Fashion & Retail,2,Spain,Spain,FALSE,F
+1,Diversified,3,Taiwan,Taiwan,FALSE,M
+1,Manufacturing,1,China,China,TRUE,M
+1,Technology,1,United States,United States,TRUE,M
+1,Technology,2,Russia,Russia,TRUE,M
+1,Fashion & Retail,1,Cyprus,Russia,TRUE,M
+1,Food & Beverage,1,Russia,Russia,TRUE,M
+1,Real Estate,2,Hong Kong,Hong Kong,FALSE,M
+1,Manufacturing,1,Hong Kong,Hong Kong,TRUE,F
+1,Finance & Investments,2,United States,United States,TRUE,M
+1,Finance & Investments,3,France,France,TRUE,M
+1,Sports,2,United States,United States,TRUE,M
+1,Real Estate,3,Taiwan,Taiwan,FALSE,F
+1,Manufacturing,2,China,China,TRUE,M
+1,Fashion & Retail,1,Cyprus,Russia,TRUE,M
+1,Food & Beverage,1,United States,United States,TRUE,M
+1,Technology,1,China,China,TRUE,F
+1,Diversified,2,India,India,FALSE,M
+1,Fashion & Retail,2,India,India,FALSE,M
+1,Diversified,1,Sweden,Sweden,FALSE,F
+1,Healthcare,2,India,India,TRUE,F
+1,Automotive,2,India,India,FALSE,M
+1,Technology,1,China,China,TRUE,M
+1,Manufacturing,3,Ireland,Ireland,TRUE,M
+1,Finance & Investments,2,Russia,Russia,TRUE,M
+1,Manufacturing,2,China,China,TRUE,M
+1,Construction & Engineering,3,Spain,Spain,TRUE,M
+1,Metals & Mining,2,Ukraine,Ukraine,TRUE,M
+1,Technology,1,United States,United States,TRUE,M
+1,Technology,1,India,India,TRUE,M
+1,Construction & Engineering,2,India,India,TRUE,M
+1,Fashion & Retail,1,United States,United States,TRUE,M
+1,Healthcare,1,China,China,TRUE,M
+1,Finance & Investments,2,United Arab Emirates,Thailand,TRUE,M
+1,Food & Beverage,1,Singapore,Singapore,TRUE,F
+1,Healthcare,3,United States,United States,TRUE,M
+1,Automotive,2,India,India,FALSE,M
+1,Fashion & Retail,2,United States,United States,TRUE,M
+1,Food & Beverage,2,China,China,TRUE,M
+1,Finance & Investments,1,Russia,Russia,TRUE,M
+1,Fashion & Retail,2,Germany,Germany,TRUE,M
+1,Food & Beverage,2,United States,United States,FALSE,F
+1,Food & Beverage,1,United States,Turkey,TRUE,M
+1,Construction & Engineering,1,China,China,TRUE,M
+1,Food & Beverage,2,China,Taiwan,TRUE,M
+1,Food & Beverage,2,Taiwan,Taiwan,TRUE,M
+1,Food & Beverage,2,China,Taiwan,TRUE,M
+1,Food & Beverage,2,Taiwan,Taiwan,TRUE,M
+1,Gambling & Casinos,3,United States,United States,TRUE,F
+1,Automotive,1,China,China,TRUE,M
+1,Fashion & Retail,2,Hong Kong,Hong Kong,TRUE,M
+1,Manufacturing,2,China,China,TRUE,M
+1,Manufacturing,2,China,China,TRUE,M
+1,Manufacturing,1,China,Canada,TRUE,F
+1,Healthcare,2,China,Singapore,FALSE,M
+1,Construction & Engineering,3,India,India,FALSE,F
+1,Fashion & Retail,3,United Kingdom,Egypt,TRUE,M
+1,Technology,1,United Kingdom,United Kingdom,TRUE,M
+1,Finance & Investments,3,Turks and Caicos Islands,United Kingdom,TRUE,M
+1,Technology,2,Czech Republic,Czech Republic,TRUE,M
+1,Healthcare,2,Germany,Germany,TRUE,M
+1,Manufacturing,1,China,China,TRUE,M
+1,Manufacturing,1,China,China,TRUE,M
+1,Diversified,2,Thailand,Thailand,FALSE,M
+1,Diversified,2,China,China,TRUE,M
+1,Food & Beverage,3,Monaco,Italy,FALSE,F
+1,Diversified,3,United States,United States,TRUE,M
+1,Healthcare,1,Monaco,Switzerland,FALSE,M
+1,Real Estate,2,United States,United States,FALSE,F
+1,Metals & Mining,1,United Kingdom,Australia,FALSE,M
+1,Technology,2,China,China,TRUE,M
+1,Manufacturing,2,Hong Kong,Hong Kong,TRUE,M
+1,Media & Entertainment,2,China,China,TRUE,M
+1,Finance & Investments,1,United States,United States,TRUE,M
+1,Sports,2,United States,United States,TRUE,M
+1,Real Estate,3,United States,United States,FALSE,F
+1,Technology,2,Israel,Israel,TRUE,M
+1,Healthcare,3,Finland,Finland,TRUE,M
+1,Technology,1,Hong Kong,Hong Kong,TRUE,M
+1,Technology,2,China,China,TRUE,M
+1,Technology,1,China,China,TRUE,M
+1,Manufacturing,2,China,China,FALSE,M
+1,Energy,2,China,China,TRUE,M
+1,Manufacturing,2,Thailand,India,FALSE,M
+1,Real Estate,2,Canada,Canada,TRUE,M
+1,Finance & Investments,2,Israel,Russia,TRUE,M
+1,Telecom,2,United States,United States,FALSE,M
+1,Manufacturing,2,China,China,TRUE,M
+1,Service,1,China,China,TRUE,M
+1,Finance & Investments,3,Singapore,Singapore,FALSE,M
+1,Metals & Mining,2,Australia,Australia,TRUE,M
+1,Technology,1,United States,United States,TRUE,M
+1,Service,2,United States,United States,FALSE,F
+1,Construction & Engineering,1,India,India,TRUE,M
+1,Metals & Mining,1,Australia,Australia,FALSE,F
+1,Metals & Mining,1,Australia,Australia,FALSE,F
+1,Finance & Investments,3,United States,United States,TRUE,M
+1,Manufacturing,2,India,India,TRUE,M
+1,Media & Entertainment,2,Poland,Poland,TRUE,M
+1,Manufacturing,1,,Czech Republic,FALSE,M
+1,Fashion & Retail,2,Germany,Germany,FALSE,F
+1,Technology,2,Indonesia,Indonesia,TRUE,M
+1,Sports,3,Canada,Canada,TRUE,M
+1,Finance & Investments,3,Thailand,Thailand,TRUE,M
+1,Finance & Investments,3,Romania,Romania,TRUE,M
+1,Metals & Mining,1,United States,Australia,FALSE,F
+1,Manufacturing,3,United States,United States,TRUE,M
+1,Fashion & Retail,1,,Czech Republic,TRUE,M
+1,Technology,2,China,China,TRUE,M
+1,Technology,2,China,China,TRUE,M
+1,Manufacturing,2,China,China,TRUE,M
+1,Technology,1,China,China,TRUE,M
+1,Energy,1,China,China,TRUE,M
+1,Healthcare,2,China,China,TRUE,M
+1,Diversified,2,Chile,Chile,FALSE,M
+1,Energy,2,Finland,Finland,TRUE,M
+1,Sports,1,United States,United States,TRUE,M
+1,Finance & Investments,3,Brazil,Brazil,TRUE,M
+1,Energy,1,Russia,Russia,TRUE,M
+1,Fashion & Retail,3,Italy,Italy,FALSE,M
+1,Fashion & Retail,2,United States,United States,FALSE,M
+1,Fashion & Retail,2,,United States,FALSE,M
+1,Fashion & Retail,2,China,China,TRUE,M
+1,Manufacturing,1,China,China,TRUE,M
+1,Energy,1,China,China,TRUE,F
+1,Technology,2,China,China,TRUE,M
+1,Diversified,1,Thailand,Thailand,FALSE,M
+1,Diversified,2,Thailand,Thailand,FALSE,M
+1,Food & Beverage,2,United States,United States,FALSE,F
+1,Food & Beverage,2,Spain,Spain,FALSE,F
+1,Sports,2,United States,United States,FALSE,M
+1,Finance & Investments,2,United States,United States,TRUE,M
+1,Healthcare,1,China,China,TRUE,M
+1,Automotive,1,Germany,Germany,FALSE,M
+1,Diversified,2,Turkey,Turkey,FALSE,M
+1,Diversified,2,Turkey,Turkey,FALSE,M
+1,Diversified,3,Argentina,Argentina,TRUE,M
+1,Real Estate,2,Hong Kong,Hong Kong,FALSE,M
+1,Fashion & Retail,2,China,Canada,TRUE,M
+1,Manufacturing,3,India,India,FALSE,M
+1,Diversified,1,Switzerland,Norway,FALSE,F
+1,Finance & Investments,3,Mexico,Mexico,TRUE,M
+1,Technology,1,United States,United States,TRUE,M
+1,Manufacturing,2,China,China,TRUE,M
+1,Real Estate,2,United States,United States,FALSE,M
+1,Real Estate,2,Hong Kong,Hong Kong,TRUE,M
+1,Finance & Investments,2,United States,United States,TRUE,M
+1,Finance & Investments,3,United States,United States,TRUE,M
+1,Finance & Investments,1,United Kingdom,Poland,FALSE,F
+1,Finance & Investments,2,United States,United States,TRUE,M
+1,Diversified,1,Thailand,Thailand,FALSE,M
+1,Food & Beverage,3,United States,United States,FALSE,M
+1,Real Estate,2,United States,United States,TRUE,M
+1,Real Estate,2,China,Hong Kong,TRUE,M
+1,Food & Beverage,2,United States,United States,FALSE,F
+1,Telecom,2,United Kingdom,Zimbabwe,TRUE,M
+1,Fashion & Retail,3,Hong Kong,United Kingdom,TRUE,M
+1,Technology,1,United Kingdom,United Kingdom,TRUE,M
+1,Food & Beverage,2,Japan,Japan,TRUE,M
+1,Manufacturing,2,India,India,FALSE,M
+1,Manufacturing,3,India,India,FALSE,M
+1,Finance & Investments,2,United States,United States,FALSE,F
+1,Fashion & Retail,3,India,India,TRUE,M
+1,Manufacturing,2,China,China,TRUE,M
+1,Finance & Investments,1,United States,United States,TRUE,M
+1,Construction & Engineering,3,United States,United States,TRUE,M
+1,Energy,1,China,China,TRUE,M
+1,Manufacturing,2,China,China,TRUE,M
+1,Technology,2,China,United States,TRUE,M
+1,Manufacturing,3,Taiwan,Taiwan,TRUE,M
+1,Finance & Investments,2,Indonesia,Indonesia,TRUE,M
+1,Food & Beverage,2,United States,United States,FALSE,F
+1,Diversified,2,Philippines,Philippines,FALSE,F
+1,Manufacturing,2,Indonesia,Indonesia,FALSE,M
+1,Construction & Engineering,2,Turkey,Turkey,FALSE,M
+1,Fashion & Retail,3,Japan,Japan,TRUE,M
+1,Energy,3,Greece,Greece,TRUE,M
+1,Real Estate,2,India,India,FALSE,M
+1,Real Estate,2,China,China,TRUE,M
+1,Fashion & Retail,3,China,Taiwan,TRUE,M
+1,Food & Beverage,3,United States,United States,FALSE,F
+1,Healthcare,2,China,China,FALSE,F
+1,Manufacturing,3,China,China,TRUE,M
+1,Finance & Investments,2,Israel,Russia,TRUE,M
+1,Diversified,2,China,China,TRUE,M
+1,Manufacturing,2,United States,United States,FALSE,F
+1,Technology,1,Australia,Australia,TRUE,M
+1,Fashion & Retail,1,United Kingdom,United Kingdom,FALSE,M
+1,Diversified,3,Qatar,Qatar,TRUE,M
+1,Sports,3,United States,United States,TRUE,M
+1,Real Estate,2,Japan,Japan,TRUE,M
+1,Fashion & Retail,1,Italy,Italy,FALSE,F
+1,Technology,2,India,India,TRUE,M
+1,Finance & Investments,2,United States,United States,TRUE,M
+1,Energy,3,Uruguay,Argentina,FALSE,M
+1,Food & Beverage,2,India,India,TRUE,M
+1,Diversified,2,Nepal,Nepal,FALSE,M
+1,Technology,1,United States,United States,TRUE,M
+1,Technology,2,United States,United States,TRUE,M
+1,Finance & Investments,2,United Kingdom,United Kingdom,TRUE,M
+1,Media & Entertainment,2,Netherlands,Netherlands,TRUE,M
+1,Construction & Engineering,2,Spain,Spain,FALSE,M
+1,Technology,2,China,China,TRUE,M
+1,Healthcare,3,United States,United States,TRUE,M
+1,Sports,3,United States,United States,FALSE,M
+1,Healthcare,3,United States,United States,TRUE,M
+1,Finance & Investments,3,Brazil,Brazil,FALSE,M
+1,Food & Beverage,3,United States,United States,FALSE,M
+1,Healthcare,3,India,India,FALSE,M
+1,Finance & Investments,2,United States,United States,TRUE,M
+1,Real Estate,2,China,China,TRUE,M
+1,Automotive,2,China,China,TRUE,M
+1,Healthcare,2,China,China,TRUE,M
+1,Healthcare,2,China,China,TRUE,M
+1,Technology,1,Cyprus,Cyprus,TRUE,M
+1,Diversified,1,South Korea,South Korea,FALSE,M
+1,Technology,1,United States,United States,TRUE,M
+1,Sports,2,United States,United States,TRUE,M
+1,Technology,1,United States,United States,TRUE,M
+1,Diversified,1,Sweden,Sweden,FALSE,F
+1,Metals & Mining,1,China,China,TRUE,M
+1,Media & Entertainment,2,Brazil,Brazil,FALSE,M
+1,Media & Entertainment,2,Brazil,Brazil,FALSE,M
+1,Media & Entertainment,3,Brazil,Brazil,FALSE,M
+1,Healthcare,2,United States,United States,TRUE,M
+1,Technology,3,Canada,Canada,TRUE,M
+1,Real Estate,1,Sweden,Sweden,TRUE,M
+1,Technology,1,Netherlands,Netherlands,TRUE,M
+1,Real Estate,3,India,India,TRUE,M
+1,Finance & Investments,3,Monaco,Monaco,FALSE,M
+1,Manufacturing,2,India,India,TRUE,M
+1,Food & Beverage,1,,Germany,FALSE,F
+1,Diversified,2,Turkey,Turkey,TRUE,M
+1,Technology,1,China,China,TRUE,M
+1,Media & Entertainment,2,Canada,Canada,FALSE,M
+1,Finance & Investments,3,United States,United States,TRUE,M
+1,Technology,1,United States,France,TRUE,M
+1,Media & Entertainment,3,Thailand,Thailand,FALSE,M
+1,Manufacturing,2,India,India,TRUE,M
+1,Technology,1,Germany,Germany,FALSE,F
+1,Metals & Mining,2,Russia,Russia,TRUE,M
+1,Food & Beverage,2,China,China,TRUE,M
+1,Energy,3,China,China,TRUE,M
+1,Technology,2,India,India,TRUE,M
+1,Fashion & Retail,2,South Korea,South Korea,FALSE,M
+1,Food & Beverage,2,Indonesia,Indonesia,TRUE,M
+1,Manufacturing,2,China,China,TRUE,M
+1,Logistics,3,Hong Kong,United States,TRUE,M
+1,Manufacturing,2,Vietnam,Vietnam,TRUE,M
+1,Technology,2,United States,United States,TRUE,M
+1,Finance & Investments,1,United States,United States,TRUE,M
+1,Technology,1,Netherlands,Netherlands,TRUE,M
+1,Manufacturing,2,Germany,Germany,FALSE,M
+1,Technology,1,United States,United States,TRUE,M
+1,Media & Entertainment,2,United States,United States,TRUE,M
+1,Technology,1,United States,United States,TRUE,M
+1,Metals & Mining,3,Australia,Malaysia,FALSE,M
+1,Finance & Investments,2,Taiwan,Taiwan,FALSE,M
+1,Energy,2,China,China,TRUE,M
+1,Healthcare,1,United States,United States,FALSE,F
+1,Real Estate,1,China,China,TRUE,M
+1,Fashion & Retail,3,Japan,Japan,TRUE,M
+1,Manufacturing,2,United States,Canada,FALSE,M
+1,Real Estate,2,China,China,TRUE,M
+1,Sports,2,United States,United States,FALSE,F
+1,Finance & Investments,1,United States,United States,TRUE,M
+1,Metals & Mining,3,Italy,Italy,TRUE,M
+1,Real Estate,2,Netherlands,Netherlands,FALSE,M
+1,Media & Entertainment,1,South Korea,South Korea,TRUE,M
+1,Finance & Investments,3,United States,United States,TRUE,M
+1,Technology,2,United States,United States,TRUE,M
+1,Manufacturing,1,China,China,TRUE,M
+1,Manufacturing,3,Netherlands,Netherlands,FALSE,M
+1,Food & Beverage,3,United States,United States,TRUE,M
+1,Finance & Investments,1,Czech Republic,Czech Republic,TRUE,M
+1,Healthcare,1,United States,United States,TRUE,M
+1,Finance & Investments,1,Italy,Italy,FALSE,M
+1,Automotive,2,France,France,FALSE,M
+1,Media & Entertainment,3,Japan,Japan,TRUE,M
+1,Finance & Investments,3,United States,United States,TRUE,M
+1,Finance & Investments,2,Switzerland,Germany,FALSE,M
+1,Real Estate,2,United States,United States,TRUE,M
+1,Fashion & Retail,2,Brazil,Brazil,TRUE,M
+1,Fashion & Retail,3,Australia,Australia,TRUE,M
+1,Technology,1,China,China,TRUE,M
+1,Real Estate,2,Thailand,Thailand,TRUE,M
+1,Finance & Investments,2,Canada,Canada,TRUE,M
+1,Manufacturing,2,Finland,Finland,FALSE,M
+1,Real Estate,2,Singapore,Singapore,FALSE,M
+1,Finance & Investments,3,Canada,Canada,TRUE,M
+1,Manufacturing,2,India,India,FALSE,M
+1,Real Estate,2,Thailand,Thailand,TRUE,M
+1,Healthcare,1,United States,United States,TRUE,M
+1,Fashion & Retail,2,South Korea,South Korea,TRUE,M
+1,Media & Entertainment,1,,South Korea,FALSE,F
+1,Media & Entertainment,1,,South Korea,FALSE,F
+1,Fashion & Retail,2,Turkey,Turkey,TRUE,M
+1,Real Estate,1,Hong Kong,Hong Kong,FALSE,M
+1,Real Estate,1,Hong Kong,Hong Kong,FALSE,M
+1,Logistics,1,China,China,TRUE,M
+1,Diversified,3,Malaysia,Malaysia,FALSE,M
+1,Technology,1,United States,United States,TRUE,M
+1,Healthcare,2,China,China,TRUE,F
+1,Healthcare,3,United States,United States,TRUE,M
+1,Food & Beverage,1,China,China,TRUE,F
+1,Food & Beverage,2,United States,United States,TRUE,M
+1,Metals & Mining,1,China,China,TRUE,M
+1,Technology,1,China,China,TRUE,M
+1,Technology,1,United States,United States,TRUE,M
+1,Finance & Investments,3,United States,United States,TRUE,M
+1,Technology,1,Japan,Japan,TRUE,M
+1,Fashion & Retail,2,Brazil,Brazil,TRUE,M
+1,Manufacturing,2,China,China,TRUE,M
+1,Fashion & Retail,2,Spain,Spain,TRUE,M
+1,Manufacturing,3,India,India,FALSE,F
+1,Fashion & Retail,2,Romania,Romania,TRUE,M
+1,Real Estate,2,United States,United States,TRUE,M
+1,Metals & Mining,2,Russia,Russia,TRUE,M
+1,Healthcare,2,China,China,TRUE,M
+1,Media & Entertainment,2,United States,United States,FALSE,M
+1,Food & Beverage,3,United States,United States,FALSE,M
+1,Manufacturing,3,China,China,TRUE,M
+1,Real Estate,2,United States,United States,TRUE,M
+1,Diversified,2,Russia,Russia,TRUE,M
+1,Healthcare,2,Japan,Japan,TRUE,M
+1,Manufacturing,3,India,India,TRUE,M
+1,Fashion & Retail,1,China,China,TRUE,M
+1,Real Estate,3,France,France,TRUE,M
+1,Diversified,2,United States,United States,FALSE,M
+1,Service,2,United States,United States,TRUE,M
+1,Manufacturing,3,Taiwan,Taiwan,TRUE,M
+1,Technology,2,China,China,TRUE,M
+1,Sports,2,United States,United States,TRUE,M
+1,Real Estate,3,United States,United States,TRUE,M
+1,Energy,3,United Kingdom,United Kingdom,FALSE,M
+1,Manufacturing,1,China,China,TRUE,F
+1,Food & Beverage,1,China,China,TRUE,M
+1,Manufacturing,2,China,China,TRUE,M
+1,Telecom,2,Russia,Russia,TRUE,M
+1,Technology,1,United States,United States,TRUE,M
+1,Logistics,1,China,China,TRUE,F
+1,Manufacturing,2,China,China,TRUE,M
+1,Manufacturing,2,China,China,TRUE,F
+1,Healthcare,2,United States,United States,TRUE,M
+1,Construction & Engineering,2,Malaysia,Malaysia,TRUE,M
+1,Finance & Investments,3,United States,United States,FALSE,M
+1,Metals & Mining,2,Switzerland,Russia,TRUE,M
+1,Finance & Investments,2,United States,United States,TRUE,M
+1,Finance & Investments,2,United States,United States,TRUE,M
+1,Manufacturing,1,China,China,TRUE,M
+1,Fashion & Retail,1,,Germany,FALSE,M
+1,Fashion & Retail,1,Austria,Germany,FALSE,M
+1,Food & Beverage,3,Germany,Germany,TRUE,M
+1,Technology,1,China,China,TRUE,M
+1,Technology,1,China,China,TRUE,M
+1,Real Estate,3,Taiwan,Taiwan,TRUE,M
+1,Technology,2,South Korea,South Korea,FALSE,M
+1,Real Estate,1,Slovakia,Slovakia,TRUE,M
+1,Construction & Engineering,2,United States,United States,TRUE,M
+1,Finance & Investments,3,Canada,Canada,TRUE,M
+1,Finance & Investments,2,United States,United States,TRUE,M
+1,Sports,2,United States,United States,TRUE,M
+1,Logistics,2,France,France,TRUE,M
+1,Finance & Investments,2,United States,United States,TRUE,M
+1,Technology,1,United States,Romania,TRUE,M
+1,Finance & Investments,1,Brazil,Brazil,FALSE,M
+1,Metals & Mining,1,Switzerland,Switzerland,TRUE,M
+1,Finance & Investments,3,United States,United States,TRUE,M
+1,Fashion & Retail,2,Canada,Canada,TRUE,M
+1,Healthcare,1,China,China,TRUE,M
+1,Healthcare,1,Switzerland,Switzerland,FALSE,M
+1,Finance & Investments,3,United States,United States,TRUE,M
+1,Finance & Investments,2,United States,United States,FALSE,F
+1,Sports,3,United States,United States,TRUE,M
+1,Energy,2,United States,United States,FALSE,M
+1,Manufacturing,2,Finland,Finland,FALSE,F
+1,Diversified,2,United States,United States,TRUE,M
+1,Media & Entertainment,3,United States,United States,FALSE,M
+1,Manufacturing,2,China,China,TRUE,M
+1,Metals & Mining,2,China,China,TRUE,M
+1,Real Estate,2,China,China,TRUE,M
+1,Fashion & Retail,2,Russia,Russia,TRUE,M
+1,Media & Entertainment,1,,South Korea,TRUE,M
+1,Healthcare,2,United States,United States,TRUE,M
+1,Energy,3,United States,United States,FALSE,M
+1,Manufacturing,2,Austria,Russia,TRUE,M
+1,Logistics,3,Japan,Japan,TRUE,M
+1,Healthcare,2,United States,United States,TRUE,M
+1,Diversified,2,United Kingdom,United Kingdom,TRUE,M
+1,Diversified,2,Greece,Greece,FALSE,F
+1,Real Estate,1,Malaysia,Malaysia,FALSE,M
+1,Real Estate,2,China,Hong Kong,TRUE,M
+1,Real Estate,2,China,Hong Kong,TRUE,M
+1,Technology,1,China,China,TRUE,M
+1,Technology,1,China,China,TRUE,F
+1,Real Estate,3,Hong Kong,Hong Kong,FALSE,M
+1,Telecom,3,Canada,Canada,TRUE,M
+1,Technology,2,United States,United States,TRUE,M
+1,Real Estate,2,United Arab Emirates,Oman,TRUE,M
+1,Energy,3,Italy,Italy,FALSE,M
+1,Finance & Investments,2,Israel,Israel,FALSE,F
+1,Automotive,2,Austria,Austria,TRUE,M
+1,Finance & Investments,2,Germany,Germany,FALSE,M
+1,Finance & Investments,2,Germany,Germany,FALSE,M
+1,Energy,2,United States,United States,TRUE,M
+1,Manufacturing,2,Spain,Spain,FALSE,M
+1,Metals & Mining,1,Spain,Spain,FALSE,M
+1,Food & Beverage,1,United States,United States,FALSE,M
+1,Food & Beverage,2,Thailand,Thailand,TRUE,M
+1,Manufacturing,1,China,China,TRUE,M
+1,Food & Beverage,1,Switzerland,Russia,TRUE,M
+1,Metals & Mining,2,United Kingdom,United States,TRUE,M
+1,Technology,1,United States,United States,TRUE,M
+1,Diversified,2,Russia,Russia,TRUE,M
+1,Service,2,United States,United States,FALSE,M
+1,Diversified,2,United States,United States,FALSE,F
+1,Diversified,2,United States,United States,FALSE,M
+1,Manufacturing,2,Austria,Austria,TRUE,M
+1,Healthcare,2,United States,United States,TRUE,M
+1,Manufacturing,1,Taiwan,Taiwan,FALSE,F
+1,Technology,1,India,India,TRUE,M
+1,Energy,2,Australia,Australia,TRUE,M
+1,Media & Entertainment,2,China,China,TRUE,M
+1,Media & Entertainment,1,China,China,TRUE,M
+1,Technology,2,United States,United States,TRUE,M
+1,Energy,2,United States,United States,TRUE,M
+1,Fashion & Retail,3,Australia,Australia,FALSE,M
+1,Fashion & Retail,3,Australia,Australia,FALSE,M
+1,Fashion & Retail,3,Australia,Australia,FALSE,M
+1,Technology,2,United States,United States,TRUE,M
+1,Manufacturing,2,China,China,TRUE,M
+1,Healthcare,1,China,China,TRUE,F
+1,Technology,1,China,China,TRUE,M
+1,Manufacturing,2,China,China,TRUE,M
+1,Technology,2,China,China,TRUE,M
+1,Healthcare,2,United States,United States,TRUE,M
+1,Technology,1,China,China,TRUE,M
+1,Automotive,1,China,China,TRUE,M
+1,Diversified,2,China,China,TRUE,M
+1,Manufacturing,1,China,China,TRUE,F
+1,Technology,1,China,China,TRUE,M
+1,Metals & Mining,3,China,China,TRUE,M
+1,Food & Beverage,2,China,China,TRUE,M
+1,Gambling & Casinos,1,Sweden,Sweden,TRUE,M
+0,Food & Beverage,3,India,India,FALSE,M
+0,Diversified,2,Morocco,Morocco,FALSE,M
+0,Diversified,2,Turkey,Turkey,TRUE,M
+0,Manufacturing,2,Italy,Italy,TRUE,M
+0,Diversified,1,Norway,Norway,FALSE,F
+0,Diversified,1,Norway,Norway,FALSE,F
+0,Diversified,2,Chile,Chile,FALSE,F
+0,Healthcare,2,Israel,Israel,TRUE,M
+0,Fashion & Retail,1,Italy,Italy,FALSE,F
+0,Metals & Mining,3,Australia,Australia,FALSE,F
+0,Diversified,3,Israel,Israel,TRUE,M
+0,Fashion & Retail,3,Italy,Italy,FALSE,M
+0,Food & Beverage,1,United Arab Emirates,United Kingdom,FALSE,M
+0,Diversified,2,Turkey,Turkey,TRUE,M
+0,Technology,2,United States,United States,TRUE,F
+0,Logistics,2,Taiwan,Taiwan,FALSE,M
+0,Manufacturing,2,China,China,TRUE,M
+0,Diversified,2,Hungary,Hungary,TRUE,M
+0,Finance & Investments,1,Brazil,Brazil,FALSE,F
+0,Manufacturing,1,Italy,Italy,FALSE,M
+0,Technology,2,United States,United States,TRUE,M
+0,Diversified,1,Tanzania,Tanzania,FALSE,M
+0,Finance & Investments,1,United States,United States,TRUE,M
+0,Manufacturing,2,China,China,TRUE,M
+0,Media & Entertainment,3,United States,United States,TRUE,M
+0,Fashion & Retail,2,France,France,TRUE,M
+0,Logistics,3,Malaysia,Malaysia,TRUE,M
+0,Fashion & Retail,3,Switzerland,Switzerland,FALSE,F
+0,Manufacturing,2,China,China,TRUE,M
+0,Technology,2,United States,United States,TRUE,M
+0,Finance & Investments,1,United States,United States,TRUE,M
+0,Finance & Investments,1,Slovakia,Slovakia,TRUE,M
+0,Manufacturing,2,China,China,TRUE,M
+0,Real Estate,2,India,India,TRUE,M
+0,Finance & Investments,1,Vietnam,Vietnam,TRUE,M
+0,Technology,2,Taiwan,Taiwan,TRUE,M
+0,Media & Entertainment,2,New Zealand,New Zealand,TRUE,M
+0,Finance & Investments,3,Canada,Canada,TRUE,M
+0,Healthcare,2,India,India,TRUE,M
+0,Healthcare,2,India,India,TRUE,M
+0,Diversified,2,China,China,TRUE,M
+0,Diversified,3,South Korea,South Korea,TRUE,M
+0,Fashion & Retail,3,United States,United States,TRUE,M
+0,Food & Beverage,2,United States,United States,TRUE,M
+0,Real Estate,2,Singapore,Singapore,TRUE,M
+0,Diversified,3,Switzerland,Greece,FALSE,M
+0,Manufacturing,2,Germany,Germany,FALSE,M
+0,Manufacturing,2,Germany,Germany,FALSE,F
+0,Manufacturing,2,Germany,Germany,FALSE,F
+0,Manufacturing,1,China,China,TRUE,M
+0,Manufacturing,2,China,China,TRUE,M
+0,Fashion & Retail,2,China,China,TRUE,M
+0,Manufacturing,2,China,Taiwan,TRUE,M
+0,Technology,3,Taiwan,Taiwan,TRUE,M
+0,Manufacturing,2,China,United States,TRUE,M
+0,Automotive,3,China,China,TRUE,F
+0,Logistics,2,China,China,TRUE,M
+0,Diversified,3,Egypt,Egypt,TRUE,M
+0,Real Estate,3,Australia,Australia,TRUE,M
+0,Diversified,3,Italy,Italy,TRUE,M
+0,Finance & Investments,1,United States,United States,TRUE,M
+0,Fashion & Retail,2,Italy,Italy,TRUE,M
+0,Service,3,Bahrain,Lebanon,FALSE,M
+0,Logistics,3,United States,United States,TRUE,M
+0,Technology,2,United States,United States,TRUE,M
+0,Diversified,2,United Kingdom,Sweden,FALSE,M
+0,Energy,2,Brazil,Brazil,FALSE,M
+0,Finance & Investments,1,,Peru,FALSE,F
+0,Finance & Investments,1,,Peru,FALSE,M
+0,Finance & Investments,3,United States,United States,TRUE,M
+0,Construction & Engineering,1,Mexico,Mexico,FALSE,M
+0,Fashion & Retail,1,Sweden,Sweden,FALSE,M
+0,Food & Beverage,1,United States,United States,TRUE,M
+0,Food & Beverage,2,United States,United States,FALSE,M
+0,Real Estate,1,Singapore,Singapore,FALSE,M
+0,Finance & Investments,2,Peru,Peru,FALSE,M
+0,Finance & Investments,1,United Kingdom,United Kingdom,TRUE,M
+0,Service,2,United States,United States,TRUE,M
+0,Technology,1,United States,United States,TRUE,F
+0,Automotive,2,Israel,Israel,TRUE,M
+0,Media & Entertainment,1,United States,United States,TRUE,M
+0,Fashion & Retail,2,Singapore,Singapore,TRUE,M
+0,Finance & Investments,2,Russia,Russia,TRUE,M
+0,Healthcare,3,India,India,TRUE,M
+0,Technology,2,United States,United States,TRUE,M
+0,Real Estate,3,Australia,Australia,TRUE,M
+0,Real Estate,2,United States,United States,TRUE,M
+0,Finance & Investments,2,United States,United States,TRUE,M
+0,Fashion & Retail,2,Russia,Russia,TRUE,M
+0,Real Estate,2,China,China,TRUE,F
+0,Technology,1,United States,United States,TRUE,M
+0,Food & Beverage,1,China,China,TRUE,F
+0,Food & Beverage,1,China,China,TRUE,M
+0,Technology,1,China,China,TRUE,M
+0,Manufacturing,3,Thailand,Thailand,TRUE,M
+0,Healthcare,1,United States,United States,TRUE,M
+0,Fashion & Retail,2,China,China,TRUE,M
+0,Telecom,2,Australia,Australia,TRUE,M
+0,Manufacturing,3,Andorra,Spain,FALSE,F
+0,Automotive,2,Vietnam,Vietnam,TRUE,M
+0,Telecom,3,United States,United States,TRUE,M
+0,Gambling & Casinos,1,Sweden,Sweden,TRUE,M
+0,Healthcare,1,China,China,TRUE,M
+0,Healthcare,2,China,China,TRUE,M
+0,Energy,2,United States,United States,TRUE,M
+0,Real Estate,3,Hong Kong,Hong Kong,TRUE,M
+0,Technology,1,China,China,TRUE,M
+0,Media & Entertainment,1,China,China,TRUE,M
+0,Technology,1,China,China,TRUE,M
+0,Food & Beverage,2,China,China,TRUE,M
+0,Service,2,China,China,TRUE,M
+0,Media & Entertainment,1,China,China,TRUE,M
+0,Service,1,China,China,TRUE,M
+0,Energy,1,China,China,TRUE,F
+0,Fashion & Retail,2,China,China,TRUE,M
+0,Diversified,3,Finland,Finland,FALSE,M
+0,Finance & Investments,3,Spain,Spain,TRUE,M
+0,Fashion & Retail,1,Australia,Australia,TRUE,M
+0,Technology,1,Singapore,India,TRUE,M
+0,Healthcare,3,India,India,TRUE,M
+0,Diversified,3,United Kingdom,United Kingdom,TRUE,M
+0,Energy,2,Russia,Russia,TRUE,M
+0,Food & Beverage,1,India,India,FALSE,M
+0,Metals & Mining,1,China,China,TRUE,M
+0,Technology,2,United States,United States,TRUE,M
+0,Technology,1,China,China,TRUE,M
+0,Real Estate,2,Singapore,Singapore,TRUE,M
+0,Finance & Investments,3,Brazil,Brazil,TRUE,M
+0,Metals & Mining,2,Australia,Australia,TRUE,M
+0,Manufacturing,3,United States,United States,TRUE,M
+0,Finance & Investments,2,United States,United States,TRUE,M
+0,Fashion & Retail,3,Switzerland,Austria,TRUE,M
+0,Technology,1,United States,Sweden,TRUE,M
+0,Diversified,1,Philippines,Philippines,FALSE,M
+0,Food & Beverage,1,China,China,TRUE,M
+0,Manufacturing,2,India,India,TRUE,M
+0,Service,3,Switzerland,Norway,TRUE,M
+0,Construction & Engineering,1,France,Lebanon,FALSE,M
+0,Finance & Investments,3,Mexico,Mexico,TRUE,M
+0,Automotive,1,China,China,TRUE,M
+0,Fashion & Retail,2,United Kingdom,Germany,FALSE,M
+0,Fashion & Retail,3,United States,United States,FALSE,M
+0,Technology,1,United States,United States,TRUE,M
+0,Manufacturing,2,China,China,TRUE,M
+0,Manufacturing,2,India,India,TRUE,M
+0,Healthcare,2,China,China,TRUE,M
+0,Media & Entertainment,2,South Korea,South Korea,TRUE,M
+0,Real Estate,2,Singapore,Singapore,TRUE,M
+0,Manufacturing,1,Russia,Russia,TRUE,M
+0,Finance & Investments,3,India,India,FALSE,M
+0,Finance & Investments,1,Switzerland,Poland,FALSE,M
+0,Real Estate,3,Singapore,Singapore,FALSE,M
+0,Real Estate,2,Singapore,Singapore,FALSE,M
+0,Real Estate,2,Singapore,Singapore,FALSE,M
+0,Real Estate,3,Singapore,Singapore,FALSE,M
+0,Diversified,2,Singapore,Singapore,FALSE,M
+0,Diversified,2,Singapore,Singapore,FALSE,M
+0,Real Estate,2,Hong Kong,Hong Kong,FALSE,M
+0,Diversified,2,South Korea,South Korea,FALSE,M
+0,Finance & Investments,2,Canada,Canada,TRUE,M
+0,Service,2,Monaco,Italy,FALSE,M
+0,Fashion & Retail,3,United Kingdom,United Kingdom,TRUE,M
+0,Metals & Mining,1,China,China,FALSE,F
+0,Automotive,1,China,China,TRUE,M
+0,Manufacturing,1,Sweden,Sweden,FALSE,F
+0,Healthcare,1,China,China,TRUE,M
+0,Technology,2,Taiwan,Taiwan,TRUE,M
+0,Manufacturing,2,Hong Kong,Brazil,TRUE,M
+0,Metals & Mining,2,Russia,Russia,TRUE,M
+0,Food & Beverage,3,Canada,Canada,FALSE,M
+0,Diversified,3,Brazil,Brazil,TRUE,F
+0,Media & Entertainment,2,United States,United States,FALSE,M
+0,Technology,3,China,China,TRUE,M
+0,Manufacturing,3,United Kingdom,United Kingdom,TRUE,M
+0,Manufacturing,2,India,India,FALSE,M
+0,Real Estate,2,China,China,TRUE,M
+0,Healthcare,1,China,China,TRUE,M
+0,Real Estate,3,Japan,Japan,FALSE,F
+0,Technology,2,Israel,Israel,TRUE,M
+0,Healthcare,1,Japan,Japan,FALSE,F
+0,Metals & Mining,2,Ukraine,Ukraine,TRUE,M
+0,Finance & Investments,1,Thailand,Thailand,FALSE,M
+0,Finance & Investments,2,Australia,Australia,FALSE,F
+0,Manufacturing,2,China,China,TRUE,M
+0,Real Estate,2,China,China,TRUE,M
+0,Healthcare,2,United States,United States,TRUE,M
+0,Fashion & Retail,1,Sweden,Sweden,FALSE,M
+0,Automotive,1,China,China,TRUE,F
+0,Manufacturing,2,China,China,TRUE,M
+0,Healthcare,2,India,India,TRUE,M
+0,Diversified,3,Indonesia,Indonesia,TRUE,M
+0,Fashion & Retail,1,United States,Barbados,TRUE,F
+0,Construction & Engineering,2,Russia,Russia,TRUE,M
+0,Real Estate,3,India,India,TRUE,M
+0,Manufacturing,1,Russia,Russia,TRUE,M
+0,Healthcare,2,Brazil,Brazil,FALSE,M
+0,Real Estate,3,United States,United States,TRUE,M
+0,Energy,2,Russia,Russia,TRUE,M
+0,Energy,2,Russia,Russia,TRUE,M
+0,Fashion & Retail,3,Japan,Japan,TRUE,M
+0,Technology,1,United States,United States,TRUE,M
+0,Fashion & Retail,1,Sweden,Sweden,FALSE,F
+0,Healthcare,1,India,India,FALSE,M
+0,Healthcare,2,India,India,FALSE,M
+0,Finance & Investments,3,United States,United States,FALSE,F
+0,Technology,2,China,China,TRUE,M
+0,Logistics,2,China,China,TRUE,M
+0,Manufacturing,2,China,China,TRUE,M
+0,Manufacturing,3,China,China,FALSE,F
+0,Metals & Mining,1,China,China,FALSE,M
+0,Manufacturing,3,Switzerland,Switzerland,TRUE,M
+0,Manufacturing,1,Brazil,Brazil,FALSE,F
+0,Finance & Investments,3,United States,United States,TRUE,M
+0,Manufacturing,2,China,China,TRUE,M
+0,Manufacturing,1,China,China,TRUE,M
+0,Technology,1,China,China,TRUE,M
+0,Manufacturing,2,China,China,TRUE,M
+0,Food & Beverage,2,China,China,TRUE,M
+0,Real Estate,2,China,Hong Kong,TRUE,M
+0,Healthcare,1,China,Canada,FALSE,F
+0,Manufacturing,2,China,China,TRUE,M
+0,Real Estate,2,China,China,TRUE,M
+0,Real Estate,2,China,China,TRUE,F
+0,Manufacturing,2,China,China,TRUE,M
+0,Manufacturing,2,China,China,TRUE,M
+0,Real Estate,2,Singapore,Singapore,TRUE,M
+0,Fashion & Retail,2,China,China,TRUE,M
+0,Diversified,2,Russia,Russia,TRUE,M
+0,Automotive,1,United States,United States,TRUE,M
+0,Logistics,3,Indonesia,Indonesia,TRUE,M
+0,Healthcare,2,India,India,TRUE,M
+0,Healthcare,3,India,India,FALSE,M
+0,Real Estate,2,Thailand,Thailand,TRUE,M
+0,Finance & Investments,1,Russia,Russia,TRUE,M
+0,Automotive,2,Israel,Israel,TRUE,M
+0,Fashion & Retail,1,India,India,TRUE,M
+0,Energy,3,Indonesia,Indonesia,TRUE,M
+0,Construction & Engineering,2,United Kingdom,Russia,TRUE,F
+0,Healthcare,2,India,India,TRUE,M
+0,Finance & Investments,3,Morocco,Morocco,FALSE,M
+0,Diversified,2,India,India,FALSE,M
+0,Healthcare,2,India,India,FALSE,M
+0,Technology,1,United States,Canada,TRUE,M
+0,Technology,2,China,China,TRUE,M
+0,Technology,1,United States,United States,TRUE,M
+0,Manufacturing,2,China,China,TRUE,M
+0,Real Estate,3,Taiwan,Taiwan,TRUE,M
+0,Metals & Mining,2,China,China,TRUE,M
+0,Manufacturing,1,China,China,TRUE,M
+0,Automotive,2,Taiwan,Taiwan,TRUE,M
+0,Telecom,1,United States,United States,TRUE,M
+0,Finance & Investments,3,Spain,Spain,TRUE,M
+0,Real Estate,3,Argentina,Argentina,TRUE,M
+0,Food & Beverage,1,China,China,TRUE,M
+0,Technology,2,India,India,TRUE,M
+0,Media & Entertainment,3,Turkey,Turkey,TRUE,M
+0,Finance & Investments,1,Italy,Italy,FALSE,F
+0,Finance & Investments,1,Italy,Italy,FALSE,M
+0,Healthcare,2,China,China,TRUE,M
+0,Energy,2,United States,United States,TRUE,M
+0,Media & Entertainment,2,Japan,Japan,TRUE,F
+0,Media & Entertainment,2,Japan,Japan,TRUE,M
+0,Finance & Investments,1,Canada,Canada,TRUE,M
+0,Real Estate,3,United States,United States,TRUE,M
+0,Construction & Engineering,1,Italy,Italy,FALSE,F
+0,Finance & Investments,2,United States,United States,TRUE,M
+0,Finance & Investments,2,China,China,TRUE,M
+0,Manufacturing,1,Finland,Finland,FALSE,M
+0,Real Estate,2,China,Macau,TRUE,M
+0,Finance & Investments,1,,Malaysia,FALSE,F
+0,Finance & Investments,2,United States,United States,TRUE,M
+0,Service,2,United States,United States,FALSE,M
+0,Manufacturing,2,India,India,TRUE,M
+0,Manufacturing,2,China,China,TRUE,M
+0,Manufacturing,2,China,China,TRUE,M
+0,Finance & Investments,2,Sweden,Sweden,TRUE,M
+0,Finance & Investments,3,United States,United States,TRUE,M
+0,Technology,2,Singapore,France,TRUE,M
+0,Diversified,2,Poland,Poland,TRUE,M
+0,Technology,1,United States,United States,TRUE,M
+0,Healthcare,2,United States,United States,TRUE,M
+0,Finance & Investments,2,United States,United States,TRUE,M
+0,Technology,3,Japan,Japan,TRUE,M
+0,Technology,2,United States,United States,TRUE,M
+0,Technology,2,Czech Republic,Czech Republic,TRUE,M
+0,Finance & Investments,1,United Kingdom,Estonia,TRUE,M
+0,Fashion & Retail,2,United States,United States,FALSE,M
+0,Technology,1,South Korea,South Korea,TRUE,M
+0,Diversified,2,United States,United States,TRUE,M
+0,Food & Beverage,2,China,China,TRUE,M
+0,Diversified,2,China,China,TRUE,F
+0,Manufacturing,2,China,China,TRUE,M
+0,Manufacturing,1,China,China,TRUE,M
+0,Healthcare,2,China,China,TRUE,M
+0,Food & Beverage,2,Brazil,Brazil,FALSE,M
+0,Media & Entertainment,1,China,China,TRUE,M
+0,Healthcare,2,China,Hong Kong,TRUE,M
+0,Food & Beverage,2,Brazil,Brazil,FALSE,M
+0,Diversified,2,Egypt,Egypt,TRUE,M
+0,Fashion & Retail,1,China,China,TRUE,M
+0,Real Estate,3,United States,United States,TRUE,M
+0,Healthcare,2,France,France,TRUE,M
+0,Finance & Investments,2,Germany,Germany,TRUE,M
+0,Finance & Investments,1,,Malaysia,FALSE,F
+0,Logistics,2,Switzerland,Denmark,TRUE,M
+0,Finance & Investments,2,United States,United States,TRUE,M
+0,Finance & Investments,2,United States,United States,TRUE,M
+0,Food & Beverage,2,Vietnam,Vietnam,TRUE,M
+0,Gambling & Casinos,3,Japan,Japan,TRUE,M
+0,Healthcare,1,United States,United States,TRUE,M
+0,Finance & Investments,1,,Malaysia,FALSE,M
+0,Manufacturing,3,United States,United States,TRUE,M
+0,Fashion & Retail,1,China,China,TRUE,F
+0,Real Estate,2,India,India,TRUE,M
+0,Logistics,2,India,India,TRUE,M
+0,Healthcare,2,India,India,TRUE,M
+0,Healthcare,1,India,India,FALSE,M
+0,Fashion & Retail,3,Spain,Spain,FALSE,M
+0,Diversified,1,Russia,Russia,TRUE,M
+0,Manufacturing,2,United States,Russia,TRUE,M
+0,Diversified,3,Turkey,Turkey,FALSE,F
+0,Food & Beverage,3,Japan,Japan,FALSE,M
+0,Gambling & Casinos,3,Japan,Japan,TRUE,M
+0,Technology,2,United States,United States,TRUE,M
+0,Manufacturing,1,,Germany,FALSE,M
+0,Healthcare,2,India,India,TRUE,M
+0,Diversified,2,Russia,Russia,TRUE,M
+0,Finance & Investments,1,,Malaysia,FALSE,F
+0,Food & Beverage,1,Australia,Russia,TRUE,M
+0,Manufacturing,2,China,China,TRUE,M
+0,Sports,1,United States,United States,FALSE,M
+0,Sports,2,United States,United States,FALSE,F
+0,Sports,2,United States,United States,FALSE,F
+0,Metals & Mining,2,Russia,Russia,TRUE,M
+0,Energy,2,Russia,Russia,TRUE,M
+0,Food & Beverage,2,Germany,Germany,TRUE,M
+0,Food & Beverage,1,Germany,Germany,FALSE,M
+0,Real Estate,3,Australia,Australia,TRUE,M
+0,Healthcare,3,Thailand,Thailand,TRUE,M
+0,Fashion & Retail,2,China,China,TRUE,M
+0,Service,1,China,China,TRUE,M
+0,Manufacturing,1,China,China,TRUE,M
+0,Technology,1,China,China,TRUE,M
+0,Fashion & Retail,3,Cayman Islands,St. Kitts and Nevis,TRUE,M
+0,Manufacturing,1,China,China,TRUE,F
+0,Diversified,2,China,China,TRUE,M
+0,Healthcare,2,China,China,TRUE,M
+0,Technology,2,China,China,TRUE,M
+0,Technology,1,China,China,TRUE,F
+0,Manufacturing,1,China,China,TRUE,M
+0,Service,1,China,China,TRUE,M
+0,Service,2,Hong Kong,Canada,TRUE,F
+0,Metals & Mining,1,Ukraine,Ukraine,TRUE,M
+0,Manufacturing,1,China,China,TRUE,M
+0,Finance & Investments,1,India,India,TRUE,M
+0,Finance & Investments,2,Qatar,Qatar,FALSE,M
+0,Diversified,2,Brazil,Brazil,TRUE,M
+0,Metals & Mining,2,Switzerland,Spain,FALSE,M
+0,Finance & Investments,1,United States,United States,TRUE,M
+0,Technology,1,United States,United States,TRUE,M
+0,Healthcare,2,Turkey,Turkey,TRUE,M
+0,Real Estate,1,Israel,Israel,FALSE,F
+0,Real Estate,2,Canada,Canada,FALSE,F
+0,Real Estate,2,Canada,Canada,FALSE,F
+0,Energy,2,China,China,TRUE,M
+0,Finance & Investments,3,United States,United States,TRUE,M
+0,Healthcare,1,Germany,Germany,FALSE,M
+0,Healthcare,1,Germany,Germany,FALSE,F
+0,Healthcare,1,Germany,Germany,FALSE,F
+0,Real Estate,3,Malaysia,Malaysia,TRUE,M
+0,Food & Beverage,2,China,China,TRUE,M
+0,Healthcare,1,China,China,TRUE,M
+0,Fashion & Retail,1,South Korea,South Korea,FALSE,M
+0,Service,3,United States,United States,TRUE,M
+0,Fashion & Retail,2,Italy,Italy,FALSE,M
+0,Manufacturing,2,India,India,TRUE,M
+0,Media & Entertainment,2,United Kingdom,United Kingdom,TRUE,M
+0,Fashion & Retail,1,China,China,FALSE,M
+0,Fashion & Retail,3,Turkey,Turkey,TRUE,M
+0,Media & Entertainment,2,Germany,Germany,FALSE,M
+0,Manufacturing,3,United States,United States,TRUE,M
+0,Diversified,2,Brazil,Brazil,FALSE,M
+0,Diversified,2,Brazil,Brazil,FALSE,M
+0,Manufacturing,2,China,China,TRUE,M
+0,Manufacturing,2,Brazil,Brazil,FALSE,M
+0,Manufacturing,1,Hungary,Hungary,TRUE,M
+0,Fashion & Retail,1,United Kingdom,United Kingdom,TRUE,M
+0,Fashion & Retail,2,United States,United States,TRUE,M
+0,Metals & Mining,1,Israel,Israel,FALSE,M
+0,Manufacturing,2,India,India,TRUE,M
+0,Finance & Investments,2,United States,United States,TRUE,M
+0,Manufacturing,2,India,India,TRUE,F
+0,Technology,2,Australia,Australia,TRUE,M
+0,Construction & Engineering,1,United Kingdom,Lebanon,FALSE,M
+0,Fashion & Retail,3,United States,United States,TRUE,M
+0,Finance & Investments,2,Australia,Australia,TRUE,M
+0,Technology,1,United States,United States,TRUE,M
+0,Gambling & Casinos,1,Hong Kong,Hong Kong,FALSE,M
+0,Fashion & Retail,2,China,China,TRUE,M
+0,Technology,2,Australia,Australia,TRUE,M
+0,Telecom,3,United Kingdom,United Kingdom,TRUE,M
+0,Food & Beverage,2,Taiwan,Taiwan,FALSE,F
+0,Finance & Investments,1,United States,United States,TRUE,M
+0,Fashion & Retail,1,United States,United States,TRUE,F
+0,Manufacturing,2,China,China,TRUE,M
+0,Healthcare,2,China,China,TRUE,M
+0,Real Estate,1,Russia,Russia,TRUE,M
+0,Manufacturing,1,Germany,Germany,FALSE,F
+0,Manufacturing,1,Germany,Germany,FALSE,M
+0,Automotive,3,India,India,FALSE,M
+0,Media & Entertainment,2,Canada,Canada,TRUE,M
+0,Technology,1,South Korea,South Korea,TRUE,M
+0,Manufacturing,1,China,China,TRUE,M
+0,Healthcare,2,China,China,TRUE,M
+0,Healthcare,1,China,China,TRUE,M
+0,Manufacturing,2,China,China,TRUE,M
+0,Manufacturing,2,China,China,TRUE,M
+0,Energy,2,Hong Kong,China,TRUE,M
+0,Technology,2,United States,United States,TRUE,M
+0,Food & Beverage,2,United States,United States,FALSE,M
+0,Food & Beverage,2,United States,United States,FALSE,M
+0,Food & Beverage,2,United States,United States,FALSE,F
+0,Food & Beverage,2,United States,United States,FALSE,M
+0,Diversified,3,India,India,FALSE,M
+0,Manufacturing,2,China,China,TRUE,M
+0,Construction & Engineering,2,United States,United States,FALSE,M
+0,Diversified,2,Hungary,Hungary,TRUE,M
+0,Technology,2,United States,United States,TRUE,M
+0,Healthcare,3,United States,United States,TRUE,M
+0,Automotive,3,,Austria,TRUE,M
+0,Diversified,2,Brazil,Brazil,FALSE,F
+0,Finance & Investments,1,United States,United States,TRUE,M
+0,Manufacturing,2,,India,FALSE,M
+0,Food & Beverage,2,Germany,Germany,FALSE,M
+0,Technology,1,United States,United States,TRUE,M
+0,Food & Beverage,2,Russia,Russia,TRUE,M
+0,Real Estate,3,Brazil,Brazil,TRUE,M
+0,Media & Entertainment,1,Sweden,Sweden,TRUE,M
+0,Technology,2,United States,United States,TRUE,M
+0,Diversified,3,Indonesia,Indonesia,FALSE,M
+0,Healthcare,3,United States,United States,TRUE,M
+0,Food & Beverage,2,China,China,TRUE,F
+0,Manufacturing,3,United States,United States,TRUE,M
+0,Finance & Investments,2,Switzerland,Russia,TRUE,M
+0,Food & Beverage,1,Brazil,Brazil,FALSE,M
+0,Finance & Investments,2,United States,United States,TRUE,M
+0,Real Estate,1,India,India,FALSE,M
+0,Finance & Investments,2,United Kingdom,Sweden,TRUE,M
+0,Food & Beverage,1,Canada,Canada,FALSE,M
+0,Construction & Engineering,3,United Arab Emirates,India,FALSE,M
+0,Finance & Investments,3,Canada,Canada,TRUE,M
+0,Fashion & Retail,3,United Kingdom,Brazil,TRUE,M
+0,Technology,1,China,China,TRUE,M
+0,Technology,1,United States,Netherlands,TRUE,M
+0,Automotive,1,Germany,Germany,FALSE,M
+0,Automotive,1,Germany,Germany,FALSE,M
+0,Energy,2,Indonesia,Indonesia,FALSE,M
+0,Healthcare,1,India,India,TRUE,M
+0,Technology,1,United Kingdom,United States,TRUE,M
+0,Construction & Engineering,1,Italy,Italy,FALSE,M
+0,Construction & Engineering,1,Italy,Italy,FALSE,F
+0,Finance & Investments,3,United States,United States,TRUE,M
+0,Technology,2,United States,Romania,TRUE,M
+0,Metals & Mining,3,Indonesia,Indonesia,TRUE,M
+0,Manufacturing,2,Belgium,Belgium,TRUE,M
+0,Food & Beverage,2,Philippines,Philippines,TRUE,M
+0,Manufacturing,2,China,China,TRUE,M
+0,Real Estate,3,Australia,Australia,TRUE,M
+0,Finance & Investments,3,Italy,Italy,FALSE,F
+0,Manufacturing,2,China,China,TRUE,M
+0,Media & Entertainment,3,Netherlands,Netherlands,TRUE,M
+0,Finance & Investments,1,Armenia,Armenia,TRUE,M
+0,Fashion & Retail,2,Italy,Italy,TRUE,M
+0,Real Estate,2,Thailand,Thailand,TRUE,M
+0,Finance & Investments,2,Hong Kong,Sweden,TRUE,M
+0,Healthcare,1,China,China,TRUE,M
+0,Manufacturing,2,Taiwan,Taiwan,TRUE,M
+0,Manufacturing,1,China,China,TRUE,M
+0,Diversified,3,United States,United States,TRUE,M
+0,Food & Beverage,2,Israel,Israel,FALSE,F
+0,Finance & Investments,1,United States,United States,TRUE,M
+0,Finance & Investments,1,United States,United States,TRUE,M
+0,Manufacturing,2,Taiwan,Taiwan,FALSE,M
+0,Finance & Investments,3,Taiwan,Taiwan,FALSE,M
+0,Fashion & Retail,1,China,China,TRUE,M
+0,Manufacturing,2,China,China,TRUE,M
+0,Manufacturing,2,China,China,TRUE,M
+0,Food & Beverage,2,China,China,TRUE,M
+0,Manufacturing,2,China,China,TRUE,M
+0,Service,3,China,China,TRUE,M
+0,Manufacturing,2,China,China,TRUE,F
+0,Healthcare,2,Russia,Russia,TRUE,M
+0,Fashion & Retail,1,China,China,TRUE,F
+0,Technology,1,United States,Romania,TRUE,M
+0,Diversified,2,China,China,TRUE,M
+0,Technology,1,China,China,TRUE,M
+0,Manufacturing,2,China,China,TRUE,F
+0,Healthcare,2,China,United States,TRUE,F
+0,Manufacturing,2,China,China,TRUE,M
+0,Construction & Engineering,2,China,China,TRUE,M
+0,Fashion & Retail,2,India,India,TRUE,M
+0,Energy,2,Russia,Russia,TRUE,M
+0,Healthcare,3,,India,FALSE,M
+0,Finance & Investments,1,United States,United States,TRUE,M
+0,Food & Beverage,1,United States,United States,FALSE,F
+0,Fashion & Retail,1,United States,United States,TRUE,F
+0,Finance & Investments,2,United States,United States,TRUE,M
+0,Diversified,2,Ukraine,Ukraine,TRUE,M
+0,Real Estate,2,Switzerland,Switzerland,TRUE,M
+0,Diversified,2,Switzerland,Russia,TRUE,M
+0,Technology,1,United States,United States,TRUE,M
+0,Fashion & Retail,2,Germany,Germany,FALSE,M
+0,Technology,2,Indonesia,Indonesia,TRUE,F
+0,Food & Beverage,3,India,India,FALSE,M
+0,Healthcare,1,China,China,TRUE,M
+0,Manufacturing,2,China,China,TRUE,M
+0,Food & Beverage,3,Italy,Italy,FALSE,F
+0,Food & Beverage,1,Italy,Italy,FALSE,F
+0,Technology,1,China,China,TRUE,M
+0,Healthcare,2,China,China,TRUE,M
+0,Energy,1,China,China,TRUE,M
+0,Logistics,1,China,China,TRUE,F
+0,Technology,2,Taiwan,Taiwan,TRUE,M
+0,Manufacturing,1,China,China,TRUE,F
+0,Food & Beverage,2,China,China,TRUE,M
+0,Technology,1,,Taiwan,TRUE,M
+0,Technology,2,United States,United States,TRUE,F
+0,Food & Beverage,1,Spain,Spain,FALSE,F
+0,Manufacturing,2,China,China,TRUE,M
+0,Finance & Investments,3,Israel,Israel,TRUE,M
+0,Finance & Investments,2,United Kingdom,United States,TRUE,M
+0,Service,3,Spain,Spain,TRUE,M
+0,Manufacturing,2,Brazil,Brazil,FALSE,M
+0,Manufacturing,1,Brazil,Brazil,FALSE,M
+0,Telecom,2,Cyprus,Russia,TRUE,M
+0,Fashion & Retail,3,United States,United States,TRUE,M
+0,Fashion & Retail,2,United States,United States,FALSE,M
+0,Fashion & Retail,2,Germany,Germany,TRUE,M
+0,Manufacturing,3,United States,United States,TRUE,M
+0,Healthcare,2,China,China,TRUE,M
+0,Fashion & Retail,2,India,India,FALSE,M
+0,Finance & Investments,2,United States,United States,TRUE,M
+0,Real Estate,1,Russia,Russia,TRUE,M
+0,Fashion & Retail,1,United Kingdom,United Kingdom,TRUE,F
+0,Fashion & Retail,1,United Kingdom,United Kingdom,TRUE,M
+0,Energy,1,United Kingdom,Russia,FALSE,M
+0,Service,2,Monaco,Cyprus,FALSE,M
+0,Food & Beverage,2,China,China,TRUE,M
+0,Finance & Investments,1,Germany,Germany,FALSE,M
+0,Finance & Investments,1,Germany,Germany,FALSE,F
+0,Technology,3,United States,United States,TRUE,M
+0,Technology,1,China,China,TRUE,M
+0,Technology,2,China,China,TRUE,F
+0,Automotive,3,Japan,Japan,FALSE,M
+0,Gambling & Casinos,2,Japan,Japan,FALSE,M
+0,Finance & Investments,2,Thailand,Thailand,TRUE,M
+0,Finance & Investments,1,India,India,TRUE,M
+0,Finance & Investments,2,United Kingdom,Sweden,FALSE,M
+0,Finance & Investments,1,United Kingdom,Sweden,FALSE,M
+0,Finance & Investments,2,Belgium,Sweden,FALSE,M
+0,Service,2,Japan,Japan,TRUE,M
+0,Automotive,1,India,United States,FALSE,M
+0,Energy,3,Turkey,Turkey,TRUE,M
+0,Healthcare,2,China,China,TRUE,M
+0,Sports,2,Switzerland,Germany,TRUE,M
+0,Technology,2,South Korea,South Korea,FALSE,M
+0,Energy,2,Russia,Russia,TRUE,M
+0,Manufacturing,2,India,India,TRUE,M
+0,Healthcare,2,India,India,FALSE,M
+0,Gambling & Casinos,3,Spain,Spain,TRUE,M
+0,Construction & Engineering,3,South Korea,South Korea,TRUE,M
+0,Finance & Investments,2,United States,United States,FALSE,F
+0,Finance & Investments,3,United States,United States,FALSE,F
+0,Finance & Investments,2,United States,United States,FALSE,M
+0,Healthcare,1,China,China,TRUE,M
+0,Healthcare,1,China,China,TRUE,M
+0,Manufacturing,2,United States,United States,FALSE,M
+0,Telecom,1,China,China,TRUE,M
+0,Fashion & Retail,2,China,China,TRUE,M
+0,Technology,1,Japan,Japan,TRUE,M
+0,Automotive,2,India,India,FALSE,M
+0,Automotive,2,India,India,FALSE,F
+0,Automotive,2,India,India,FALSE,M
+0,Energy,2,Russia,Russia,TRUE,M
+0,Automotive,3,Singapore,Indonesia,FALSE,M
+0,Fashion & Retail,1,Romania,Romania,TRUE,M
+0,Diversified,2,Italy,Italy,TRUE,M
+0,Fashion & Retail,1,United States,United States,TRUE,M
+0,Healthcare,2,India,India,FALSE,M
+0,Healthcare,2,China,China,TRUE,M
+0,Healthcare,2,China,China,TRUE,M
+0,Service,3,Spain,Spain,FALSE,F
+0,Finance & Investments,1,United States,United States,TRUE,M
+0,Technology,1,United States,United States,TRUE,M
+0,Finance & Investments,1,India,India,FALSE,M
+0,Energy,2,United States,United States,TRUE,M
+0,Finance & Investments,2,United Kingdom,United Kingdom,TRUE,M
+0,Finance & Investments,3,United States,United States,TRUE,M
+0,Food & Beverage,1,United States,United States,FALSE,M
+0,Manufacturing,2,Australia,Australia,TRUE,M
+0,Technology,1,China,China,TRUE,M
+0,Manufacturing,2,China,China,TRUE,M
+0,Technology,2,United States,United States,TRUE,M
+0,Media & Entertainment,1,Singapore,Singapore,TRUE,M
+0,Fashion & Retail,1,Malaysia,Malaysia,TRUE,M
+0,Automotive,3,China,China,TRUE,M
+0,Manufacturing,1,Thailand,Thailand,FALSE,M
+0,Food & Beverage,3,Taiwan,Taiwan,TRUE,M
+0,Manufacturing,2,China,China,TRUE,M
+0,Technology,2,Israel,Russia,TRUE,M
+0,Manufacturing,2,Germany,Germany,FALSE,M
+0,Food & Beverage,3,China,China,TRUE,M
+0,Diversified,1,China,China,FALSE,M
+0,Media & Entertainment,1,Sweden,Sweden,TRUE,M
+0,Manufacturing,2,Hong Kong,Hong Kong,TRUE,M
+0,Sports,1,United States,United States,TRUE,M
+0,Fashion & Retail,3,Germany,Germany,TRUE,M
+0,Telecom,1,China,Hong Kong,TRUE,M
+0,Manufacturing,3,Taiwan,Taiwan,TRUE,M
+0,Food & Beverage,1,China,China,TRUE,M
+0,Healthcare,2,China,China,TRUE,M
+0,Healthcare,2,China,China,TRUE,M
+0,Telecom,2,China,China,TRUE,M
+0,Manufacturing,3,Singapore,Singapore,TRUE,M
+0,Technology,2,China,China,TRUE,F
+0,Food & Beverage,1,China,China,TRUE,M
+0,Manufacturing,3,,Taiwan,TRUE,M
+0,Media & Entertainment,1,China,China,TRUE,M
+0,Metals & Mining,1,China,China,FALSE,M
+0,Construction & Engineering,2,China,China,TRUE,M
+0,Fashion & Retail,1,China,China,TRUE,M
+0,Food & Beverage,1,China,China,TRUE,M
+0,Technology,1,China,China,TRUE,M
+0,Manufacturing,1,China,China,TRUE,M
+0,Manufacturing,2,Hong Kong,Hong Kong,FALSE,F
+0,Food & Beverage,2,India,India,FALSE,M
+0,Finance & Investments,1,United Kingdom,Germany,TRUE,M
+0,Fashion & Retail,3,Japan,Japan,TRUE,M
+0,Healthcare,1,Germany,Germany,FALSE,F
+0,Healthcare,1,Germany,Germany,FALSE,F
+0,Healthcare,1,Germany,Germany,FALSE,M
+0,Healthcare,1,Germany,Germany,FALSE,M
+0,Diversified,3,Peru,Peru,FALSE,F
+0,Media & Entertainment,3,United States,United States,TRUE,M
+0,Gambling & Casinos,2,Japan,Japan,FALSE,M
+0,Finance & Investments,3,France,France,TRUE,M
+0,Logistics,1,Taiwan,Taiwan,FALSE,M
+0,Manufacturing,2,China,China,TRUE,M
+0,Media & Entertainment,1,China,China,TRUE,M
+0,Manufacturing,2,China,China,TRUE,M
+0,Technology,1,United States,China,TRUE,M
+0,Energy,1,China,China,TRUE,M
+0,Food & Beverage,2,Hong Kong,Hong Kong,TRUE,M
+0,Manufacturing,2,India,India,TRUE,M
+0,Real Estate,2,Monaco,United Kingdom,TRUE,M
+0,Finance & Investments,2,Hong Kong,Hong Kong,TRUE,F
+0,Diversified,2,Turkey,Turkey,TRUE,M
+0,Technology,2,United States,United States,TRUE,M
+0,Real Estate,2,Monaco,United Kingdom,TRUE,M
+0,Technology,1,China,China,TRUE,M
+0,Healthcare,2,China,China,TRUE,F
+0,Healthcare,2,Denmark,Denmark,FALSE,F
+0,Fashion & Retail,2,United States,United States,FALSE,M
+0,Manufacturing,2,China,China,TRUE,M
+0,Real Estate,2,China,China,TRUE,M
+0,Finance & Investments,3,Sweden,Sweden,TRUE,M
+0,Service,1,Monaco,Cyprus,FALSE,F
+0,Service,2,Monaco,Cyprus,FALSE,M
+0,Manufacturing,1,China,China,TRUE,F
+0,Manufacturing,2,China,China,TRUE,M
+0,Energy,3,Indonesia,Indonesia,FALSE,F
+0,Technology,1,China,China,TRUE,M
+0,Fashion & Retail,2,South Korea,South Korea,FALSE,M
+0,Healthcare,2,China,China,TRUE,M
+0,Technology,1,Italy,Italy,TRUE,M
+0,Finance & Investments,2,Germany,Germany,TRUE,F
+0,Manufacturing,2,India,India,TRUE,M
+0,Sports,1,United States,United States,TRUE,M
+0,Fashion & Retail,2,Norway,Norway,FALSE,M
+0,Technology,3,Israel,Israel,TRUE,M
+0,Manufacturing,3,India,India,TRUE,M
+0,Finance & Investments,1,Brazil,Brazil,TRUE,M
+0,Sports,3,United States,United States,TRUE,M
+0,Technology,1,United States,United States,TRUE,M
+0,Energy,2,Singapore,Bangladesh,TRUE,M
+0,Fashion & Retail,1,South Korea,South Korea,TRUE,M
+0,Diversified,2,Ukraine,Israel,TRUE,M
+0,Real Estate,1,China,China,TRUE,M
+0,Manufacturing,2,South Korea,South Korea,FALSE,M
+0,Real Estate,3,Singapore,Singapore,TRUE,M
+0,Real Estate,3,United States,United States,TRUE,M
+0,Finance & Investments,2,Russia,Russia,TRUE,M
+0,Finance & Investments,2,South Africa,South Africa,TRUE,M
+0,Technology,1,China,China,TRUE,M
+0,Fashion & Retail,2,China,China,TRUE,M
+0,Healthcare,2,Singapore,Singapore,TRUE,M
+0,Technology,2,China,China,TRUE,M
+0,Manufacturing,1,China,China,TRUE,F
+0,Technology,1,United States,Canada,TRUE,M
+0,Manufacturing,1,Germany,Germany,FALSE,F
+0,Manufacturing,2,Germany,Germany,FALSE,F
+0,Construction & Engineering,1,Russia,Russia,TRUE,M
+0,Manufacturing,3,Italy,Italy,TRUE,M
+0,Finance & Investments,3,,Panama,FALSE,M
+0,Media & Entertainment,1,United States,United States,TRUE,M
+0,Fashion & Retail,1,Canada,Canada,TRUE,M
+0,Food & Beverage,2,Bermuda,Brazil,FALSE,F
+0,Energy,3,United States,United States,TRUE,M
+0,Media & Entertainment,2,Indonesia,Indonesia,TRUE,M
+0,Technology,2,United States,United States,TRUE,F
+0,Technology,2,United States,United States,TRUE,M
+0,Service,2,Norway,Norway,TRUE,M
+0,Diversified,1,Russia,Russia,TRUE,M
+0,Finance & Investments,1,Russia,Russia,TRUE,M
+0,Manufacturing,2,Indonesia,Indonesia,FALSE,M
+0,Manufacturing,2,Indonesia,Indonesia,FALSE,M
+0,Food & Beverage,3,United States,United States,TRUE,M
+0,Media & Entertainment,3,Japan,Japan,TRUE,M
+0,Telecom,3,Turkey,Turkey,TRUE,M
+0,Technology,2,Japan,Japan,TRUE,M
+0,Healthcare,1,China,China,TRUE,M
+0,Automotive,1,China,China,TRUE,M
+0,Logistics,3,,Japan,TRUE,M
+0,Finance & Investments,2,Canada,Canada,TRUE,M
+0,Food & Beverage,2,China,China,TRUE,M
+0,Sports,1,Monaco,Austria,TRUE,M
+0,Manufacturing,1,,Germany,FALSE,F
+0,Fashion & Retail,1,China,China,TRUE,M
+0,Manufacturing,2,China,China,TRUE,M
+0,Manufacturing,1,China,China,TRUE,M
+0,Healthcare,2,China,China,TRUE,M
+0,Healthcare,1,China,China,TRUE,M
+0,Food & Beverage,3,United States,United States,FALSE,M
+0,Manufacturing,2,China,China,TRUE,M
+0,Real Estate,2,China,China,TRUE,M
+0,Diversified,2,Philippines,Philippines,FALSE,M
