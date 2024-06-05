@@ -27,7 +27,7 @@ class AQ:
 
 
 
-    def __init__(self, training_data, complex_cut=1, binary=False, target=None, scoring1 = 'fast', scoring2 = 'general', scoring3 = 'small') -> None:
+    def __init__(self, training_data, complex_cut=1, binary=False, target=None, scoring1 = 'fast', scoring2 = None, scoring3 = None) -> None:
         training_examples = []
         with open(training_data, 'r') as file:
             reader = csv.reader(file, delimiter=',')
@@ -44,10 +44,13 @@ class AQ:
 
         self.most_frequent_target = Counter(example.target for example in training_examples).most_common(1)[0][0]
 
-        scores = ['fast', 'general', 'small']
-        scoring1 = scoring1.lower()
-        scoring2 = scoring2.lower()
-        scoring3 = scoring3.lower()
+        scores = ['fast', 'general', 'small', None]
+        if scoring1:
+            scoring1 = scoring1.lower()
+        if scoring2:
+            scoring2 = scoring2.lower()
+        if scoring3:
+            scoring3 = scoring3.lower()
 
         if scoring1 in scores and scoring2 in scores and scoring3 in scores:
             self.scoring1 = scoring1
@@ -198,16 +201,22 @@ class AQ:
 
     def select_best_complex(self, complex_cut, star, all_negative_examples, all_positive_examples):
         for complex in star:
-                for example in all_negative_examples:         
-                    if not self.complex_covers(complex, example):
-                        complex.fast += 1
-                for i in range(len(complex.attributes)):      
-                    complex.general += len(complex.attributes[i])
-                for example in all_positive_examples:          
-                    if self.complex_covers(complex, example):
-                        complex.small += 1
+                
+                if 'fast' in [self.scoring1, self.scoring2, self.scoring3]:
+                    for example in all_negative_examples:         
+                        if not self.complex_covers(complex, example):
+                            complex.fast += 1
 
-        star.sort(key=lambda complex: (getattr(complex, self.scoring1), getattr(complex, self.scoring2), getattr(complex, self.scoring3)), reverse=True)
+                if 'general' in [self.scoring1, self.scoring2, self.scoring3]:
+                    for i in range(len(complex.attributes)):      
+                        complex.general += len(complex.attributes[i])
+
+                if 'small' in [self.scoring1, self.scoring2, self.scoring3]:
+                    for example in all_positive_examples:          
+                        if self.complex_covers(complex, example):
+                            complex.small += 1
+
+        star.sort(key=lambda complex: tuple(getattr(complex, scoring) for scoring in [self.scoring1, self.scoring2, self.scoring3] if scoring is not None), reverse=True)
         
         star = star[:complex_cut]
         for complex in star:
