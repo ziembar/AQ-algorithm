@@ -9,12 +9,14 @@ class CN2():
         self.learner.rule_finder.search_strategy.constrain_continuous = True
         self.learner.rule_finder.search_strategy.beam_width = complex_cut
         self.classifier = None
+        self.training_time = 0
     
 
     def train(self):
         start_time = time.time()
         self.classifier = self.learner(self.training_data)
         end_time = time.time()
+        self.training_time = end_time - start_time  # Capture training time
         print(f"Trained CN2 model in: {round((end_time - start_time)//60)} minute(s) {round(end_time - start_time - ((end_time - start_time)//60)*60)} second(s)")
         return self.classifier
 

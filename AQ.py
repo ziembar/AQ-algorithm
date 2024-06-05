@@ -76,6 +76,7 @@ class AQ:
                 if example.attributes[i] not in attributes[i]:
                     attributes[i].append(example.attributes[i])
         self.general_complex = self.Complex(attributes)
+        self.training_time = 0
 
 
     def train(self):
@@ -90,6 +91,7 @@ class AQ:
                 if self.complex_covers(rule.complex, example):
                     self.not_covered_training_examples.remove(example)
         end_time = time.time()
+        self.training_time = end_time - start_time
         print(f"Trained AQ model in: {round((end_time - start_time)//60)} minute(s) {round(end_time - start_time - ((end_time - start_time)//60)*60)} second(s)")
 
 

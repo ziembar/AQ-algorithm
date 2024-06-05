@@ -5,6 +5,8 @@ import numpy
 from sklearn.model_selection import train_test_split
 from tabulate import tabulate
 import statistics
+import os
+import datetime
 
 from AQ import AQ
 from CN2 import CN2
@@ -13,7 +15,7 @@ from CN2 import CN2
 def print_confusion_matrix(confusion_matrix, all_classes):
     headers = ["confusion matrix"] + list(all_classes)
     table = [[all_classes[i]] + row for i, row in enumerate(confusion_matrix)]
-    print(tabulate(table, headers, tablefmt="grid"))
+    print(tabulate(table, headers, tablefmt="latex"))
 
 
 def accuracy(confusion_matrix):
@@ -68,10 +70,22 @@ def false_positive_rate(confusion_matrix):
             fpr.append(fp/(tnfp))
     return numpy.round(fpr, 2), statistics.mean(fpr)
 
+def ensure_results_folder():
+    if not os.path.exists('results_data'):
+        os.makedirs('results_data')
 
-def print_summary(all_classes, confusion_matrix_aq=None, aq = None, confusion_matrix_cn2=None, cn2 = None):
+def print_summary(all_classes, confusion_matrix_aq=None, aq=None, confusion_matrix_cn2=None, cn2=None, output_file=None):
+    from io import StringIO
+    import sys
+
+    old_stdout = sys.stdout
+    result = StringIO()
+    sys.stdout = result
+
     if confusion_matrix_aq:
         print("------------------------ AQ ------------------------")
+        print(f"Training time: {round(aq.training_time, 2)} seconds")
+        print(f"Scorings: {aq.scoring1} > {aq.scoring2} > {aq.scoring3}")
         print("rules: ", len(aq.rules))
         print_confusion_matrix(confusion_matrix_aq, all_classes)
 
@@ -84,7 +98,7 @@ def print_summary(all_classes, confusion_matrix_aq=None, aq = None, confusion_ma
         headers = ["Class", "Accuracy", "Precision", "Recall", "False Positive Rate", "F1 score"]
 
         table = [[all_classes[i], accuracy_arr[i], precision_arr[i], recall_arr[i], fpr_arr[i], f1_arr[i]] for i in range(len(all_classes))]
-        print(tabulate(table, headers, tablefmt="grid"))
+        print(tabulate(table, headers, tablefmt="latex"))
         print("Macro average:")
         print("Accuracy: {:.2f}%".format(accuracy_val*100))
         print("Precision: {:.2f}%".format(precision_val*100))
@@ -93,9 +107,9 @@ def print_summary(all_classes, confusion_matrix_aq=None, aq = None, confusion_ma
         print("F1 Score: {:.2f}%".format(f1_val*100))
         print('\n')
 
-        
     if confusion_matrix_cn2:
         print("------------------------ CN2 ------------------------")
+        print(f"Training time: {round(cn2.training_time, 2)} seconds")
         print("rules: ", len(cn2.classifier.rule_list))
         print_confusion_matrix(confusion_matrix_cn2, all_classes)
 
@@ -115,10 +129,21 @@ def print_summary(all_classes, confusion_matrix_aq=None, aq = None, confusion_ma
         print("False Positive Rate: {:.2f}%".format(fpr_val*100))
         print("F1 Score: {:.2f}%".format(f1_val*100))
 
+    sys.stdout = old_stdout
+    result_string = result.getvalue()
+
+    if output_file:
+        with open(output_file, 'w') as f:
+            f.write(result_string)
+    else:
+        print(result_string)
 
 
+def test_and_eval(test_data, aq=None, cn2=None):
+    ensure_results_folder()
+    dataset_name = os.path.splitext(os.path.basename(test_data))[0]
+    output_file = os.path.join('results_data', f"{dataset_name}_evaluation_{datetime.datetime.now().strftime('%Y%m%d%H%M%S')}.txt")
 
-def test_and_eval(test_data, aq = None, cn2 = None): 
     testing_examples_aq = []
     with open(test_data, 'r') as file:
         reader = csv.reader(file, delimiter=',')
@@ -151,13 +176,19 @@ def test_and_eval(test_data, aq = None, cn2 = None):
     if cn2:
         print_summary(all_classes, confusion_matrix_cn2 = confusion_matrix_cn2, cn2 = cn2)
         return
+    print_summary(all_classes, confusion_matrix_aq, aq, confusion_matrix_cn2, cn2, output_file=output_file)
 
     #OX - predicted, OY - actual
 
 
 
 
-def nCV_AQ_CN2_summary(data, n, complex_cut = 1): 
+def nCV_AQ_CN2_summary(data, n, complex_cut=1):
+    ensure_results_folder
+    dataset_name = os.path.splitext(os.path.basename(data))[0]
+    output_file = os.path.join('results_data', f"{dataset_name}_summary_{datetime.datetime.now().strftime('%Y%m%d%H%M%S')}.txt")
+
+
 
     with open(data, 'r') as file:
         reader = csv.reader(file, delimiter=',')
@@ -215,7 +246,5 @@ def nCV_AQ_CN2_summary(data, n, complex_cut = 1):
         os.remove(f'temp/train_data.csv')
         os.remove(f'temp/val_data.csv')
 
-    print_summary(all_classes, confusion_matrix_aq, aq, confusion_matrix_cn2, cn2)
-
-
+    print_summary(all_classes, confusion_matrix_aq, aq, confusion_matrix_cn2, cn2, output_file=output_file)
     #OX - predicted, OY - actual
