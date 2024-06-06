@@ -19,7 +19,7 @@ from Evaluation import nCV_AQ_CN2_summary, test_and_eval
 # test_and_eval('datasets/beauty_mod_test.csv', aq, cn2)
 
 #test 3
-nCV_AQ_CN2_summary(data='datasets/ds_salaries_clean.csv', n=4, complex_cut=1)
+nCV_AQ_CN2_summary(data='datasets/flights_set.csv', n=4, complex_cut=5)
 
 
 # complex_cut -- ile kompleksow przechodzi dalej

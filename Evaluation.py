@@ -92,7 +92,7 @@ def print_summary(all_classes, confusion_matrix_aq=None, aq=None, confusion_matr
         accuracy_arr, accuracy_val = accuracy(confusion_matrix_aq)
         precision_arr, precision_val = precision(confusion_matrix_aq)
         recall_arr, recall_val = recall(confusion_matrix_aq)
-        fpr_arr, fpr_val = false_positive_rate(confusion_matrix_cn2)
+        fpr_arr, fpr_val = false_positive_rate(confusion_matrix_aq)
         f1_arr, f1_val = f1_score(precision_arr, recall_arr)
         print('\n')
         headers = ["Class", "Accuracy", "Precision", "Recall", "False Positive Rate", "F1 score"]
@@ -248,3 +248,59 @@ def nCV_AQ_CN2_summary(data, n, complex_cut=1):
 
     print_summary(all_classes, confusion_matrix_aq, aq, confusion_matrix_cn2, cn2, output_file=output_file)
     #OX - predicted, OY - actual
+
+def nCV_AQ_summary(data, n, complex_cut=1):
+    ensure_results_folder()
+    dataset_name = os.path.splitext(os.path.basename(data))[0]
+    output_file = os.path.join('results_data', f"{dataset_name}_AQ_summary_{datetime.datetime.now().strftime('%Y%m%d%H%M%S')}.txt")
+
+    with open(data, 'r') as file:
+        reader = csv.reader(file, delimiter=',')
+        header = next(reader)
+        fields_type = next(reader)
+        metadata = next(reader)
+        examples_data = list(reader)
+
+    all_classes = Orange.data.Table(data).domain.class_var.values
+
+    confusion_matrix_aq = [[0 for _ in range(len(all_classes))] for _ in range(len(all_classes))]
+
+    for i in range(n):
+        print(f"{i+1}/{n} cross validation...")
+
+        train_data, val_data = train_test_split(examples_data, test_size=0.2, random_state=i)
+
+        with open('temp/train_data.csv', 'w', newline='') as file:
+            writer = csv.writer(file)
+            writer.writerow(header)
+            writer.writerow(fields_type)
+            writer.writerow(metadata)
+            writer.writerows(train_data)
+
+        with open('temp/val_data.csv', 'w', newline='') as file:
+            writer = csv.writer(file)
+            writer.writerow(header)
+            writer.writerow(fields_type)
+            writer.writerow(metadata)
+            writer.writerows(val_data)
+
+        aq = AQ('temp/train_data.csv', complex_cut)
+
+        aq.train()
+
+        testing_examples_aq = []
+        with open('temp/val_data.csv', 'r') as file:
+            reader = csv.reader(file, delimiter=',')
+            next(reader) #header
+            next(reader) #fields type
+            next(reader) #metadata
+
+            testing_examples_aq = [AQ.Example(list(map(str, row[:-1])), str(row[-1])) for row in reader]
+
+        for test_example_aq in testing_examples_aq:
+            confusion_matrix_aq[all_classes.index(test_example_aq.target)][all_classes.index(aq.predict_target(test_example_aq))] += 1
+
+        os.remove(f'temp/train_data.csv')
+        os.remove(f'temp/val_data.csv')
+
+    print_summary(all_classes, confusion_matrix_aq, aq, output_file=output_file)
