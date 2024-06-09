@@ -198,7 +198,6 @@ def nCV_AQ_CN2_summary(data, n, complex_cut=1):
         examples_data = list(reader)
 
     all_classes = Orange.data.Table(data).domain.class_var.values
-    
 
     confusion_matrix_aq = [[0 for _ in range(len(all_classes))] for _ in range(len(all_classes))]
     confusion_matrix_cn2 = [[0 for _ in range(len(all_classes))] for _ in range(len(all_classes))]

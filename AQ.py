@@ -27,7 +27,7 @@ class AQ:
 
 
 
-    def __init__(self, training_data, complex_cut=1, binary=False, target=None, scoring1 = 'fast', scoring2 = None, scoring3 = None) -> None:
+    def __init__(self, training_data, complex_cut=1, binary=False, target=None, scoring1 = 'small', scoring2 = None, scoring3 = None) -> None:
         training_examples = []
         with open(training_data, 'r') as file:
             reader = csv.reader(file, delimiter=',')
@@ -75,14 +75,13 @@ class AQ:
             for i in range(len(example.attributes)):
                 if example.attributes[i] not in attributes[i]:
                     attributes[i].append(example.attributes[i])
-        self.general_complex = self.Complex(attributes)
+        self.general_complex = self.Complex(attributes) #definition of {<?>, <?>, ...} complex
         self.training_time = 0
 
 
     def train(self):
         start_time = time.time()
         while(len(self.not_covered_training_examples) > 0):
-            # print("calculating", len(self.rules) + 1, "rule,", len(self.not_covered_training_examples), "examples left to cover")
             rule = self.learn_rule()
             if rule == None:
                 break
@@ -100,7 +99,7 @@ class AQ:
     def learn_rule(self):
         star = [self.general_complex]
 
-        xs = None
+        xs = None #positive seed
         if self.binary:
             for example in self.not_covered_training_examples:
                 if example.target == self.seed_target:
@@ -119,7 +118,7 @@ class AQ:
             else:
                 all_positive_examples.append(x)
 
-        
+
         flag = False
         while(not flag):
             xn_iter = iter(all_negative_examples)
@@ -133,6 +132,7 @@ class AQ:
                     break
                 if all(not self.complex_covers(complex, xn) for complex in star):
                     continue  # skip this xn because it's not covered by any complex in star
+                              # allowing this example would result in emptying the star
                 elif xn_correct is not None:
                     xn_correct = True
             if no_more_n_seed:
@@ -142,12 +142,16 @@ class AQ:
                 all_negative_examples.pop(0)
                 continue #skip wrong example
 
+
             star = self.partial_star(star, xn, xs)
+
             star = self.generalize_star(star)
 
             star = self.select_best_complex(self.complex_cut, star, all_negative_examples, all_positive_examples)
 
             flag = True
+
+            # check if there is any negative example that is covered by any complex in star
             for complex in star:
                 for example in all_negative_examples:
                     if self.complex_covers(complex, example):
@@ -155,7 +159,8 @@ class AQ:
                         break
                 if not flag:
                     break
-            
+        
+        # select final complex for rule
         star = self.select_best_complex(1, star, all_negative_examples, all_positive_examples)
         
         rule = self.Rule(*star, xs.target)
