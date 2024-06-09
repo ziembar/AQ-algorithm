@@ -1,0 +1,69 @@
+------------------------ AQ ------------------------
+Training time: 262.15 seconds
+Scorings: fast > None > None
+rules:  451
+\begin{tabular}{rrrrrr}
+\hline
+   confusion matrix &   0 &   1 &   2 &   3 &   4 \\
+\hline
+                  0 & 258 &  42 & 275 &  37 &  16 \\
+                  1 &  34 & 299 & 169 &  33 &  26 \\
+                  2 &   8 &  45 & 434 &  57 &  44 \\
+                  3 &  13 &  22 & 114 & 370 &  64 \\
+                  4 &   8 &  28 & 186 &  68 & 354 \\
+\hline
+\end{tabular}
+
+
+\begin{tabular}{rrrrrr}
+\hline
+   Class &   Accuracy &   Precision &   Recall &   False Positive Rate &   F1 score \\
+\hline
+       0 &       0.57 &        0.41 &     0.8  &                  0    &       0.54 \\
+       1 &       0.57 &        0.53 &     0.69 &                  0.1  &       0.6  \\
+       2 &       0.57 &        0.74 &     0.37 &                  0.01 &       0.49 \\
+       3 &       0.57 &        0.63 &     0.65 &                  0.1  &       0.64 \\
+       4 &       0.57 &        0.55 &     0.7  &                  0.02 &       0.62 \\
+\hline
+\end{tabular}
+Macro average:
+Accuracy: 57.09%
+Precision: 57.32%
+Recall / True Positive Rate: 64.30%
+False Positive Rate: 4.63%
+F1 Score: 57.82%
+
+
+------------------------ CN2 ------------------------
+Training time: 49.49 seconds
+rules:  775
+\begin{tabular}{rrrrrr}
+\hline
+   confusion matrix &   0 &   1 &   2 &   3 &   4 \\
+\hline
+                  0 & 398 & 106 &  10 & 104 &  10 \\
+                  1 &   9 & 497 &   4 &  48 &   3 \\
+                  2 &   2 &  38 & 508 &  33 &   7 \\
+                  3 &   0 &  38 &   3 & 520 &  22 \\
+                  4 &   0 &  52 &   4 &  68 & 520 \\
+\hline
+\end{tabular}
+
+
+\begin{tabular}{rrrrrr}
+\hline
+   Class &   Accuracy &   Precision &   Recall &   False Positive Rate &   F1 score \\
+\hline
+       0 &       0.81 &        0.63 &     0.97 &                  0    &       0.76 \\
+       1 &       0.81 &        0.89 &     0.68 &                  0.1  &       0.77 \\
+       2 &       0.81 &        0.86 &     0.96 &                  0.01 &       0.91 \\
+       3 &       0.81 &        0.89 &     0.67 &                  0.1  &       0.76 \\
+       4 &       0.81 &        0.81 &     0.93 &                  0.02 &       0.87 \\
+\hline
+\end{tabular}
+Macro average:
+Accuracy: 81.32%
+Precision: 81.66%
+Recall / True Positive Rate: 84.23%
+False Positive Rate: 4.63%
+F1 Score: 81.45%

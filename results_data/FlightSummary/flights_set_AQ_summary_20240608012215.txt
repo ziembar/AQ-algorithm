@@ -1,0 +1,30 @@
+------------------------ AQ ------------------------
+Training time: 21.73 seconds
+Scorings: fast > None > None
+rules:  87
+\begin{tabular}{lrr}
+\hline
+ confusion matrix        &   neutral or dissatisfied &   satisfied \\
+\hline
+ neutral or dissatisfied &                       401 &          61 \\
+ satisfied               &                        76 &         281 \\
+\hline
+\end{tabular}
+
+
+\begin{tabular}{lrrrrr}
+\hline
+ Class                   &   Accuracy &   Precision &   Recall &   False Positive Rate &   F1 score \\
+\hline
+ neutral or dissatisfied &       0.83 &        0.87 &     0.84 &                  0.21 &       0.85 \\
+ satisfied               &       0.83 &        0.79 &     0.82 &                  0.13 &       0.8  \\
+\hline
+\end{tabular}
+Macro average:
+Accuracy: 83.27%
+Precision: 82.75%
+Recall / True Positive Rate: 83.12%
+False Positive Rate: 17.25%
+F1 Score: 82.97%
+
+

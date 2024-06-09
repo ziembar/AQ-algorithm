@@ -1,0 +1,57 @@
+------------------------ AQ ------------------------
+Training time: 119.16 seconds
+Scorings: fast > None > None
+rules:  556
+\begin{tabular}{lrr}
+\hline
+ confusion matrix        &   neutral or dissatisfied &   satisfied \\
+\hline
+ neutral or dissatisfied &                      6227 &         649 \\
+ satisfied               &                       520 &        4684 \\
+\hline
+\end{tabular}
+
+
+\begin{tabular}{lrrrrr}
+\hline
+ Class                   &   Accuracy &   Precision &   Recall &   False Positive Rate &   F1 score \\
+\hline
+ neutral or dissatisfied &        0.9 &        0.91 &     0.92 &                  0.1  &       0.91 \\
+ satisfied               &        0.9 &        0.9  &     0.88 &                  0.09 &       0.89 \\
+\hline
+\end{tabular}
+Macro average:
+Accuracy: 90.32%
+Precision: 90.28%
+Recall / True Positive Rate: 90.06%
+False Positive Rate: 9.72%
+F1 Score: 90.24%
+
+
+------------------------ CN2 ------------------------
+Training time: 247.97 seconds
+rules:  1655
+\begin{tabular}{lrr}
+\hline
+ confusion matrix        &   neutral or dissatisfied &   satisfied \\
+\hline
+ neutral or dissatisfied &                      6275 &         601 \\
+ satisfied               &                       559 &        4645 \\
+\hline
+\end{tabular}
+
+
+\begin{tabular}{lrrrrr}
+\hline
+ Class                   &   Accuracy &   Precision &   Recall &   False Positive Rate &   F1 score \\
+\hline
+ neutral or dissatisfied &        0.9 &        0.91 &     0.92 &                  0.11 &       0.91 \\
+ satisfied               &        0.9 &        0.89 &     0.89 &                  0.09 &       0.89 \\
+\hline
+\end{tabular}
+Macro average:
+Accuracy: 90.40%
+Precision: 90.26%
+Recall / True Positive Rate: 90.18%
+False Positive Rate: 9.74%
+F1 Score: 90.25%

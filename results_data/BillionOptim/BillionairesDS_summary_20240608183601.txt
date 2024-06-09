@@ -1,0 +1,65 @@
+------------------------ AQ ------------------------
+Training time: 62.51 seconds
+Scorings: fast > None > None
+rules:  408
+\begin{tabular}{rrrrr}
+\hline
+   confusion matrix &   0 &   1 &   2 &   3 \\
+\hline
+                  0 & 181 & 268 & 119 &  41 \\
+                  1 & 221 & 375 & 200 &  76 \\
+                  2 &  89 & 180 & 130 &  34 \\
+                  3 &  39 &  78 &  49 &  32 \\
+\hline
+\end{tabular}
+
+
+\begin{tabular}{rrrrrr}
+\hline
+   Class &   Accuracy &   Precision &   Recall &   False Positive Rate &   F1 score \\
+\hline
+       0 &       0.34 &        0.3  &     0.34 &                  0.23 &       0.32 \\
+       1 &       0.34 &        0.43 &     0.42 &                  0.42 &       0.42 \\
+       2 &       0.34 &        0.3  &     0.26 &                  0.22 &       0.28 \\
+       3 &       0.34 &        0.16 &     0.17 &                  0.08 &       0.16 \\
+\hline
+\end{tabular}
+Macro average:
+Accuracy: 34.00%
+Precision: 29.73%
+Recall / True Positive Rate: 29.84%
+False Positive Rate: 23.86%
+F1 Score: 29.68%
+
+
+------------------------ CN2 ------------------------
+Training time: 11.32 seconds
+rules:  877
+\begin{tabular}{rrrrr}
+\hline
+   confusion matrix &   0 &   1 &   2 &   3 \\
+\hline
+                  0 & 246 & 279 &  68 &  16 \\
+                  1 & 242 & 434 & 142 &  54 \\
+                  2 &  93 & 214 & 100 &  26 \\
+                  3 &  35 &  91 &  41 &  31 \\
+\hline
+\end{tabular}
+
+
+\begin{tabular}{rrrrrr}
+\hline
+   Class &   Accuracy &   Precision &   Recall &   False Positive Rate &   F1 score \\
+\hline
+       0 &       0.38 &        0.4  &     0.4  &                  0.25 &       0.4  \\
+       1 &       0.38 &        0.5  &     0.43 &                  0.47 &       0.46 \\
+       2 &       0.38 &        0.23 &     0.28 &                  0.15 &       0.25 \\
+       3 &       0.38 &        0.16 &     0.24 &                  0.05 &       0.19 \\
+\hline
+\end{tabular}
+Macro average:
+Accuracy: 38.40%
+Precision: 32.23%
+Recall / True Positive Rate: 33.87%
+False Positive Rate: 22.92%
+F1 Score: 32.67%
